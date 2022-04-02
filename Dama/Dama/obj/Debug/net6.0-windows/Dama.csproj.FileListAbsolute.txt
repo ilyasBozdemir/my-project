@@ -1,0 +1,17 @@
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\bin\Debug\net6.0-windows\Dama.exe
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\bin\Debug\net6.0-windows\Dama.deps.json
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\bin\Debug\net6.0-windows\Dama.runtimeconfig.json
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\bin\Debug\net6.0-windows\Dama.dll
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\bin\Debug\net6.0-windows\Dama.pdb
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\obj\Debug\net6.0-windows\Dama.csproj.AssemblyReference.cache
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\obj\Debug\net6.0-windows\Dama.csproj.GenerateResource.cache
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\obj\Debug\net6.0-windows\Dama.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\obj\Debug\net6.0-windows\Dama.AssemblyInfoInputs.cache
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\obj\Debug\net6.0-windows\Dama.AssemblyInfo.cs
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\obj\Debug\net6.0-windows\Dama.csproj.CoreCompileInputs.cache
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\obj\Debug\net6.0-windows\Dama.dll
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\obj\Debug\net6.0-windows\refint\Dama.dll
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\obj\Debug\net6.0-windows\Dama.pdb
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\obj\Debug\net6.0-windows\Dama.genruntimeconfig.cache
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\obj\Debug\net6.0-windows\ref\Dama.dll
+D:\GitHub\myRepo\2019\.vs\Dama\Dama\obj\Debug\net6.0-windows\Dama.CellMargin.resources
