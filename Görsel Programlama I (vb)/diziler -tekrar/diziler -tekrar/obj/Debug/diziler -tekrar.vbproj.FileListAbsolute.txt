@@ -1,0 +1,21 @@
+C:\Users\İlyas70\Desktop\deneme\diziler -tekrar\diziler -tekrar\bin\Debug\diziler -tekrar.exe
+C:\Users\İlyas70\Desktop\deneme\diziler -tekrar\diziler -tekrar\bin\Debug\diziler -tekrar.pdb
+C:\Users\İlyas70\Desktop\deneme\diziler -tekrar\diziler -tekrar\bin\Debug\diziler -tekrar.xml
+C:\Users\İlyas70\Desktop\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\İlyas70\Desktop\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler__tekrar.Form1.resources
+C:\Users\İlyas70\Desktop\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler__tekrar.Resources.resources
+C:\Users\İlyas70\Desktop\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler -tekrar.vbproj.GenerateResource.Cache
+C:\Users\İlyas70\Desktop\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler -tekrar.exe
+C:\Users\İlyas70\Desktop\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler -tekrar.xml
+C:\Users\İlyas70\Desktop\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler -tekrar.pdb
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\diziler -tekrar\diziler -tekrar\bin\Debug\diziler -tekrar.exe
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\diziler -tekrar\diziler -tekrar\bin\Debug\diziler -tekrar.pdb
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\diziler -tekrar\diziler -tekrar\bin\Debug\diziler -tekrar.xml
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler -tekrar.vbproj.AssemblyReference.cache
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler__tekrar.Form1.resources
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler__tekrar.Resources.resources
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler -tekrar.vbproj.GenerateResource.cache
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler -tekrar.vbproj.CoreCompileInputs.cache
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler -tekrar.exe
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler -tekrar.xml
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\diziler -tekrar\diziler -tekrar\obj\Debug\diziler -tekrar.pdb

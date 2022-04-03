@@ -1,0 +1,22 @@
+F:\Görsel1\14.03.17.-3\14.03.17.-3\obj\Debug\ResolveAssemblyReference.cache
+F:\Görsel1\14.03.17.-3\14.03.17.-3\obj\Debug\_14._03._17._3.Form1.resources
+F:\Görsel1\14.03.17.-3\14.03.17.-3\obj\Debug\_14._03._17._3.Resources.resources
+F:\Görsel1\14.03.17.-3\14.03.17.-3\obj\Debug\14.03.17.-3.vbproj.GenerateResource.Cache
+F:\Görsel1\14.03.17.-3\14.03.17.-3\bin\Debug\14.03.17.-3.exe
+F:\Görsel1\14.03.17.-3\14.03.17.-3\bin\Debug\14.03.17.-3.pdb
+F:\Görsel1\14.03.17.-3\14.03.17.-3\bin\Debug\14.03.17.-3.xml
+F:\Görsel1\14.03.17.-3\14.03.17.-3\obj\Debug\14.03.17.-3.exe
+F:\Görsel1\14.03.17.-3\14.03.17.-3\obj\Debug\14.03.17.-3.xml
+F:\Görsel1\14.03.17.-3\14.03.17.-3\obj\Debug\14.03.17.-3.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17.-3\14.03.17.-3\obj\Debug\14.03.17.-3.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17.-3\14.03.17.-3\obj\Debug\14.03.17.-3.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17.-3\14.03.17.-3\obj\Debug\14.03.17.-3.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17.-3\14.03.17.-3\obj\Debug\14.03.17.-3.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17.-3\14.03.17.-3\obj\Debug\14.03.17.-3.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17.-3\14.03.17.-3\obj\Debug\14.03.17.-3.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17.-3\14.03.17.-3\bin\Debug\14.03.17.-3.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17.-3\14.03.17.-3\bin\Debug\14.03.17.-3.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17.-3\14.03.17.-3\bin\Debug\14.03.17.-3.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17.-3\14.03.17.-3\obj\Debug\_14._03._17._3.Form1.resources
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17.-3\14.03.17.-3\obj\Debug\_14._03._17._3.Resources.resources
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17.-3\14.03.17.-3\obj\Debug\14.03.17.-3.vbproj.GenerateResource.Cache

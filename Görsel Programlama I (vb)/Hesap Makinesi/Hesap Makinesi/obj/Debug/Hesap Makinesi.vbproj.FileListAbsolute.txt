@@ -1,0 +1,42 @@
+G:\Hesap Makinesi\Hesap Makinesi\bin\Debug\Hesap Makinesi.exe
+G:\Hesap Makinesi\Hesap Makinesi\bin\Debug\Hesap Makinesi.pdb
+G:\Hesap Makinesi\Hesap Makinesi\bin\Debug\Hesap Makinesi.xml
+G:\Hesap Makinesi\Hesap Makinesi\obj\Debug\ResolveAssemblyReference.cache
+G:\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap_Makinesi.Form1.resources
+G:\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap_Makinesi.Resources.resources
+G:\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.vbproj.GenerateResource.Cache
+G:\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.exe
+G:\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.xml
+G:\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.pdb
+F:\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.exe
+F:\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.xml
+F:\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.pdb
+F:\Hesap Makinesi\Hesap Makinesi\bin\Debug\Hesap Makinesi.exe
+F:\Hesap Makinesi\Hesap Makinesi\bin\Debug\Hesap Makinesi.pdb
+F:\Hesap Makinesi\Hesap Makinesi\bin\Debug\Hesap Makinesi.xml
+F:\Hesap Makinesi\Hesap Makinesi\obj\Debug\ResolveAssemblyReference.cache
+F:\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap_Makinesi.Form1.resources
+F:\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap_Makinesi.Resources.resources
+F:\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.vbproj.GenerateResource.Cache
+D:\DersNotları\1.sınıf bahar dönemi\İLYAS BOZDEMİR-165609016\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.exe
+D:\DersNotları\1.sınıf bahar dönemi\İLYAS BOZDEMİR-165609016\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.xml
+D:\DersNotları\1.sınıf bahar dönemi\İLYAS BOZDEMİR-165609016\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\İLYAS BOZDEMİR-165609016\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\İLYAS BOZDEMİR-165609016\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\İLYAS BOZDEMİR-165609016\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\İLYAS BOZDEMİR-165609016\Hesap Makinesi\Hesap Makinesi\bin\Debug\Hesap Makinesi.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\İLYAS BOZDEMİR-165609016\Hesap Makinesi\Hesap Makinesi\bin\Debug\Hesap Makinesi.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\İLYAS BOZDEMİR-165609016\Hesap Makinesi\Hesap Makinesi\bin\Debug\Hesap Makinesi.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\İLYAS BOZDEMİR-165609016\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap_Makinesi.Form1.resources
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\İLYAS BOZDEMİR-165609016\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap_Makinesi.Resources.resources
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\İLYAS BOZDEMİR-165609016\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.vbproj.GenerateResource.Cache
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Görsel Programlama 1\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.exe
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Görsel Programlama 1\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.xml
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Görsel Programlama 1\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.pdb
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Görsel Programlama 1\Hesap Makinesi\Hesap Makinesi\bin\Debug\Hesap Makinesi.exe
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Görsel Programlama 1\Hesap Makinesi\Hesap Makinesi\bin\Debug\Hesap Makinesi.pdb
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Görsel Programlama 1\Hesap Makinesi\Hesap Makinesi\bin\Debug\Hesap Makinesi.xml
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Görsel Programlama 1\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.vbprojResolveAssemblyReference.cache
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Görsel Programlama 1\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap_Makinesi.Form1.resources
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Görsel Programlama 1\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap_Makinesi.Resources.resources
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Görsel Programlama 1\Hesap Makinesi\Hesap Makinesi\obj\Debug\Hesap Makinesi.vbproj.GenerateResource.Cache

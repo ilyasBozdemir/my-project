@@ -1,0 +1,22 @@
+C:\Users\lab1\Desktop\ilk ders\ilk ders\bin\Debug\ilk ders.exe
+C:\Users\lab1\Desktop\ilk ders\ilk ders\bin\Debug\ilk ders.pdb
+C:\Users\lab1\Desktop\ilk ders\ilk ders\bin\Debug\ilk ders.xml
+C:\Users\lab1\Desktop\ilk ders\ilk ders\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lab1\Desktop\ilk ders\ilk ders\obj\Debug\ilk_ders.Form1.resources
+C:\Users\lab1\Desktop\ilk ders\ilk ders\obj\Debug\ilk_ders.Resources.resources
+C:\Users\lab1\Desktop\ilk ders\ilk ders\obj\Debug\ilk ders.vbproj.GenerateResource.Cache
+C:\Users\lab1\Desktop\ilk ders\ilk ders\obj\Debug\ilk ders.exe
+C:\Users\lab1\Desktop\ilk ders\ilk ders\obj\Debug\ilk ders.xml
+C:\Users\lab1\Desktop\ilk ders\ilk ders\obj\Debug\ilk ders.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\ilk ders\ilk ders\obj\Debug\ilk ders.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\ilk ders\ilk ders\obj\Debug\ilk ders.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\ilk ders\ilk ders\obj\Debug\ilk ders.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\ilk ders\ilk ders\bin\Debug\ilk ders.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\ilk ders\ilk ders\bin\Debug\ilk ders.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\ilk ders\ilk ders\bin\Debug\ilk ders.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\ilk ders\ilk ders\obj\Debug\ilk_ders.Form1.resources
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\ilk ders\ilk ders\obj\Debug\ilk_ders.Resources.resources
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\ilk ders\ilk ders\obj\Debug\ilk ders.vbproj.GenerateResource.Cache
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\22.02.17\ilk ders\obj\Debug\ilk ders.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\22.02.17\ilk ders\obj\Debug\ilk ders.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\22.02.17\ilk ders\obj\Debug\ilk ders.pdb
