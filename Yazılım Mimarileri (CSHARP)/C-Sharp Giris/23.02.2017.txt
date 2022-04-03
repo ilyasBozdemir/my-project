@@ -1,0 +1,46 @@
+ Yazýlým Mimarileri(23.02.2017)
+
+-C# da her sey nesnedir.
+Yazdýgýmýz program bir sonraki yazýlacak programa co kolay eklenir.
+Web sayfasýna gömülebilir.
+Platform baðýmsýz (Dos,linux,microsoft)da  çalýþabilir.
+java programlama dilinin kötü bir kopyasý gibi görünmede java'ya göree daha derli topludur
+Program komutlarý küçük harfe dayanýklýdýr.
+her  komut iþleminden sonra noktalý virgül kullanýlýr
+
+
+birkac komutun bir arada bir komut gibi davranmasý için komutlar {} arasýna alýnýr.yani blok yapýlýr.
+acýklama cümlesi için //,///,/* */ iþaretleri kullanýlýr.
+
+örnek:
+ console.WriteLine(/*açýklamalar*/"Merhaba Dünya");
+              --Program Yapýsý--
+1)Main() : ana fonksiyon anlamýna gelir.C/C++ dillerinde oldugu gibi, programýn baslama yeridir.
+Programýn baslama yeridir
+2)Class : Sýnýf anlamýna gelir.Bu komutla nesne oluþturur
+3)namespace :AdUzay anlamýna gelir.Nasýl ki dosyalr klasörlerde toplanýrsa Nesnelerde AdUzay'larýnda toplanýrlar.
+yazdýgýmýz namespace yoksa ,derleyici programý isimsizAdUzayý bölümüne ekler.
+4)using : Daha önce yazýlmýþ  nameSpace'leri program ekler.
+ 
+namespace BenimAdUzayým
+{
+class BenimNesnem
+{
+static void Main()
+{System.Console.WriteLine("Merhaba MYO")
+   Deðiþkenler
+C#'da iki türlü deðiþken mevcuttur.
+1.Basit Veri Tipli Deðiþkenler :
+Veriler direk deðiþknene yazýlýrNull deðeri alamazlar.
+2.Referans Veri Tipli Deðiþkenler : 
+ [-(heap-kalýcý-kendisi ,stack-geçici-adresi)-]
+
+
+
+
+
+
+
+
+
+

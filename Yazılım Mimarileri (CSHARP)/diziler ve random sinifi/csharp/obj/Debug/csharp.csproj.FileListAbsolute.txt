@@ -1,0 +1,11 @@
+C:\Users\İlyas70\Desktop\deneme\csharp\csharp\bin\Debug\csharp.exe
+C:\Users\İlyas70\Desktop\deneme\csharp\csharp\bin\Debug\csharp.pdb
+C:\Users\İlyas70\Desktop\deneme\csharp\csharp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\İlyas70\Desktop\deneme\csharp\csharp\obj\Debug\csharp.exe
+C:\Users\İlyas70\Desktop\deneme\csharp\csharp\obj\Debug\csharp.pdb
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\csharp\csharp\obj\Debug\csharp.csproj.AssemblyReference.cache
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\csharp\csharp\obj\Debug\csharp.csproj.CoreCompileInputs.cache
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\csharp\csharp\obj\Debug\csharp.exe
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\csharp\csharp\bin\Debug\csharp.exe
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\csharp\csharp\bin\Debug\csharp.pdb
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\finaller tekrarlar\tekrarlar finale yönelik\deneme\csharp\csharp\obj\Debug\csharp.pdb
