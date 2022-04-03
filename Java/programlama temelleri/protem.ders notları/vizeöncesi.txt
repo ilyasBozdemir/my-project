@@ -1,0 +1,63 @@
+import java.util.Scanner;
+
+// sadece Scanner sýnýfýný import eder
+
+import java.util.*;
+
+// java.util paketindeki bütün sýnýflarý import eder
+Scanner nesnesi farklý kurucu metodlarlada kullanýlýr.
+
+Scanner(File kaynakDosya)
+Scanner(InputStream kaynak)
+Scanner(Readable kaynak)
+Scanner(String kaynakString)
+
+Scanner kullanarak klavyeden giriþ almak için System.in InputSystem kullanýlýr.Scanner klaye kullanýmý;
+
+Scanner klavye = new Scanner (System.in);
+“klavye” deðiþken adý olup istediðiniz deðeri girebilirsiniz.Bu sýnýfýn çeþitli metodlarý vardýr.
+
+nextInt metodu klavyeden bir int deðeri okumak ve deðiþkene atamak için kullanýlýr.
+
+int sayi = klavye.nextInt;
+nextDouble metodu klavyeden bir double deðeri okumak ve deðiþkene atamak için kullanýlýr.
+
+double sayi = klavye.nextDouble;
+next metodu String atamak için kullanýlýr.
+
+String isim = klavye.next();
+nextLine metodu da String atmak için kullanýlýr next’ten farký bütün satýrý alýr next ise sadece girilen tek kelimeyi alýr.
+
+String isim = klavye.nextLine();
+Diðer bazý Scanner metodlarý
+
+public Scanner(File f)
+
+public Scanner(String s)
+
+public int nextInt()
+
+public short nextShort()
+
+public long nextLong()
+
+public double nextDouble()
+
+public float nextFloat()
+
+public String next()
+
+public String nextLine()
+
+public boolean hasNext()
+import java.util.Scanner;
+public class Scan {
+public static void main(String[] args) {
+Scanner klavye = new Scanner(System.in);
+System.out.println(“2 Sayi girin”);
+int a = klavye.nextInt();
+int b = klavye.nextInt();
+System.out.println(“Toplam =”+(a+b));
+}
+
+}

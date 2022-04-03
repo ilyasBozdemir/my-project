@@ -1,0 +1,74 @@
+ public static void main(String[] args) {
+        // 10 kiþininin yazýlý sölü notlarýný yazdýralým 3.yazýlý sozlu7yi ekrana yazdýralým
+         byte [] yazili = new byte[10];
+         byte [] sozlu = new byte[10];
+        yazili[0]=85;
+        yazili[1]=78; 
+        yazili[2]=90;        
+        yazili[3]=75;        
+        yazili[4]=60;       
+        yazili[5]=50;        
+        yazili[6]=80;        
+        yazili[7]=70;       
+        yazili[8]=65;       
+        yazili[9]=60; 
+       
+        sozlu[0]=80;
+        sozlu[1]=90;        
+        sozlu[2]=75;        
+        sozlu[3]=65;        
+        sozlu[4]=85;        
+        sozlu[5]=70;        
+        sozlu[6]=60;       
+        sozlu[7]=65;        
+        sozlu[8]=85;        
+        sozlu[9]=70;
+        
+        System.out.println("4.Öðrencinin yazýlý notu="+yazili[3]);       
+        System.out.println("8.Öðrencinin sözlü notu="+sozlu[7]);
+        // uygulama
+        // 5 isim yazýp 5.yi ekrana yazdýralým
+          String [] isimler = new String[5];
+        isimler[0]="ilyas bozdemir";
+        isimler[1]="Aysel Gün";       
+        isimler[2]="Koray Sümer";       
+        isimler[3]="Yaðmur Çetin";       
+        isimler[4]="Ramazan Optik";
+         System.out.println("1.kiþinin adý soyadý="+isimler[0]);
+//  bölgenin bölgesini ekrana yazdýralým
+String [] Akdeniz = new String[5];
+           String [] Anadolu = new String[5];
+           String [] Karadeniz  =new  String[5];
+           
+           Akdeniz[0]="Antalya";
+           Akdeniz[1]="Mersin";     
+           Akdeniz[2]="Isparta";        
+           Akdeniz[3]="Adana";        
+           Akdeniz[4]="Hatay";
+           
+           Anadolu[0]="Konya";
+           Anadolu[1]="Ankara";
+           Anadolu[2]="Sivas";        
+           Anadolu[3]="Kayseri";        
+           Anadolu[4]="Yozgat";
+           
+           Karadeniz[0]="Rize";
+           Karadeniz[1]="Trabzon";       
+           Karadeniz[2]="Samsun";       
+           Karadeniz[3]="Ordu";       
+           Karadeniz[4]="Zonguldak";
+           System.out.println("Akdeniz BÃ¶lgesinin 3.Ä°li="+Akdeniz[2]);
+           System.out.println("Ä°Ã§ Anadolu BÃ¶lgesinin 3.Ä°li="+Anadolu[2]);      
+           System.out.println("Karadeniz BÃ¶lgesinin 3.Ä°li="+Karadeniz[2]);
+
+//iller ilçeler
+String [][] IllerIlceler = new String[3][2];
+             IllerIlceler[0][0] ="Ermenek"; //Karaman'Ä±n Ä°lÃ§eleri
+             IllerIlceler[0][1] ="SarÄ±veliler";//Karaman'Ä±n Ä°lÃ§eleri
+             IllerIlceler[1][0] ="Tarsus";//Mersin'in Ä°lÃ§eleri
+             IllerIlceler[1][1] ="Anamur";//Mersin'in Ä°lÃ§eleri
+             IllerIlceler[2][0] ="Meram";//Konya'nÄ±n Ä°lÃ§eleri
+             IllerIlceler[2][1] ="SelÃ§uklu";//Konya'nÄ±n Ä°lÃ§eleri 
+             //Konya ilinin Ä°lÃ§elerini ekrana YazdÄ±ralÄ±m
+             System.out.println("Konya'nÄ±n Ä°lÃ§eleri:"+IllerIlceler[2][0]+","+
+             IllerIlceler[2][1]);

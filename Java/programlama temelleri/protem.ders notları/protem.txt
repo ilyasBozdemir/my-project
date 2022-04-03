@@ -1,0 +1,138 @@
+
+ System.out.println("Merhaba");
+         //Byte veri tipi
+        byte sayi1=2;
+        byte sayi2=5;
+        byte sayi3=8;
+        byte sayi4=4;
+        
+               
+        System.out.println(sayi1);
+        System.out.println(sayi2);
+        System.out.println(sayi1+sayi2);
+        System.out.println(sayi3);
+        System.out.println(sayi4);
+        
+      char harf1=66,harf2=79,harf3=90,harf4=68,harf5=69,harf6=77,harf7=73,harf8=82;
+       System.out.print(harf1);  
+       System.out.print(harf2);
+       System.out.print(harf3);
+       System.out.print(harf4);       
+       System.out.print(harf5); 
+       System.out.print(harf6); 
+       System.out.print(harf7);
+       System.out.println(harf8);
+
+
+
+//Byte Veri Tipi;
+        byte sayi1=15;
+        byte sayi2=24;
+        byte sayi3=35;
+        System.out.println(sayi1);
+        System.out.println(sayi2);
+        System.out.println(sayi3);
+        System.out.println(sayi3+sayi2);
+        /*Short Veri Tipi*/
+        
+        /*CHAR  */ /*"  */
+        char harf1=65,harf2=68,harf3=79,harf4=87,harf5=75,harf6=69;
+        System.out.print(harf1);
+        System.out.print(harf2);
+        System.out.print(harf3);
+        System.out.print(harf4);
+        System.out.print(harf5);
+        System.out.print(harf6); 
+                                   
+
+char harf1=65 harf2=68,harf3=75;
+        System.out.print(harf1);
+        System.out.print(harf2);
+        System.out.println(harf3);
+	// +
+	  byte [] notlar = new byte[5];
+        notlar[0]=45;
+        notlar[1]=64;
+        notlar[2]=78;        
+        notlar[3]=89;        
+        notlar[4]=95; /* indis numarasý dizi sayýsýnýn bir eksiðidir her zaman  */
+        System.out.println("4.öðrencinin vize notu="+notlar[4]);
+        /* uygulama */
+        byte [] yazili = new byte[10];
+         byte [] sozlu = new byte[10];
+        yazili[0]=85;
+        yazili[1]=78; 
+        yazili[2]=90;        
+        yazili[3]=75;        
+        yazili[4]=60;       
+        yazili[5]=50;        
+        yazili[6]=80;        
+        yazili[7]=70;       
+        yazili[8]=65;       
+        yazili[9]=60; 
+       
+        sozlu[0]=80;
+        sozlu[1]=90;        
+        sozlu[2]=75;        
+        sozlu[3]=65;        
+        sozlu[4]=85;        
+        sozlu[5]=70;        
+        sozlu[6]=60;       
+        sozlu[7]=65;        
+        sozlu[8]=85;        
+        sozlu[9]=70;
+        
+        System.out.println("4.öðrencinin yazýlý notu="+yazili[3]);       
+        System.out.println("8.öðrencinin sözlü notu="+sozlu[7]);  
+		
+		 double s1=2, s2=5;
+ // Aritmetik Oparatörler 
+ System.out.println("Toplam :"+ (s1 + s2));
+ System.out.println("Fark :"+ (s1 - s2));
+ System.out.println("Çarpma :"+ (s1 * s2));
+ System.out.println("Bölme :"+ (s1 / s2));
+ //Aritmetik Azaltma
+ s1++;
+ s2--;
+ System.out.println(s1);
+ System.out.println(s2);
+ ++s1;
+ --s2;
+ System.out.println(s1);
+ System.out.println(s2);
+ //uygulama01
+  Scanner bilgi = new Scanner(System.in); 
+    System.out.print("1.Sayýyý girin");
+    int s1 = bilgi.nextInt();
+    System.out.print("2.Sayýyý girin");
+    int s2 = bilgi.nextInt();
+    System.out.print("3.Sayýyý girin");
+    int s3 = bilgi.nextInt();
+    System.out.println("Girilen Sayýlar :"+ s1 + ","+ s2 ","+ s3 ); 
+    //uygulam02
+	 Scanner bilgi = new Scanner(System.in);
+ System.out.println("Öðrenci Numarasýný Giriniz :");
+ int s1 = bilgi.nextInt();
+ System.out.println("Adý Soyadý Giriniz :");
+int s2 = bilgi.nextInt(); 
+ System.out.println("Bölümü Giriniz :");
+ int s3 = bilgi.nextInt();
+ System.out.println("Ders Adýný Giriniz :");
+ int s4 = bilgi.nextInt();
+ System.err.println()
+ System.err.println();
+ System.err.println();
+  System.err.println();
+ //
+ String [][] IllerIlceler = new String[3][2];
+             IllerIlceler[0][0] ="Ermenek"; //Karaman'Ä±n Ä°lÃ§eleri
+             IllerIlceler[0][1] ="SarÄ±veliler";//Karaman'Ä±n Ä°lÃ§eleri
+             IllerIlceler[1][0] ="Tarsus";//Mersin'in Ä°lÃ§eleri
+             IllerIlceler[1][1] ="Anamur";//Mersin'in Ä°lÃ§eleri
+             IllerIlceler[2][0] ="Meram";//Konya'nÄ±n Ä°lÃ§eleri
+             IllerIlceler[2][1] ="SelÃ§uklu";//Konya'nÄ±n Ä°lÃ§eleri 
+             //Konya ilinin Ä°lÃ§elerini ekrana YazdÄ±ralÄ±m
+             System.out.println("Konya'nÄ±n Ä°lÃ§eleri:"+IllerIlceler[2][0]+","+
+             IllerIlceler[2][1]);
+ 
+		
