@@ -1,0 +1,13 @@
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop until\do-loop until\bin\Debug\do-loop until.exe
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop until\do-loop until\bin\Debug\do-loop until.pdb
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop until\do-loop until\bin\Debug\do-loop until.xml
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop until\do-loop until\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop until\do-loop until\obj\Debug\do_loop_until.Form1.resources
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop until\do-loop until\obj\Debug\do_loop_until.Resources.resources
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop until\do-loop until\obj\Debug\do-loop until.vbproj.GenerateResource.Cache
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop until\do-loop until\obj\Debug\do-loop until.exe
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop until\do-loop until\obj\Debug\do-loop until.xml
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop until\do-loop until\obj\Debug\do-loop until.pdb
+C:\Users\İlyas70\Desktop\görsel ödev\döngüler\do-loop until\do-loop until\obj\Debug\do-loop until.exe
+C:\Users\İlyas70\Desktop\görsel ödev\döngüler\do-loop until\do-loop until\obj\Debug\do-loop until.xml
+C:\Users\İlyas70\Desktop\görsel ödev\döngüler\do-loop until\do-loop until\obj\Debug\do-loop until.pdb

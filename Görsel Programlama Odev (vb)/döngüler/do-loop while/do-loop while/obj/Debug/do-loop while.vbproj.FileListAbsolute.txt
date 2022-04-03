@@ -1,0 +1,22 @@
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop while\do-loop while\bin\Debug\do-loop while.exe
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop while\do-loop while\bin\Debug\do-loop while.pdb
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop while\do-loop while\bin\Debug\do-loop while.xml
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop while\do-loop while\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop while\do-loop while\obj\Debug\do_loop_while.Form1.resources
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop while\do-loop while\obj\Debug\do_loop_while.Resources.resources
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop while\do-loop while\obj\Debug\do-loop while.vbproj.GenerateResource.Cache
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop while\do-loop while\obj\Debug\do-loop while.exe
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop while\do-loop while\obj\Debug\do-loop while.xml
+C:\Users\İlyas70\Desktop\görsel ödev\do-loop while\do-loop while\obj\Debug\do-loop while.pdb
+C:\Users\İlyas70\Desktop\görsel ödev\döngüler\do-loop while\do-loop while\obj\Debug\do-loop while.exe
+C:\Users\İlyas70\Desktop\görsel ödev\döngüler\do-loop while\do-loop while\obj\Debug\do-loop while.xml
+C:\Users\İlyas70\Desktop\görsel ödev\döngüler\do-loop while\do-loop while\obj\Debug\do-loop while.pdb
+C:\Users\İlyas70\Desktop\ders vs\görsel ödev\döngüler\do-loop while\do-loop while\obj\Debug\do-loop while.exe
+C:\Users\İlyas70\Desktop\ders vs\görsel ödev\döngüler\do-loop while\do-loop while\obj\Debug\do-loop while.xml
+C:\Users\İlyas70\Desktop\ders vs\görsel ödev\döngüler\do-loop while\do-loop while\obj\Debug\do-loop while.pdb
+C:\Users\İlyas70\Desktop\ders vs\görsel ödev\döngüler\do-loop while\do-loop while\bin\Debug\do-loop while.exe
+C:\Users\İlyas70\Desktop\ders vs\görsel ödev\döngüler\do-loop while\do-loop while\bin\Debug\do-loop while.pdb
+C:\Users\İlyas70\Desktop\ders vs\görsel ödev\döngüler\do-loop while\do-loop while\bin\Debug\do-loop while.xml
+C:\Users\İlyas70\Desktop\ders vs\görsel ödev\döngüler\do-loop while\do-loop while\obj\Debug\do_loop_while.Form1.resources
+C:\Users\İlyas70\Desktop\ders vs\görsel ödev\döngüler\do-loop while\do-loop while\obj\Debug\do_loop_while.Resources.resources
+C:\Users\İlyas70\Desktop\ders vs\görsel ödev\döngüler\do-loop while\do-loop while\obj\Debug\do-loop while.vbproj.GenerateResource.Cache

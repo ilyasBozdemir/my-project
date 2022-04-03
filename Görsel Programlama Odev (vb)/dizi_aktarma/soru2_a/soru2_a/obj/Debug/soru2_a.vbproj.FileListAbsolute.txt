@@ -1,0 +1,17 @@
+C:\Users\İlyas70\Desktop\görsel ödev\soru2\soru2_a\soru2_a\bin\Debug\soru2_a.exe
+C:\Users\İlyas70\Desktop\görsel ödev\soru2\soru2_a\soru2_a\bin\Debug\soru2_a.pdb
+C:\Users\İlyas70\Desktop\görsel ödev\soru2\soru2_a\soru2_a\bin\Debug\soru2_a.xml
+C:\Users\İlyas70\Desktop\görsel ödev\soru2\soru2_a\soru2_a\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\İlyas70\Desktop\görsel ödev\soru2\soru2_a\soru2_a\obj\Debug\soru2_a.Form1.resources
+C:\Users\İlyas70\Desktop\görsel ödev\soru2\soru2_a\soru2_a\obj\Debug\soru2_a.Resources.resources
+C:\Users\İlyas70\Desktop\görsel ödev\soru2\soru2_a\soru2_a\obj\Debug\soru2_a.vbproj.GenerateResource.Cache
+C:\Users\İlyas70\Desktop\görsel ödev\soru2\soru2_a\soru2_a\obj\Debug\soru2_a.exe
+C:\Users\İlyas70\Desktop\görsel ödev\soru2\soru2_a\soru2_a\obj\Debug\soru2_a.xml
+C:\Users\İlyas70\Desktop\görsel ödev\soru2\soru2_a\soru2_a\obj\Debug\soru2_a.pdb
+C:\Users\İlyas70\Desktop\görsel ödev\dizi_aktarma\soru2_a\soru2_a\obj\Debug\soru2_a.exe
+C:\Users\İlyas70\Desktop\görsel ödev\dizi_aktarma\soru2_a\soru2_a\obj\Debug\soru2_a.xml
+C:\Users\İlyas70\Desktop\görsel ödev\dizi_aktarma\soru2_a\soru2_a\obj\Debug\soru2_a.pdb
+C:\Users\İlyas70\Desktop\görsel ödev\dizi_aktarma\soru2_a\soru2_a\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\İlyas70\Desktop\görsel ödev\dizi_aktarma\soru2_a\soru2_a\obj\Debug\soru2_a.Form1.resources
+C:\Users\İlyas70\Desktop\görsel ödev\dizi_aktarma\soru2_a\soru2_a\obj\Debug\soru2_a.Resources.resources
+C:\Users\İlyas70\Desktop\görsel ödev\dizi_aktarma\soru2_a\soru2_a\obj\Debug\soru2_a.vbproj.GenerateResource.Cache
