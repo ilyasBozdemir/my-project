@@ -1,0 +1,7 @@
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\10.Soru\10_g\10_g\bin\Debug\10_g.exe
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\10.Soru\10_g\10_g\bin\Debug\10_g.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\10.Soru\10_g\10_g\obj\Debug\ResolveAssemblyReference.cache
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\10.Soru\10_g\10_g\obj\Debug\10_g.exe
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\10.Soru\10_g\10_g\obj\Debug\10_g.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\Diziler\10.Soru\10_g\10_g\obj\Debug\10_g.exe
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\Diziler\10.Soru\10_g\10_g\obj\Debug\10_g.pdb

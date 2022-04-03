@@ -1,0 +1,10 @@
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\15.Soru\15\15\bin\Debug\15.exe
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\15.Soru\15\15\bin\Debug\15.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\15.Soru\15\15\obj\Debug\ResolveAssemblyReference.cache
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\15.Soru\15\15\obj\Debug\15.exe
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\15.Soru\15\15\obj\Debug\15.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\Diziler\15.Soru\15\15\obj\Debug\15.exe
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\Diziler\15.Soru\15\15\obj\Debug\15.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\Diziler\15.Soru\15\15\bin\Debug\15.exe
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\Diziler\15.Soru\15\15\bin\Debug\15.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\Diziler\15.Soru\15\15\obj\Debug\15.csprojResolveAssemblyReference.cache
