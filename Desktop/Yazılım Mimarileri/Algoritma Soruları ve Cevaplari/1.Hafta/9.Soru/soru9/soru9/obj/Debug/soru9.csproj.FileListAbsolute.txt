@@ -1,6 +1,0 @@
-D:\C# Sorular\1.Hafta\9.Soru\soru9\soru9\obj\Debug\ResolveAssemblyReference.cache
-D:\C# Sorular\1.Hafta\9.Soru\soru9\soru9\bin\Debug\soru9.exe
-D:\C# Sorular\1.Hafta\9.Soru\soru9\soru9\bin\Debug\soru9.pdb
-D:\C# Sorular\1.Hafta\9.Soru\soru9\soru9\obj\Debug\soru9.exe
-D:\C# Sorular\1.Hafta\9.Soru\soru9\soru9\obj\Debug\soru9.pdb
-D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\1.Hafta\9.Soru\soru9\soru9\obj\Debug\soru9.exe

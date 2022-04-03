@@ -1,7 +1,0 @@
-D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\22.Soru\22_b\22_b\obj\Debug\ResolveAssemblyReference.cache
-D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\22.Soru\22_b\22_b\bin\Debug\22_b.exe
-D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\22.Soru\22_b\22_b\bin\Debug\22_b.pdb
-D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\22.Soru\22_b\22_b\obj\Debug\22_b.exe
-D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\C# Sorular\Diziler\22.Soru\22_b\22_b\obj\Debug\22_b.pdb
-D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\Diziler\22.Soru\22_b\22_b\obj\Debug\22_b.exe
-D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\Diziler\22.Soru\22_b\22_b\obj\Debug\22_b.pdb

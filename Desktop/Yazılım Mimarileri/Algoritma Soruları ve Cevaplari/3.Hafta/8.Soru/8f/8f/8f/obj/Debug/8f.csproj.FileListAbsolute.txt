@@ -1,5 +1,0 @@
-D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\3.Hafta\8.Soru\8f\8f\8f\bin\Debug\8f.exe
-D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\3.Hafta\8.Soru\8f\8f\8f\bin\Debug\8f.pdb
-D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\3.Hafta\8.Soru\8f\8f\8f\obj\Debug\8f.csprojResolveAssemblyReference.cache
-D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\3.Hafta\8.Soru\8f\8f\8f\obj\Debug\8f.exe
-D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\3.Hafta\8.Soru\8f\8f\8f\obj\Debug\8f.pdb
