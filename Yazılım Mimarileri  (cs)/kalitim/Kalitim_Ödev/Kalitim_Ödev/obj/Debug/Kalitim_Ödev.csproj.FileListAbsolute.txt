@@ -1,0 +1,6 @@
+C:\Users\İlyas70\Desktop\Kalitim_Ödev\Kalitim_Ödev\bin\Debug\Kalitim_Ödev.exe.config
+C:\Users\İlyas70\Desktop\Kalitim_Ödev\Kalitim_Ödev\bin\Debug\Kalitim_Ödev.exe
+C:\Users\İlyas70\Desktop\Kalitim_Ödev\Kalitim_Ödev\bin\Debug\Kalitim_Ödev.pdb
+C:\Users\İlyas70\Desktop\Kalitim_Ödev\Kalitim_Ödev\obj\Debug\Kalitim_Ödev.csprojResolveAssemblyReference.cache
+C:\Users\İlyas70\Desktop\Kalitim_Ödev\Kalitim_Ödev\obj\Debug\Kalitim_Ödev.exe
+C:\Users\İlyas70\Desktop\Kalitim_Ödev\Kalitim_Ödev\obj\Debug\Kalitim_Ödev.pdb
