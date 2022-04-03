@@ -1,0 +1,25 @@
+F:\28.02.2017\28.02.2017\obj\Debug\28.02.2017.exe
+F:\28.02.2017\28.02.2017\obj\Debug\28.02.2017.xml
+F:\28.02.2017\28.02.2017\obj\Debug\28.02.2017.pdb
+F:\28.02.2017\28.02.2017\bin\Debug\28.02.2017.exe
+F:\28.02.2017\28.02.2017\bin\Debug\28.02.2017.pdb
+F:\28.02.2017\28.02.2017\bin\Debug\28.02.2017.xml
+F:\28.02.2017\28.02.2017\obj\Debug\ResolveAssemblyReference.cache
+F:\28.02.2017\28.02.2017\obj\Debug\_28._02._2017.Form1.resources
+F:\28.02.2017\28.02.2017\obj\Debug\_28._02._2017.Resources.resources
+F:\28.02.2017\28.02.2017\obj\Debug\28.02.2017.vbproj.GenerateResource.Cache
+D:\ders notları\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\obj\Debug\28.02.2017.exe
+D:\ders notları\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\obj\Debug\28.02.2017.xml
+D:\ders notları\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\obj\Debug\28.02.2017.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\obj\Debug\28.02.2017.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\obj\Debug\28.02.2017.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\obj\Debug\28.02.2017.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\bin\Debug\28.02.2017.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\bin\Debug\28.02.2017.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\bin\Debug\28.02.2017.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\obj\Debug\_28._02._2017.Form1.resources
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\obj\Debug\_28._02._2017.Resources.resources
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\obj\Debug\28.02.2017.vbproj.GenerateResource.Cache
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\obj\Debug\28.02.2017.exe
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\obj\Debug\28.02.2017.xml
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Görsel Programlama 1\28.02.2017\28.02.2017\obj\Debug\28.02.2017.pdb
