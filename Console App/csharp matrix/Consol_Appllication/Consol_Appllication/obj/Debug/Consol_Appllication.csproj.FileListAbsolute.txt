@@ -1,0 +1,6 @@
+C:\Users\Kmu\Desktop\Consol_Appllication\Consol_Appllication\bin\Debug\Consol_Appllication.exe.config
+C:\Users\Kmu\Desktop\Consol_Appllication\Consol_Appllication\bin\Debug\Consol_Appllication.exe
+C:\Users\Kmu\Desktop\Consol_Appllication\Consol_Appllication\bin\Debug\Consol_Appllication.pdb
+C:\Users\Kmu\Desktop\Consol_Appllication\Consol_Appllication\obj\Debug\Consol_Appllication.csprojResolveAssemblyReference.cache
+C:\Users\Kmu\Desktop\Consol_Appllication\Consol_Appllication\obj\Debug\Consol_Appllication.exe
+C:\Users\Kmu\Desktop\Consol_Appllication\Consol_Appllication\obj\Debug\Consol_Appllication.pdb
