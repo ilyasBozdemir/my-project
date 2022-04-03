@@ -1,0 +1,16 @@
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\bin\x86\Debug\Stok_Takip.exe.config
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\bin\x86\Debug\Stok_Takip.exe
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\bin\x86\Debug\Stok_Takip.pdb
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\x86\Debug\Stok_Takip.Form1.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\x86\Debug\Stok_Takip.Form2.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\x86\Debug\Stok_Takip.Musteri.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\x86\Debug\Stok_Takip.Personel.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\x86\Debug\Stok_Takip.Properties.Resources.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\x86\Debug\Stok_Takip.Stok_Bilg.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\x86\Debug\Stok_Takip.Urun_satıs.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\x86\Debug\Stok_Takip.csproj.GenerateResource.Cache
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\x86\Debug\Stok_Takip.exe
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\x86\Debug\Stok_Takip.pdb
+C:\Users\İlyas70\Desktop\Dönem-Proje\Stok_Takip\Stok_Takip\bin\x86\Debug\Stok_Takip.exe.config
+C:\Users\İlyas70\Desktop\Dönem-Proje\Stok_Takip\Stok_Takip\obj\x86\Debug\Stok_Takip.exe
+C:\Users\İlyas70\Desktop\Dönem-Proje\Stok_Takip\Stok_Takip\obj\x86\Debug\Stok_Takip.pdb

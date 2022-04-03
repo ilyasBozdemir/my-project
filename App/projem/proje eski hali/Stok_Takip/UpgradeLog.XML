@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Stok_Takip">
+</Property><Property Name="Solution File" Value="F:\ \Dönem-Proje\Stok_Takip\Stok_Takip.sln">
+</Property><Property Name="User Options File" Value="F:\ \Dönem-Proje\Stok_Takip\Stok_Takip.suo">
+</Property><Property Name="Date" Value="23 Ekim 2017 Pazartesi">
+</Property><Property Name="Time" Value="23:03">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Stok_Takip.sln" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Stok_Takip.suo" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip.suo">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Stok_Takip.csproj" Description="Project file successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Stok_Takip.csproj">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Form1.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Form1.Designer.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Form2.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Form2.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Form2.Designer.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Form2.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Musteri.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Musteri.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Musteri.Designer.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Musteri.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Personel.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Personel.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Personel.Designer.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Personel.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Program.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Program.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Properties\AssemblyInfo.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Properties\Resources.Designer.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Properties\Settings.Designer.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Stok_Bilg.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Stok_Bilg.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Stok_Bilg.Designer.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Stok_Bilg.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Urun_satıs.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Urun_satıs.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Urun_satıs.Designer.cs" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Urun_satıs.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\app.config" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\app.config">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Properties\Settings.settings" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Form1.resx" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Form2.resx" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Form2.resx">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Musteri.resx" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Musteri.resx">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Personel.resx" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Personel.resx">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Properties\Resources.resx" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Stok_Bilg.resx" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Stok_Bilg.resx">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Urun_satıs.resx" Description="File successfully backed up as F:\ \Dönem-Proje\Stok_Takip\Backup\Stok_Takip\Urun_satıs.resx">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\Stok_Takip.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Stok_Takip" Source="Stok_Takip\Stok_Takip.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Stok_Takip.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Stok_Takip.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Stok_Takip" Source="Stok_Takip\app.config" Description="File converted successfully. All &lt;supportedRuntime&gt; and &lt;requiredRuntime&gt; tags were removed to enable the project to build and run with Visual Studio 2005.">
+</Event><Event ErrorLevel="3" Project="Stok_Takip" Source="Stok_Takip\app.config" Description="Converted">
+</Event></UpgradeLog>

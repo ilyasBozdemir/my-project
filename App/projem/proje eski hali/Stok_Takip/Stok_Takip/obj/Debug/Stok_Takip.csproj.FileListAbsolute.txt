@@ -1,0 +1,28 @@
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\bin\Debug\Stok_Takip.exe
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\bin\Debug\Stok_Takip.pdb
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\ResolveAssemblyReference.cache
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Form1.resources
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Properties.Resources.resources
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.csproj.GenerateResource.Cache
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.exe
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.pdb
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Form2.resources
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Musteri.resources
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Personel.resources
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Stok_Bilg.resources
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Urun_satıs.resources
+D:\Dönem-Proje\Stok_Takip\Stok_Takip\bin\Debug\Stok_Takip.exe.config
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\bin\Debug\Stok_Takip.exe.config
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.exe
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.pdb
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\bin\Debug\Stok_Takip.exe
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\bin\Debug\Stok_Takip.pdb
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.csprojResolveAssemblyReference.cache
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Form1.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Form2.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Musteri.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Personel.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Properties.Resources.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Stok_Bilg.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Urun_satıs.resources
+F:\ \Dönem-Proje\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.csproj.GenerateResource.Cache
