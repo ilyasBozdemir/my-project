@@ -1,0 +1,10 @@
+C:\Users\BozdemirHome\Desktop\myProject\TetrisGame\bin\Debug\TetrisGame.exe.config
+C:\Users\BozdemirHome\Desktop\myProject\TetrisGame\bin\Debug\TetrisGame.exe
+C:\Users\BozdemirHome\Desktop\myProject\TetrisGame\bin\Debug\TetrisGame.pdb
+C:\Users\BozdemirHome\Desktop\myProject\TetrisGame\obj\Debug\TetrisGame.Properties.Resources.resources
+C:\Users\BozdemirHome\Desktop\myProject\TetrisGame\obj\Debug\TetrisGame.TetrisShape.Shape.resources
+C:\Users\BozdemirHome\Desktop\myProject\TetrisGame\obj\Debug\TetrisGame.csproj.GenerateResource.cache
+C:\Users\BozdemirHome\Desktop\myProject\TetrisGame\obj\Debug\TetrisGame.csproj.CoreCompileInputs.cache
+C:\Users\BozdemirHome\Desktop\myProject\TetrisGame\obj\Debug\TetrisGame.exe
+C:\Users\BozdemirHome\Desktop\myProject\TetrisGame\obj\Debug\TetrisGame.pdb
+C:\Users\BozdemirHome\Desktop\myProject\TetrisGame\obj\Debug\TetrisGame.Form1.resources
