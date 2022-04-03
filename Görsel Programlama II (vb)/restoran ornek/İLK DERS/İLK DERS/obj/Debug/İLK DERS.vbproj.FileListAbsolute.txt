@@ -1,0 +1,10 @@
+C:\Users\Kmu\Desktop\İLK DERS\İLK DERS\bin\Debug\İLK DERS.exe.config
+C:\Users\Kmu\Desktop\İLK DERS\İLK DERS\obj\Debug\İLK_DERS.Form1.resources
+C:\Users\Kmu\Desktop\İLK DERS\İLK DERS\obj\Debug\İLK_DERS.Resources.resources
+C:\Users\Kmu\Desktop\İLK DERS\İLK DERS\obj\Debug\İLK DERS.vbproj.GenerateResource.Cache
+C:\Users\Kmu\Desktop\İLK DERS\İLK DERS\bin\Debug\İLK DERS.exe
+C:\Users\Kmu\Desktop\İLK DERS\İLK DERS\bin\Debug\İLK DERS.pdb
+C:\Users\Kmu\Desktop\İLK DERS\İLK DERS\bin\Debug\İLK DERS.xml
+C:\Users\Kmu\Desktop\İLK DERS\İLK DERS\obj\Debug\İLK DERS.exe
+C:\Users\Kmu\Desktop\İLK DERS\İLK DERS\obj\Debug\İLK DERS.xml
+C:\Users\Kmu\Desktop\İLK DERS\İLK DERS\obj\Debug\İLK DERS.pdb
