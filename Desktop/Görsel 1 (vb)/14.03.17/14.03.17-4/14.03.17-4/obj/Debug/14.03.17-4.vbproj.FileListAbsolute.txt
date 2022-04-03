@@ -1,0 +1,41 @@
+F:\Görsel1\14.03.17-4\14.03.17-4\bin\Debug\14.03.17-4.exe
+F:\Görsel1\14.03.17-4\14.03.17-4\bin\Debug\14.03.17-4.pdb
+F:\Görsel1\14.03.17-4\14.03.17-4\bin\Debug\14.03.17-4.xml
+F:\Görsel1\14.03.17-4\14.03.17-4\obj\Debug\ResolveAssemblyReference.cache
+F:\Görsel1\14.03.17-4\14.03.17-4\obj\Debug\_14._03._17_4.Form1.resources
+F:\Görsel1\14.03.17-4\14.03.17-4\obj\Debug\_14._03._17_4.Resources.resources
+F:\Görsel1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.vbproj.GenerateResource.Cache
+F:\Görsel1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.exe
+F:\Görsel1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.xml
+F:\Görsel1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.pdb
+G:\dersnotları\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.exe
+G:\dersnotları\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.xml
+G:\dersnotları\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.pdb
+D:\dersnotları\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.exe
+D:\dersnotları\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.xml
+D:\dersnotları\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.pdb
+G:\dersnotları\Görsel Programlama 1\14.03.17-4\14.03.17-4\bin\Debug\14.03.17-4.exe
+G:\dersnotları\Görsel Programlama 1\14.03.17-4\14.03.17-4\bin\Debug\14.03.17-4.pdb
+G:\dersnotları\Görsel Programlama 1\14.03.17-4\14.03.17-4\bin\Debug\14.03.17-4.xml
+G:\dersnotları\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\ResolveAssemblyReference.cache
+G:\dersnotları\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\_14._03._17_4.Form1.resources
+G:\dersnotları\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\_14._03._17_4.Resources.resources
+G:\dersnotları\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.vbproj.GenerateResource.Cache
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17-4\14.03.17-4\bin\Debug\14.03.17-4.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17-4\14.03.17-4\bin\Debug\14.03.17-4.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17-4\14.03.17-4\bin\Debug\14.03.17-4.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\_14._03._17_4.Form1.resources
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\_14._03._17_4.Resources.resources
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.vbproj.GenerateResource.Cache
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17-4\14.03.17-4\bin\Debug\14.03.17-4.exe
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17-4\14.03.17-4\bin\Debug\14.03.17-4.pdb
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17-4\14.03.17-4\bin\Debug\14.03.17-4.xml
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17-4\14.03.17-4\obj\Debug\_14._03._17_4.Form1.resources
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17-4\14.03.17-4\obj\Debug\_14._03._17_4.Resources.resources
+D:\DersNotları\1.sınıf bahar dönemi\Görsel Programlama 1\14.03.17\14.03.17-4\14.03.17-4\obj\Debug\14.03.17-4.vbproj.GenerateResource.Cache
