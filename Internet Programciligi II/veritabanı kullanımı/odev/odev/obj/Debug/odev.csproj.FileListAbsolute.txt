@@ -1,0 +1,13 @@
+C:\Users\İlyas70\Desktop\odev\odev\bin\odev.dll.config
+C:\Users\İlyas70\Desktop\odev\odev\bin\odev.dll
+C:\Users\İlyas70\Desktop\odev\odev\bin\odev.pdb
+C:\Users\İlyas70\Desktop\odev\odev\obj\Debug\odev.csprojResolveAssemblyReference.cache
+C:\Users\İlyas70\Desktop\odev\odev\obj\Debug\odev.dll
+C:\Users\İlyas70\Desktop\odev\odev\obj\Debug\odev.pdb
+D:\GitHub\Google Drive Ders Dokumanları\dersler\odev\odev\bin\odev.dll.config
+D:\GitHub\Google Drive Ders Dokumanları\dersler\odev\odev\bin\odev.dll
+D:\GitHub\Google Drive Ders Dokumanları\dersler\odev\odev\bin\odev.pdb
+D:\GitHub\Google Drive Ders Dokumanları\dersler\odev\odev\obj\Debug\odev.csproj.AssemblyReference.cache
+D:\GitHub\Google Drive Ders Dokumanları\dersler\odev\odev\obj\Debug\odev.csproj.CoreCompileInputs.cache
+D:\GitHub\Google Drive Ders Dokumanları\dersler\odev\odev\obj\Debug\odev.dll
+D:\GitHub\Google Drive Ders Dokumanları\dersler\odev\odev\obj\Debug\odev.pdb
