@@ -1,0 +1,12 @@
+C:\Users\İlyas70\Desktop\Örnek_VeriTabanı\Örnek_VeriTabanı\bin\Debug\Örnek_VeriTabanı.exe.config
+C:\Users\İlyas70\Desktop\Örnek_VeriTabanı\Örnek_VeriTabanı\obj\Debug\Örnek_VeriTabanı.csprojResolveAssemblyReference.cache
+C:\Users\İlyas70\Desktop\Örnek_VeriTabanı\Örnek_VeriTabanı\obj\Debug\Örnek_VeriTabanı.Form1.resources
+C:\Users\İlyas70\Desktop\Örnek_VeriTabanı\Örnek_VeriTabanı\obj\Debug\Örnek_VeriTabanı.Properties.Resources.resources
+C:\Users\İlyas70\Desktop\Örnek_VeriTabanı\Örnek_VeriTabanı\obj\Debug\Örnek_VeriTabanı.csproj.GenerateResource.Cache
+C:\Users\İlyas70\Desktop\Örnek_VeriTabanı\Örnek_VeriTabanı\bin\Debug\Örnek_VeriTabanı.exe
+C:\Users\İlyas70\Desktop\Örnek_VeriTabanı\Örnek_VeriTabanı\bin\Debug\Örnek_VeriTabanı.pdb
+C:\Users\İlyas70\Desktop\Örnek_VeriTabanı\Örnek_VeriTabanı\obj\Debug\Örnek_VeriTabanı.exe
+C:\Users\İlyas70\Desktop\Örnek_VeriTabanı\Örnek_VeriTabanı\obj\Debug\Örnek_VeriTabanı.pdb
+C:\Users\İlyas70\Desktop\şifreleme\md5 ile şifreli veritabanı\Örnek_VeriTabanı\bin\Debug\Örnek_VeriTabanı.exe.config
+C:\Users\İlyas70\Desktop\şifreleme\md5 ile şifreli veritabanı\Örnek_VeriTabanı\obj\Debug\Örnek_VeriTabanı.exe
+C:\Users\İlyas70\Desktop\şifreleme\md5 ile şifreli veritabanı\Örnek_VeriTabanı\obj\Debug\Örnek_VeriTabanı.pdb
