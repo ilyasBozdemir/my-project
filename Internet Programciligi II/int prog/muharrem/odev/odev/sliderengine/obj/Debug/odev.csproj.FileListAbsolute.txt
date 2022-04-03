@@ -1,0 +1,5 @@
+C:\Users\Nimet\Desktop\nimet ödev\odev\odev\bin\odev.dll
+C:\Users\Nimet\Desktop\nimet ödev\odev\odev\bin\odev.pdb
+C:\Users\Nimet\Desktop\nimet ödev\odev\odev\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Nimet\Desktop\nimet ödev\odev\odev\obj\Debug\odev.dll
+C:\Users\Nimet\Desktop\nimet ödev\odev\odev\obj\Debug\odev.pdb

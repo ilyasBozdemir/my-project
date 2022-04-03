@@ -1,0 +1,19 @@
+c:\users\kmu\documents\visual studio 2013\Projects\proje\proje\bin\proje.dll.config
+c:\users\kmu\documents\visual studio 2013\Projects\proje\proje\bin\proje.dll
+c:\users\kmu\documents\visual studio 2013\Projects\proje\proje\bin\proje.pdb
+c:\users\kmu\documents\visual studio 2013\Projects\proje\proje\obj\Debug\proje.csprojResolveAssemblyReference.cache
+c:\users\kmu\documents\visual studio 2013\Projects\proje\proje\obj\Debug\proje.dll
+c:\users\kmu\documents\visual studio 2013\Projects\proje\proje\obj\Debug\proje.pdb
+C:\Users\BozdemirHome\Desktop\ilk adım proje\proje\proje\bin\proje.dll.config
+C:\Users\BozdemirHome\Desktop\ilk adım proje\proje\proje\bin\proje.dll
+C:\Users\BozdemirHome\Desktop\ilk adım proje\proje\proje\bin\proje.pdb
+C:\Users\BozdemirHome\Desktop\ilk adım proje\proje\proje\obj\Debug\proje.csprojResolveAssemblyReference.cache
+C:\Users\BozdemirHome\Desktop\ilk adım proje\proje\proje\obj\Debug\proje.dll
+C:\Users\BozdemirHome\Desktop\ilk adım proje\proje\proje\obj\Debug\proje.pdb
+D:\masaüstü\ilyas\DersNotları\2.Sınıf\2.sınıf Bahar Dönemi\internet programcılığı II\ilk adım proje\proje\proje\bin\proje.dll.config
+D:\masaüstü\ilyas\DersNotları\2.Sınıf\2.sınıf Bahar Dönemi\internet programcılığı II\ilk adım proje\proje\proje\bin\proje.dll
+D:\masaüstü\ilyas\DersNotları\2.Sınıf\2.sınıf Bahar Dönemi\internet programcılığı II\ilk adım proje\proje\proje\bin\proje.pdb
+D:\masaüstü\ilyas\DersNotları\2.Sınıf\2.sınıf Bahar Dönemi\internet programcılığı II\ilk adım proje\proje\proje\obj\Debug\proje.csproj.AssemblyReference.cache
+D:\masaüstü\ilyas\DersNotları\2.Sınıf\2.sınıf Bahar Dönemi\internet programcılığı II\ilk adım proje\proje\proje\obj\Debug\proje.csproj.CoreCompileInputs.cache
+D:\masaüstü\ilyas\DersNotları\2.Sınıf\2.sınıf Bahar Dönemi\internet programcılığı II\ilk adım proje\proje\proje\obj\Debug\proje.dll
+D:\masaüstü\ilyas\DersNotları\2.Sınıf\2.sınıf Bahar Dönemi\internet programcılığı II\ilk adım proje\proje\proje\obj\Debug\proje.pdb

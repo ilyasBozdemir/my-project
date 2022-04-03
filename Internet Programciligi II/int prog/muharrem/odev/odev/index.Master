@@ -1,0 +1,154 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="odev.index" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Royal Holiday Palace</title>
+    &nbsp;<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1 {
+            width: 100%;
+        }
+        .style2
+        {
+            height: 23px;
+        }
+        .style3
+        {
+            height: 46px;
+        }
+        .style4
+        {
+            height: 42px;
+        }
+        .auto-style2 {
+            width: 901px;
+            height: 280px;
+            margin-top: 0px;
+        }
+    </style>
+    <!-- Insert to your webpage before the </head> -->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
+       
+    
+</head>
+<body bgcolor="#99ccff" >
+  
+    <form id="form1" runat="server">
+    <div>
+    
+        <table class="style1" width="2000px" bgcolor="#99ccff" height="1000px">
+            <tr>
+                <td>
+                   <a href=Anasayfa.aspx><img alt="" src="resimler/logo.png" class="auto-style2" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=Anasayfa.aspx>ANASAYFA</a>&nbsp;&nbsp;<a href=Konaklama.aspx>KONAKLAMA </a>&nbsp;&nbsp; <a href=Odalar.aspx>ODALAR&nbsp;</a> <a href=Galeri.aspx>GALERİ</a> <a href="iletisim .aspx"> İLETİŞİM </a></td>
+            </tr>
+            <tr>
+                <td class="style3">
+     
+                 <div>
+                 
+                 
+                 
+                 
+                 
+                 <!-- Insert to your webpage where you want to display the slider -->
+    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:900px;margin:0px auto 48px;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/slider1.jpg" alt="slider1" />
+                </li>
+                <li><img src="images/slider2.jpg" alt="slider2" />
+                </li>
+                <li><img src="images/slider3.jpg" alt="slider3" />
+                </li>
+                <li><img src="images/slider4.jpg" alt="slider4" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="images/slider1-tn.jpg" alt="slider1" /></li>
+                <li><img src="images/slider2-tn.jpg" alt="slider2" /></li>
+                <li><img src="images/slider3-tn.jpg" alt="slider3" /></li>
+                <li><img src="images/slider4-tn.jpg" alt="slider4" /></li>
+            </ul>
+        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="jQuery Content Slider">jQuery Content Slider</a></div>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
+                 
+                 
+                 </div>
+        
+        
+        
+        
+        
+                    
+       
+             </td>
+             
+             
+             
+           
+             
+            </tr>
+       
+       
+       
+             <tr>
+       
+       
+            <td class="style4">
+            
+            
+             <div  align="center" style="  width:680px; margin-left:auto; margin-right:auto;">
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                 </asp:ContentPlaceHolder>
+          
+            </div>
+   
+            
+            </td>
+   
+              </tr>
+       
+ 
+            
+            <tr>
+                <td class="style2">
+               </td>
+            </tr>
+        </table>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+    
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </form>
+</body>
+</html>

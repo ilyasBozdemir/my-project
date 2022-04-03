@@ -1,0 +1,19 @@
+C:\Users\Nimet\Desktop\nimet ödev\odev\odev\bin\odev.dll
+C:\Users\Nimet\Desktop\nimet ödev\odev\odev\bin\odev.pdb
+C:\Users\Nimet\Desktop\nimet ödev\odev\odev\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Nimet\Desktop\nimet ödev\odev\odev\obj\Debug\odev.dll
+C:\Users\Nimet\Desktop\nimet ödev\odev\odev\obj\Debug\odev.pdb
+D:\nimet ödev\odev\odev\bin\odev.dll
+D:\nimet ödev\odev\odev\bin\odev.pdb
+D:\nimet ödev\odev\odev\obj\Debug\ResolveAssemblyReference.cache
+D:\nimet ödev\odev\odev\obj\Debug\odev.dll
+D:\nimet ödev\odev\odev\obj\Debug\odev.pdb
+C:\Users\BozdemirHome\Desktop\odev\odev\bin\odev.dll.config
+C:\Users\BozdemirHome\Desktop\odev\odev\bin\odev.dll
+C:\Users\BozdemirHome\Desktop\odev\odev\bin\odev.pdb
+C:\Users\BozdemirHome\Desktop\odev\odev\obj\Debug\odev.csprojResolveAssemblyReference.cache
+C:\Users\BozdemirHome\Desktop\odev\odev\obj\Debug\odev.dll
+C:\Users\BozdemirHome\Desktop\odev\odev\obj\Debug\odev.pdb
+C:\Users\BozdemirHome\Desktop\Yeni klasör (2)\odev\odev\obj\Debug\odev.csprojResolveAssemblyReference.cache
+C:\Users\BozdemirHome\Desktop\Yeni klasör (2)\odev\odev\obj\Debug\odev.dll
+C:\Users\BozdemirHome\Desktop\Yeni klasör (2)\odev\odev\obj\Debug\odev.pdb
