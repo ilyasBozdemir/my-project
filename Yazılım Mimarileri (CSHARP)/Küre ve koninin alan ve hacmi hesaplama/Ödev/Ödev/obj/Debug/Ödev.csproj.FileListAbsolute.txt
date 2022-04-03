@@ -1,0 +1,10 @@
+F:\C# Ödev\Ödev\Ödev\bin\Debug\Ödev.exe
+F:\C# Ödev\Ödev\Ödev\bin\Debug\Ödev.pdb
+F:\C# Ödev\Ödev\Ödev\obj\Debug\ResolveAssemblyReference.cache
+F:\C# Ödev\Ödev\Ödev\obj\Debug\Ödev.exe
+F:\C# Ödev\Ödev\Ödev\obj\Debug\Ödev.pdb
+E:\C# Ödev\Ödev\Ödev\obj\Debug\Ödev.exe
+E:\C# Ödev\Ödev\Ödev\bin\Debug\Ödev.exe
+E:\C# Ödev\Ödev\Ödev\bin\Debug\Ödev.pdb
+E:\C# Ödev\Ödev\Ödev\obj\Debug\ResolveAssemblyReference.cache
+E:\C# Ödev\Ödev\Ödev\obj\Debug\Ödev.pdb

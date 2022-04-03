@@ -1,0 +1,11 @@
+D:\Ders Tekrarlar\(Yazılım Mimarileri)C#\Ilk Ders\Ilk Ders\bin\Debug\Ilk Ders.exe
+D:\Ders Tekrarlar\(Yazılım Mimarileri)C#\Ilk Ders\Ilk Ders\bin\Debug\Ilk Ders.pdb
+D:\Ders Tekrarlar\(Yazılım Mimarileri)C#\Ilk Ders\Ilk Ders\obj\Debug\ResolveAssemblyReference.cache
+D:\Ders Tekrarlar\(Yazılım Mimarileri)C#\Ilk Ders\Ilk Ders\obj\Debug\Ilk Ders.exe
+D:\Ders Tekrarlar\(Yazılım Mimarileri)C#\Ilk Ders\Ilk Ders\obj\Debug\Ilk Ders.pdb
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Ders Tekrarlar\(Yazılım Mimarileri)C#\Ilk Ders\Ilk Ders\bin\Debug\Ilk Ders.exe
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Ders Tekrarlar\(Yazılım Mimarileri)C#\Ilk Ders\Ilk Ders\bin\Debug\Ilk Ders.pdb
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Ders Tekrarlar\(Yazılım Mimarileri)C#\Ilk Ders\Ilk Ders\obj\Debug\Ilk Ders.csproj.AssemblyReference.cache
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Ders Tekrarlar\(Yazılım Mimarileri)C#\Ilk Ders\Ilk Ders\obj\Debug\Ilk Ders.csproj.CoreCompileInputs.cache
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Ders Tekrarlar\(Yazılım Mimarileri)C#\Ilk Ders\Ilk Ders\obj\Debug\Ilk Ders.exe
+D:\masaüstü\ilyas\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Ders Tekrarlar\(Yazılım Mimarileri)C#\Ilk Ders\Ilk Ders\obj\Debug\Ilk Ders.pdb
