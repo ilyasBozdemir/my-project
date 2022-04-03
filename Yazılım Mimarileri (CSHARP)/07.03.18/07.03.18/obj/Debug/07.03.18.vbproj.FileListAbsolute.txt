@@ -1,0 +1,9 @@
+D:\Görsel III\07.03.18\07.03.18\bin\Debug\07.03.18.exe
+D:\Görsel III\07.03.18\07.03.18\bin\Debug\07.03.18.pdb
+D:\Görsel III\07.03.18\07.03.18\bin\Debug\07.03.18.xml
+D:\Görsel III\07.03.18\07.03.18\obj\Debug\_07._03._18.Form1.resources
+D:\Görsel III\07.03.18\07.03.18\obj\Debug\_07._03._18.Resources.resources
+D:\Görsel III\07.03.18\07.03.18\obj\Debug\07.03.18.vbproj.GenerateResource.Cache
+D:\Görsel III\07.03.18\07.03.18\obj\Debug\07.03.18.exe
+D:\Görsel III\07.03.18\07.03.18\obj\Debug\07.03.18.xml
+D:\Görsel III\07.03.18\07.03.18\obj\Debug\07.03.18.pdb
