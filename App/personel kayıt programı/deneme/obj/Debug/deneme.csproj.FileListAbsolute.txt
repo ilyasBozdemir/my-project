@@ -1,0 +1,30 @@
+C:\Users\İlyas70\Desktop\deneme\deneme\bin\Debug\deneme.exe.config
+C:\Users\İlyas70\Desktop\deneme\deneme\bin\Debug\deneme.exe
+C:\Users\İlyas70\Desktop\deneme\deneme\bin\Debug\deneme.pdb
+C:\Users\İlyas70\Desktop\deneme\deneme\obj\Debug\deneme.csprojResolveAssemblyReference.cache
+C:\Users\İlyas70\Desktop\deneme\deneme\obj\Debug\deneme.Form1.resources
+C:\Users\İlyas70\Desktop\deneme\deneme\obj\Debug\deneme.Properties.Resources.resources
+C:\Users\İlyas70\Desktop\deneme\deneme\obj\Debug\deneme.csproj.GenerateResource.Cache
+C:\Users\İlyas70\Desktop\deneme\deneme\obj\Debug\deneme.exe
+C:\Users\İlyas70\Desktop\deneme\deneme\obj\Debug\deneme.pdb
+C:\Users\İlyas70\Desktop\deneme\deneme\bin\Debug\Veritabanım.accdb
+C:\Users\İlyas70\Desktop\deneme\deneme\obj\Debug\deneme.Frmİstatistik.resources
+C:\Users\İlyas70\Desktop\deneme\deneme\obj\Debug\deneme.FrmGrafikler.resources
+C:\Users\İlyas70\Desktop\deneme\deneme\obj\Debug\deneme.FrmRaporlama.resources
+C:\Users\İlyas70\Desktop\deneme\deneme\obj\Debug\RdlCompile.cache
+C:\Users\İlyas70\Desktop\deneme\deneme\obj\Debug\RdlCompile.compiled
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\bin\Debug\deneme.exe.config
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\obj\Debug\deneme.exe
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\obj\Debug\deneme.pdb
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\bin\Debug\Veritabanım.accdb
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\bin\Debug\deneme.exe
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\bin\Debug\deneme.pdb
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\obj\Debug\deneme.csprojResolveAssemblyReference.cache
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\obj\Debug\deneme.Form1.resources
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\obj\Debug\deneme.FrmGrafikler.resources
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\obj\Debug\deneme.FrmRaporlama.resources
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\obj\Debug\deneme.Frmİstatistik.resources
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\obj\Debug\deneme.Properties.Resources.resources
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\obj\Debug\deneme.csproj.GenerateResource.Cache
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\obj\Debug\RdlCompile.cache
+C:\Users\Kmu\Desktop\personel kayıt programı\personel kayıt programı\deneme\obj\Debug\RdlCompile.compiled
