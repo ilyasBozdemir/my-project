@@ -1,0 +1,17 @@
+D:\C# Sorular\3.Hafta\8.Soru\8g\8g\8g\bin\Debug\8g.exe
+D:\C# Sorular\3.Hafta\8.Soru\8g\8g\8g\bin\Debug\8g.pdb
+D:\C# Sorular\3.Hafta\8.Soru\8g\8g\8g\obj\Debug\ResolveAssemblyReference.cache
+D:\C# Sorular\3.Hafta\8.Soru\8g\8g\8g\obj\Debug\8g.exe
+D:\C# Sorular\3.Hafta\8.Soru\8g\8g\8g\obj\Debug\8g.pdb
+D:\C# Sorular\3.Hafta(tamam)\8.Soru\8g\8g\8g\obj\Debug\8g.exe
+D:\C# Sorular\3.Hafta(tamam)\8.Soru\8g\8g\8g\obj\Debug\8g.pdb
+D:\C# Sorular\3.Hafta(tamam)\8.Soru\8g\8g\8g\bin\Debug\8g.exe
+D:\C# Sorular\3.Hafta(tamam)\8.Soru\8g\8g\8g\bin\Debug\8g.pdb
+D:\C# Sorular\3.Hafta(tamam)\8.Soru\8g\8g\8g\obj\Debug\ResolveAssemblyReference.cache
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\3.Hafta\8.Soru\8g\8g\8g\obj\Debug\8g.exe
+D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\3.Hafta\8.Soru\8g\8g\8g\obj\Debug\8g.pdb
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\3.Hafta\8.Soru\8g\8g\8g\bin\Debug\8g.exe
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\3.Hafta\8.Soru\8g\8g\8g\bin\Debug\8g.pdb
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\3.Hafta\8.Soru\8g\8g\8g\obj\Debug\8g.csprojResolveAssemblyReference.cache
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\3.Hafta\8.Soru\8g\8g\8g\obj\Debug\8g.exe
+D:\DersNotları\1.Sınıf\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\3.Hafta\8.Soru\8g\8g\8g\obj\Debug\8g.pdb
