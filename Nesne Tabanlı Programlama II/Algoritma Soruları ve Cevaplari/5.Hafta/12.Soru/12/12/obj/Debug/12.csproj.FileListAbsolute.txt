@@ -1,7 +1,0 @@
-D:\C# Sorular\5.Hafta\12.Soru\12\12\bin\Debug\12.exe
-D:\C# Sorular\5.Hafta\12.Soru\12\12\bin\Debug\12.pdb
-D:\C# Sorular\5.Hafta\12.Soru\12\12\obj\Debug\ResolveAssemblyReference.cache
-D:\C# Sorular\5.Hafta\12.Soru\12\12\obj\Debug\12.exe
-D:\C# Sorular\5.Hafta\12.Soru\12\12\obj\Debug\12.pdb
-D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\5.Hafta\12.Soru\12\12\obj\Debug\12.exe
-D:\DersNotları\1.sınıf bahar dönemi\Yazılım Mimarileri C#\Sorular\5.Hafta\12.Soru\12\12\obj\Debug\12.pdb
