@@ -10,7 +10,7 @@
 //Cevap10();
 //Cevap11();
 //Cevap12();
-Cevap13();
+//Cevap13();
 static void Cevap1()
 {
     /*1.	Klavyeden girilen sayının asal olup olmadığını 
