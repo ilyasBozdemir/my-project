@@ -1,1 +1,12 @@
-﻿
+﻿//Cevap1();
+//Cevap2();
+//Cevap3();
+//Cevap4();
+//Cevap5();
+//Cevap6();
+//Cevap7();
+//Cevap8();
+//Cevap9();
+//Cevap10();
+//Cevap11();
+//Cevap12();
