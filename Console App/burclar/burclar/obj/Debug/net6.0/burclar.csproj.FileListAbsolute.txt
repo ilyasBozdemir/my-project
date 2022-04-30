@@ -1,0 +1,15 @@
+D:\GitHub\my-project\Console App\burclar\burclar\bin\Debug\net6.0\burclar.exe
+D:\GitHub\my-project\Console App\burclar\burclar\bin\Debug\net6.0\burclar.deps.json
+D:\GitHub\my-project\Console App\burclar\burclar\bin\Debug\net6.0\burclar.runtimeconfig.json
+D:\GitHub\my-project\Console App\burclar\burclar\bin\Debug\net6.0\burclar.dll
+D:\GitHub\my-project\Console App\burclar\burclar\bin\Debug\net6.0\burclar.pdb
+D:\GitHub\my-project\Console App\burclar\burclar\obj\Debug\net6.0\burclar.csproj.AssemblyReference.cache
+D:\GitHub\my-project\Console App\burclar\burclar\obj\Debug\net6.0\burclar.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\my-project\Console App\burclar\burclar\obj\Debug\net6.0\burclar.AssemblyInfoInputs.cache
+D:\GitHub\my-project\Console App\burclar\burclar\obj\Debug\net6.0\burclar.AssemblyInfo.cs
+D:\GitHub\my-project\Console App\burclar\burclar\obj\Debug\net6.0\burclar.csproj.CoreCompileInputs.cache
+D:\GitHub\my-project\Console App\burclar\burclar\obj\Debug\net6.0\burclar.dll
+D:\GitHub\my-project\Console App\burclar\burclar\obj\Debug\net6.0\refint\burclar.dll
+D:\GitHub\my-project\Console App\burclar\burclar\obj\Debug\net6.0\burclar.pdb
+D:\GitHub\my-project\Console App\burclar\burclar\obj\Debug\net6.0\burclar.genruntimeconfig.cache
+D:\GitHub\my-project\Console App\burclar\burclar\obj\Debug\net6.0\ref\burclar.dll
