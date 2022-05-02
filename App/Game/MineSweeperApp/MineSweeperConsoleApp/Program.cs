@@ -1,4 +1,10 @@
 ﻿using MineSweeperApp;
 
-MineSweeper mine = new MineSweeper(4, 4);
-mine.Run(appType: AppType.ConsoleApp);
+MineSweeper ms = new MineSweeper(new Matrix(4, 4));
+ms.Run(appType: AppType.ConsoleApp);
+
+
+
+
+
+

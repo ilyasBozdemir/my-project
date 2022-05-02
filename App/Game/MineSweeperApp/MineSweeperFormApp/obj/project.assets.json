@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "MineSweeperApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MineSweeperApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MineSweeperApp.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MineSweeperApp/1.0.0": {
+      "type": "project",
+      "path": "../MineSweeperApp/MineSweeperApp.csproj",
+      "msbuildProject": "../MineSweeperApp/MineSweeperApp.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "MineSweeperApp >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\BozdemirHome\\.nuget\\packages\\": {},
@@ -41,7 +60,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GitHub\\my-project\\App\\Game\\MineSweeperApp\\MineSweeperApp\\MineSweeperApp.csproj": {
+              "projectPath": "D:\\GitHub\\my-project\\App\\Game\\MineSweeperApp\\MineSweeperApp\\MineSweeperApp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

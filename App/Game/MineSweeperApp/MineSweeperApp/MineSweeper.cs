@@ -3,37 +3,81 @@
     /** 
      * @author ilyas 
     **/
-    public enum AppType
+    
+    public partial class MineSweeper
     {
-        ConsoleApp,
-        FormApp
-    }
+        private Matrix _matrix;
 
-    public class MineSweeper
-    {
-        private int rowNumber { get; set; }
-        private int colNumber { get; set; }
-        private int elemanSayisi { get; set; }
-        private int mineCount { get; set; }
-        private int safeZoneCount { get; set; }
-
-        public MineSweeper(int _rowNumber, int _colNumber)
+        private int elemanSayisi,
+                    mineCount,
+                    safeZoneCount;
+        private int rndMaxValue;
+        private string[,] dataMatrix;
+        private string[,] mineMatrix;
+        private string brace = "===========================";
+       
+        private void RunConsoleApp()
         {
-            rowNumber = _rowNumber;
-            colNumber = _colNumber;
-            //
-            elemanSayisi = rowNumber * colNumber;
-            mineCount = (elemanSayisi / 4);
-            safeZoneCount = elemanSayisi - mineCount;
-            //
+            Place_a_Mine();
+            Console.ForegroundColor = ConsoleColor.White;
+            ShowMine();
+            //Seed();
+            Console.WriteLine("Mayın Tarlası Oyuna Hoşgeldiniz!");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            PrintField(dataMatrix);
+            Console.ForegroundColor = ConsoleColor.White;
 
+            int count = 0, row, col, score = 0;
 
-            //
+            while (count != safeZoneCount)
+            {
+                count++;
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                score = (count - 1) * 10;
+                string data = $"{safeZoneCount - count}/{safeZoneCount}";
+                Console.WriteLine(data);
+                Console.WriteLine($"Mayın Adedi : {mineCount} | Puan : {score}");
+
+                Console.ForegroundColor = ConsoleColor.White;
+
+                Console.WriteLine(brace);
+
+                Console.Write("Satır Giriniz : ");
+                row = int.Parse(Console.ReadLine());
+                Console.Write("Sütun Giriniz : ");
+                col = int.Parse(Console.ReadLine());
+
+                Console.WriteLine(brace);
+
+                Matrix mtrx = new Matrix(row, col);
+
+                if (!MineControl(mtrx))
+                {
+                    DataInput(mtrx, dataMatrix);
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    PrintField(dataMatrix);
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"Game Over! Puanınız : {score}");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    break;
+                    Console.ReadLine();
+                }
+            }
+            if (count == safeZoneCount)
+            {
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine($"Oyunu Kazandiniz! Puanınız : {score}");
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.ReadLine();
+            }
         }
-
-        public void Run(AppType appType)
+        private void RunFormApp()
         {
-
+            // soon
         }
     }
 }
