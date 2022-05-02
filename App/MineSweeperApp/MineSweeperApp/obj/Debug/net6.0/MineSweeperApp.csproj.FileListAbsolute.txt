@@ -1,0 +1,12 @@
+D:\GitHub\my-project\App\MineSweeperApp\MineSweeperApp\bin\Debug\net6.0\MineSweeperApp.deps.json
+D:\GitHub\my-project\App\MineSweeperApp\MineSweeperApp\bin\Debug\net6.0\MineSweeperApp.dll
+D:\GitHub\my-project\App\MineSweeperApp\MineSweeperApp\bin\Debug\net6.0\MineSweeperApp.pdb
+D:\GitHub\my-project\App\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\MineSweeperApp.csproj.AssemblyReference.cache
+D:\GitHub\my-project\App\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\MineSweeperApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\my-project\App\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\MineSweeperApp.AssemblyInfoInputs.cache
+D:\GitHub\my-project\App\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\MineSweeperApp.AssemblyInfo.cs
+D:\GitHub\my-project\App\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\MineSweeperApp.csproj.CoreCompileInputs.cache
+D:\GitHub\my-project\App\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\MineSweeperApp.dll
+D:\GitHub\my-project\App\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\refint\MineSweeperApp.dll
+D:\GitHub\my-project\App\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\MineSweeperApp.pdb
+D:\GitHub\my-project\App\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\ref\MineSweeperApp.dll
