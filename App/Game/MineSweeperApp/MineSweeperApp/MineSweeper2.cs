@@ -53,11 +53,6 @@ namespace MineSweeperApp
 
         public void Run(AppType appType)
         {
-            _IsDeveloper = true;
-            if (_IsDeveloper)
-            {
-                Console.WriteLine("---Geliştirici modunda açıldı---");
-            }
             switch (appType)
             {
                 case AppType.ConsoleApp:

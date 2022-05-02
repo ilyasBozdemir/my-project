@@ -18,6 +18,17 @@
         bool _IsDeveloper;
         private void RunConsoleApp()
         {
+            //
+            Console.WriteLine("Geliştirici modunda açmak ister misiniz e - h");
+            string result = Console.ReadLine().ToLower();
+            if (result == "e")
+            {
+                _IsDeveloper = true;
+                Console.WriteLine("---Geliştirici modunda açıldı---");
+            }
+            if (result == "h")
+                _IsDeveloper = false;
+            //
             Console.ForegroundColor = ConsoleColor.White;
             Place_a_Mine();
             ShowMine();
