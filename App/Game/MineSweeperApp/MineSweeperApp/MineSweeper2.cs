@@ -53,6 +53,11 @@ namespace MineSweeperApp
 
         public void Run(AppType appType)
         {
+            _IsDeveloper = true;
+            if (_IsDeveloper)
+            {
+                Console.WriteLine("---Geliştirici modunda açıldı---");
+            }
             switch (appType)
             {
                 case AppType.ConsoleApp:
@@ -66,10 +71,13 @@ namespace MineSweeperApp
 
         private void ShowMine()
         {
-            Console.WriteLine("Mayınların Konumu");
-            Console.ForegroundColor = ConsoleColor.Magenta;
-            PrintField(mineMatrix);
-            Console.ForegroundColor = ConsoleColor.White;
+            if (_IsDeveloper)
+            {
+                Console.WriteLine("Mayınların Konumu");
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                PrintField(mineMatrix);
+                Console.ForegroundColor = ConsoleColor.White;
+            }
         }
         private void Place_a_Mine()
         {
@@ -92,13 +100,15 @@ namespace MineSweeperApp
             //
             Seed(mineMatrix);
             //
-            Console.WriteLine("Mayınların tek boyutta ki konumu : ");
+            if (_IsDeveloper)
+                Console.WriteLine("Mayınların tek boyutta ki konumu : ");
             for (int i = 0; i < UniqueNumber.Length; i++)
             {
                 int number = UniqueNumber[i];
                 Matrix matrix = GetMatrix(number);
                 mineMatrix[matrix.row, matrix.col] = "*";
-                Console.WriteLine($"[{matrix.row},{matrix.col}]={number}");
+                if (_IsDeveloper)
+                    Console.WriteLine($"[{matrix.row},{matrix.col}] = {number}");
             }
             Console.WriteLine();
 
@@ -148,13 +158,28 @@ namespace MineSweeperApp
                 LeftTop(matrix),
                 RightTop(matrix),
                 LeftBottom(matrix),
-                RightBottom(matrix),
+                RightBottom(matrix)
             };
-            foreach (var durum in durumlar)
+           string[] yonler =
+           {
+                "Top()",
+                "Bottom()",
+                "Left()",
+                "Right()",
+                "LeftTop()",
+                "RightTop()",
+                "LeftBottom()",
+                "RightBottom()"
+            };
+       
+            for (int i = 0; i < durumlar.Length; i++)
             {
-                if (durum)
+                string yon = yonler[i];
+                bool durum = durumlar[i];
+                if (durumlar[i])
                     count++;
-                    Console.WriteLine(durum); 
+                if (_IsDeveloper)
+                    Console.WriteLine($"{yon} : {durum}");
             }
             dataMatrix[matrix.row, matrix.col] = count + "";
         }

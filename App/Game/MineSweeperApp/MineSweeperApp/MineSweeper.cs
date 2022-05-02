@@ -15,13 +15,13 @@
         private string[,] dataMatrix;
         private string[,] mineMatrix;
         private string brace = "===========================";
-       
+        bool _IsDeveloper;
         private void RunConsoleApp()
         {
-            Place_a_Mine();
             Console.ForegroundColor = ConsoleColor.White;
+            Place_a_Mine();
             ShowMine();
-            //Seed();
+
             Console.WriteLine("Mayın Tarlası Oyuna Hoşgeldiniz!");
             Console.ForegroundColor = ConsoleColor.Yellow;
             PrintField(dataMatrix);
