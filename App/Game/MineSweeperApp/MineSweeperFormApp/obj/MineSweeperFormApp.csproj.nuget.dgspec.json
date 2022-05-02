@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\my-project\\App\\MineSweeperApp\\MineSweeperFormApp\\MineSweeperFormApp.csproj": {}
+    "D:\\GitHub\\my-project\\App\\Game\\MineSweeperApp\\MineSweeperFormApp\\MineSweeperFormApp.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\my-project\\App\\MineSweeperApp\\MineSweeperFormApp\\MineSweeperFormApp.csproj": {
+    "D:\\GitHub\\my-project\\App\\Game\\MineSweeperApp\\MineSweeperFormApp\\MineSweeperFormApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\my-project\\App\\MineSweeperApp\\MineSweeperFormApp\\MineSweeperFormApp.csproj",
+        "projectUniqueName": "D:\\GitHub\\my-project\\App\\Game\\MineSweeperApp\\MineSweeperFormApp\\MineSweeperFormApp.csproj",
         "projectName": "MineSweeperFormApp",
-        "projectPath": "D:\\GitHub\\my-project\\App\\MineSweeperApp\\MineSweeperFormApp\\MineSweeperFormApp.csproj",
+        "projectPath": "D:\\GitHub\\my-project\\App\\Game\\MineSweeperApp\\MineSweeperFormApp\\MineSweeperFormApp.csproj",
         "packagesPath": "C:\\Users\\BozdemirHome\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\my-project\\App\\MineSweeperApp\\MineSweeperFormApp\\obj\\",
+        "outputPath": "D:\\GitHub\\my-project\\App\\Game\\MineSweeperApp\\MineSweeperFormApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aihGGz2Buz91p2AXt5ORPixlFjuRewi34/ggnQFMiK2ogQbU5e86HhRCdH+hlWWUydOL8gdn3T9LQSnuDu/rqg==",
+  "dgSpecHash": "vpr3Omwe2js/Ds/bpLbFa0pjP/lKYlrkeARJFw6ly3drwnFOM/rzSZT3cgROdiZjs0on1kRDBkjo7es/fjtjlg==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\my-project\\App\\MineSweeperApp\\MineSweeperFormApp\\MineSweeperFormApp.csproj",
+  "projectFilePath": "D:\\GitHub\\my-project\\App\\Game\\MineSweeperApp\\MineSweeperFormApp\\MineSweeperFormApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
