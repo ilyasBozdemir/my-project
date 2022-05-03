@@ -8,40 +8,63 @@ namespace MineSweeperApp
 {
     public enum AppType
     {
+        #region AppType
         ConsoleApp,
         FormApp
+        #endregion
     }
     public class Matrix
     {
+        #region Region Fields
         public int row;
         public int col;
+        #endregion
         public Matrix() { }
         public Matrix(int _row, int _col)
         {
+            #region Matrix
             this.row = _row;
             this.col = _col;
+            #endregion
         }
     }
+    #region class MineSweeper
     public partial class MineSweeper
     {
-        public MineSweeper(Matrix matrix)
+        #region Region Fields
+        private Matrix _matrix;
+        bool _IsDeveloper;
+        private int elemanSayisi,
+                    mineCount,
+                    safeZoneCount,
+                    rndMaxValue,
+                    inputRow,
+                    inputCol,
+                    score = 0,
+                    counter = 0,
+                    remainingNumber = 0;
+        private string brace = "===========================";
+        private string[,] dataMatrix,
+                          mineMatrix;
+        #endregion
+        public MineSweeper(Matrix matrix)//kurucu method ile ön tanımlamalar ayağa kaldırılıyor.
         {
+            #region MineSweeper
             this._matrix = matrix;
-
             elemanSayisi = _matrix.row * _matrix.col;
             mineCount = elemanSayisi / 4;
             safeZoneCount = elemanSayisi - mineCount;
             //
             dataMatrix = new string[_matrix.row, _matrix.col];
-
             mineMatrix = new string[_matrix.row, _matrix.col];
             //
             rndMaxValue = _matrix.row * _matrix.col;
-
             Seed(dataMatrix);
+            #endregion
         }
-        private void Seed(string[,] matrix)
+        private void Seed(string[,] matrix)//matrixleri besleme alanı
         {
+            #region Region Seed
             for (int i = 0; i < _matrix.row; i++)
             {
                 for (int j = 0; j < _matrix.col; j++)
@@ -49,10 +72,12 @@ namespace MineSweeperApp
                     matrix[i, j] = "-";
                 }
             }
+            #endregion
         }
 
         public void Run(AppType appType)
         {
+            #region Region Run
             switch (appType)
             {
                 case AppType.ConsoleApp:
@@ -62,10 +87,12 @@ namespace MineSweeperApp
                     RunFormApp();
                     break;
             }
+            #endregion
         }
 
         private void ShowMine()
         {
+            #region ShowMine
             if (_IsDeveloper)
             {
                 Console.WriteLine("Mayınların Konumu");
@@ -73,16 +100,20 @@ namespace MineSweeperApp
                 PrintField(mineMatrix);
                 Console.ForegroundColor = ConsoleColor.White;
             }
+            #endregion
         }
+
+        private int GetScore(int counter) => (counter - 1) * 10;
+
         private void Place_a_Mine()
         {
-            int rndPoint, x = 0, y = 0, index = 0;
+            #region Region Place a Mine
+            int rndPoint, index = 0;
             int[] UniqueNumber = new int[mineCount];
             Random rnd = new Random(DateTime.Now.Millisecond);
-            //
-            for (int i = 0; i < rndMaxValue; i++)
-            {
-
+            #region Unique number designation
+            for (int i = 0; i < rndMaxValue; i++)//maksat aynı sayılar üretilmesinin önüne geçmek
+            {// o yüzden satır sütun çarpımı kadar random sayı aldık
                 rndPoint = rnd.Next(rndMaxValue);
                 if (!UniqueNumber.Contains(rndPoint))
                 {
@@ -91,44 +122,61 @@ namespace MineSweeperApp
                     UniqueNumber[index] = rndPoint;
                     index++;
                 }
-            }
+            } 
+            #endregion
             //
-            Seed(mineMatrix);
+            Seed(mineMatrix);//tümüne '-' ekleme işi
             //
             if (_IsDeveloper)
-                Console.WriteLine("Mayınların tek boyutta ki konumu : ");
+            {
+                Console.Clear();
+                Console.WriteLine("Mayınların konumu : ");
+            }
             for (int i = 0; i < UniqueNumber.Length; i++)
             {
                 int number = UniqueNumber[i];
-                Matrix matrix = GetMatrix(number);
-                mineMatrix[matrix.row, matrix.col] = "*";
+                Matrix matrix = GetNumberToMatrix(number);
+                mineMatrix[matrix.row, matrix.col] = "*";//mayın olanlara '*' ekleme işi
                 if (_IsDeveloper)
                     Console.WriteLine($"[{matrix.row},{matrix.col}] = {number}");
             }
             Console.WriteLine();
-
+            #endregion
         }
-        Matrix GetMatrix(int number)
+        Matrix GetNumberToMatrix(int number)
         {
-            Matrix matrix = new Matrix();
-            int _number = 0;
+            #region Get Number to Matrix
+            //örnek 10 sayısını satır sütunu belli olan tabloda ki satır sütun karşılıgını alıyoruz.
+            int _number = 0, _row = 0, _col = 0;
             for (int row = 0; row < _matrix.row; row++)
-            {
                 for (int col = 0; col < _matrix.col; col++)
                 {
                     if (number == _number)
                     {
-                        matrix.row = row;
-                        matrix.col = col;
+                        _row = row;
+                        _col = col;
                     }
                     _number++;
                 }
-            }
-            return matrix;
+            return new Matrix(_row, _col);
+            #endregion
+        }
+        private string GetMatrix(string[,] matrix)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            return sb.ToString();
+        }
+        private void PrintField(string matrix)
+        {
+            Console.WriteLine();
+            Console.Write($"{matrix} ");
+            Console.WriteLine();
         }
 
         private void PrintField(string[,] matrix)
         {
+            #region print field
             Console.WriteLine();
             for (int i = 0; i <= matrix.GetUpperBound(0); i++)
             {
@@ -139,13 +187,29 @@ namespace MineSweeperApp
                 Console.WriteLine();
             }
             Console.WriteLine();
-        }
-        private bool MineControl(Matrix mtrx) => mineMatrix[mtrx.row, mtrx.col] == "*";
-        private void DataInput(Matrix matrix, string[,] dataMatrix)
-        {
-            int count = 0;
-            dataMatrix[matrix.row, matrix.col] = count + "";
+            #endregion
         }
 
+        private bool MineControl(Matrix mtrx) => mineMatrix[mtrx.row, mtrx.col] == "*";
+
+        private void DataInput(Matrix matrix, string[,] dataMatrix)
+           => dataMatrix[matrix.row, matrix.col] = CheckPoint(matrix, dataMatrix).ToString();
+
+        private int CheckPoint(Matrix matrix, string[,] dataMatrix)
+        {
+            #region CheckPoint
+            //bu method seçilen satır sütunda odan küçük ve max değerden fazla değer olma durumlarını
+            //ve de sağ-sol-yukarı-aşağı-çapraz birimlerde mayın kontrolü yapılmaktadır.
+            int count = 0, x = matrix.row, y = matrix.col;
+
+            if (true)
+            {
+
+            }
+
+            return count;
+            #endregion
+        }
     }
+    #endregion
 }

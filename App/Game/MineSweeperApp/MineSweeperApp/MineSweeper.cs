@@ -3,22 +3,11 @@
     /** 
      * @author ilyas 
     **/
-    
     public partial class MineSweeper
     {
-        private Matrix _matrix;
-
-        private int elemanSayisi,
-                    mineCount,
-                    safeZoneCount;
-        private int rndMaxValue;
-        private string[,] dataMatrix;
-        private string[,] mineMatrix;
-        private string brace = "===========================";
-        bool _IsDeveloper;
         private void RunConsoleApp()
         {
-            //
+            #region isDeveloper
             Console.WriteLine("Geliştirici modunda açmak ister misiniz e - h");
             string result = Console.ReadLine().ToLower();
             if (result == "e")
@@ -28,39 +17,40 @@
             }
             if (result == "h")
                 _IsDeveloper = false;
-            //
+            #endregion
+            #region game started
             Console.ForegroundColor = ConsoleColor.White;
             Place_a_Mine();
             ShowMine();
-
             Console.WriteLine("Mayın Tarlası Oyuna Hoşgeldiniz!");
             Console.ForegroundColor = ConsoleColor.Yellow;
             PrintField(dataMatrix);
             Console.ForegroundColor = ConsoleColor.White;
-
-            int count = 0, row, col, score = 0;
-
-            while (count != safeZoneCount)
+           
+            while (counter != safeZoneCount)//sayac mayınsız bölge sayısı oluncaya kadar devam et
             {
-                count++;
+                counter++;
+
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                score = (count - 1) * 10;
-                string data = $"{safeZoneCount - count}/{safeZoneCount}";
-                Console.WriteLine(data);
+
+                remainingNumber = safeZoneCount - counter;//kalan hakkı temsil eder.
+
+                score = GetScore(counter);
+                //oynandığı başarılı sayıyı alır bir puan temsil eden sayı döndürür.
+
+                Console.WriteLine($"{remainingNumber}/{safeZoneCount}");// kalan hak / max hak
                 Console.WriteLine($"Mayın Adedi : {mineCount} | Puan : {score}");
-
                 Console.ForegroundColor = ConsoleColor.White;
-
-                Console.WriteLine(brace);
+                Console.WriteLine(brace);//brace ayraç atmak adına
 
                 Console.Write("Satır Giriniz : ");
-                row = int.Parse(Console.ReadLine());
+                inputRow = int.Parse(Console.ReadLine());
                 Console.Write("Sütun Giriniz : ");
-                col = int.Parse(Console.ReadLine());
+                inputCol = int.Parse(Console.ReadLine());
 
                 Console.WriteLine(brace);
 
-                Matrix mtrx = new Matrix(row, col);
+                Matrix mtrx = new Matrix(inputRow, inputCol);
 
                 if (!MineControl(mtrx))
                 {
@@ -78,13 +68,14 @@
                     Console.ReadLine();
                 }
             }
-            if (count == safeZoneCount)
+            if (counter == safeZoneCount)//burda remainingNumber değişkeni 0 olunca aynı anlama gelir
             {
                 Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine($"Oyunu Kazandiniz! Puanınız : {score}");
+                Console.WriteLine($"Tebrikler Oyunu Kazandiniz! Puanınız : {score}");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.ReadLine();
             }
+            #endregion
         }
         private void RunFormApp()
         {
