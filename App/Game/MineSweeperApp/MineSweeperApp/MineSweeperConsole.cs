@@ -39,7 +39,7 @@ namespace MineSweeperApp
                 GameInfoPrint();
                 Matrix mtrx = GetRowCol();
 
-                if (DataComparison(mtrx))
+                if (RestrictData(mtrx))
                 {
                     if (!MineControl(mtrx))///<summary>!MineControl(mtrx) yani mayına basmamıssak</summary>
                     {
@@ -98,7 +98,7 @@ namespace MineSweeperApp
             #region GameInfoPrint
             Console.ForegroundColor = ConsoleColor.Yellow;
             remainingNumber = safeZoneCount - counter;
-            Console.WriteLine($"{remainingNumber}/{safeZoneCount}");
+            Console.WriteLine($"      [{counter}/{safeZoneCount}]");
             Console.WriteLine($"Mayın Adedi : {mineCount} | Puan : {score}");
             Console.ForegroundColor = ConsoleColor.White;
             #endregion
@@ -148,7 +148,8 @@ namespace MineSweeperApp
         /// </summary>
         private void AskForDeveloperMode()
         {
-            #region AskForDeveloperMode
+            #region AskForDeveloperMode 
+            _IsDeveloper = false;
             Console.WriteLine("Geliştirici modunda açmak ister misiniz e - h");
             string result = Console.ReadLine();
             if (result.ToLower() == "e")
@@ -156,8 +157,6 @@ namespace MineSweeperApp
                 _IsDeveloper = true;
                 Console.WriteLine("---Geliştirici modunda açıldı---");
             }
-            if (result.ToLower() == "h")
-                _IsDeveloper = false;
             #endregion
         }
 

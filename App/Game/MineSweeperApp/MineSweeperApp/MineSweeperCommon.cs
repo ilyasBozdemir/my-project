@@ -9,18 +9,18 @@ namespace MineSweeperApp
     /// <summary>
     /// burası hem console hem form platformu için ortak olan methodları barındırır.
     /// </summary>
- 
+
     public partial class MineSweeper
     {
         /// <summary>
-          /// oyun alanının 
-          /// satır sütun temsil eden matrix değerleri alır.
-          /// ve bu matrix değerinin içerisini doldurur.
-          /// </summary>
-          /// <param name="matrix">
-          /// matrix değerinin maksimum row,col değerine kadar varsayılan oyun alanı olarak
-          /// '-' karakteri ile besler
-          /// </param>
+        /// oyun alanının 
+        /// satır sütun temsil eden matrix değerleri alır.
+        /// ve bu matrix değerinin içerisini doldurur.
+        /// </summary>
+        /// <param name="matrix">
+        /// matrix değerinin maksimum row,col değerine kadar varsayılan oyun alanı olarak
+        /// '-' karakteri ile besler
+        /// </param>
         private void Seed(string[,] matrix)
         {
             #region Region Seed
@@ -32,15 +32,15 @@ namespace MineSweeperApp
                 }
             }
             #endregion
-        }  
+        }
         /// <summary>
-           /// çift boyutlu matrix dizisini alır. Tek boyutlu metine çevirir.
-           /// <seealso cref="matrix"/>
-           /// </summary>
-           /// <param name="matrix">cift boyutlu diziyi temsil eden matrix dizisi</param>
-           /// <returns>
-           /// Tek boyutlu olarak metinsel ifade döndürür.
-           /// </returns>
+        /// çift boyutlu matrix dizisini alır. Tek boyutlu metine çevirir.
+        /// <seealso cref="matrix"/>
+        /// </summary>
+        /// <param name="matrix">cift boyutlu diziyi temsil eden matrix dizisi</param>
+        /// <returns>
+        /// Tek boyutlu olarak metinsel ifade döndürür.
+        /// </returns>
         private string GetMatrix(string[,] matrix)
         {
             #region GetMatrix
@@ -64,7 +64,7 @@ namespace MineSweeperApp
         /// mayın varsa true, mayın yoksa false döner.
         /// </returns>
         private bool MineControl(Matrix mtrx) => mineMatrix[mtrx.row, mtrx.col] == mine;
-               
+
         /// <summary>
         /// Bir nevi tek boyutlu sayıyı çift boyutlu sayıya çevirmek için yazılmıştır.
         /// </summary>
@@ -177,10 +177,10 @@ namespace MineSweeperApp
         /// <param name="dataMatrix">
         /// oyun matrixinde ki alana mayın sayısını eklemek adına.
         /// </param>
-        private void DataInput(Matrix matrix, string[,] dataMatrix,out bool state)
+        private void DataInput(Matrix matrix, string[,] dataMatrix, out bool state)
         {
             state = dataMatrix[matrix.row, matrix.col] == minelessShadow;
-            dataMatrix[matrix.row, matrix.col] = CheckPoint(matrix, mineMatrix).ToString();
+            dataMatrix[matrix.row, matrix.col] = CheckPoint(matrix).ToString();
         }
         /// <summary>
         /// <seealso cref="DataInput(Matrix, string[,])"/> methodunu yardımcı methodu olması için yazılmıştır.
@@ -190,45 +190,79 @@ namespace MineSweeperApp
         /// <param name="matrix">
         /// ikinci paramtrede ki matrix'te kontrol sağlamak için matrix(row,col) değerini alır. 
         /// </param>
-        /// <param name="dataMatrix">
-        /// oyun alanını temsil eden matrix yapısını alır.
-        /// </param>
         /// <returns>
         /// Seçilen bölgede mayın yoksa mayın sayısını döndürür.
         /// </returns>
-        private int CheckPoint(Matrix matrix, string[,] dataMatrix)
+        private int CheckPoint(Matrix matrix)
         {
             #region CheckPoint
             int count = 0, _row = matrix.row, _col = matrix.col;
 
-            if (DataComparison(matrix))
+            #region top
+            bool top = MineControl(new Matrix(SmallNumber(_row), _col));
+            #endregion
+
+            #region bottom
+            bool bottom = MineControl(new Matrix(BigNumber(_row, _matrix.row), _col));
+            #endregion
+
+            #region left
+            bool left = MineControl(new Matrix(_row, SmallNumber(_col)));
+            #endregion
+
+            #region right
+            bool right = MineControl(new Matrix(_row, BigNumber(_col, _matrix.col)));
+            #endregion
+
+            #region topLeft
+            bool topLeft = MineControl(new Matrix(SmallNumber(_row), SmallNumber(_col)));
+            #endregion
+
+            #region topRight
+            bool topRight = MineControl(new Matrix(SmallNumber(_row), BigNumber(_col, _matrix.col)));
+            #endregion
+
+            #region bottomLeft
+            bool bottomLeft = MineControl(new Matrix(BigNumber(_row, _matrix.row), SmallNumber(_col)));
+            #endregion
+
+            #region bottomRight
+            bool bottomRight = MineControl(new Matrix(BigNumber(_row, _matrix.row), BigNumber(_col, _matrix.col)));
+            #endregion
+
+            bool[] states = { top, bottom, left, right, topLeft, topRight, bottomLeft, bottomRight };
+            string[] directions = { "top", "bottom", "left", "right", "top Left", "top Right", "bottom Left", "bottom Right" };
+            
+            for (int i = 0; i < states.Length; i++)
             {
-
+                if (states[i])
+                    count++;
+                if (_IsDeveloper)
+                    Console.WriteLine($"{directions[i].ToLower()} => {states[i]}");
             }
-            else
-            {
-
-            }
-
             return count;
             #endregion
         }
-
         /// <summary>
         /// 
         /// </summary>
         /// <param name="mtrx"></param>
         /// <returns></returns>
-        private bool DataComparison(Matrix mtrx)
+        private bool RestrictData(Matrix mtrx)
         {
-            bool c = mtrx.col < _matrix.col;
-            bool c2 = mtrx.row < _matrix.row;
-            bool c3 = mtrx.row >= 0;
-            bool c4 = mtrx.row >= 0;
+            #region RestrictData
 
-            return c && c2 && c3 && c4;
+            return mtrx.col < _matrix.col 
+                && mtrx.row < _matrix.row 
+                && mtrx.row >= 0 
+                && mtrx.col >= 0;
+            #endregion
         }
+        private int BigNumber(int Number, int maxValue) =>
+             Number + 1 >= maxValue ? maxValue : Number + 1;
 
-
+        private int SmallNumber(int Number) =>
+             Number - 1 <= 0 ? 0 : Number - 1;
+        
     }
 }
