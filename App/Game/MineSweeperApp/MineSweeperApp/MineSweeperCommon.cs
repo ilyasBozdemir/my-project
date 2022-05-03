@@ -28,7 +28,7 @@ namespace MineSweeperApp
             {
                 for (int j = 0; j < _matrix.col; j++)
                 {
-                    matrix[i, j] = "-";
+                    matrix[i, j] = minelessShadow;
                 }
             }
             #endregion
@@ -63,7 +63,7 @@ namespace MineSweeperApp
         /// <returns>
         /// mayın varsa true, mayın yoksa false döner.
         /// </returns>
-        private bool MineControl(Matrix mtrx) => mineMatrix[mtrx.row, mtrx.col] == "*";
+        private bool MineControl(Matrix mtrx) => mineMatrix[mtrx.row, mtrx.col] == mine;
                
         /// <summary>
         /// Bir nevi tek boyutlu sayıyı çift boyutlu sayıya çevirmek için yazılmıştır.
@@ -107,7 +107,7 @@ namespace MineSweeperApp
         /// <returns>
         ///Puan olarak counter ve coefficient parametrelerinin sonucu döndürür.
         /// </returns>
-        private int GetScore(int counter, int coefficient = 10) => (counter) * coefficient;
+        private int GetScore(int counter, int coefficient = 10) => (counter + 1) * coefficient;
 
         /// <summary>
         /// bu alan ekranda mayınların konumu göstermek içindir.
@@ -159,7 +159,7 @@ namespace MineSweeperApp
             {
                 int number = UniqueNumber[i];
                 Matrix matrix = GetNumberToMatrix(number);
-                mineMatrix[matrix.row, matrix.col] = "*";//mayın olanlara '*' ekleme işi
+                mineMatrix[matrix.row, matrix.col] = mine;//mayın olanlara '*' ekleme işi
                 if (_IsDeveloper)
                     Console.WriteLine($"[{matrix.row},{matrix.col}] = {number}");
             }
@@ -177,10 +177,11 @@ namespace MineSweeperApp
         /// <param name="dataMatrix">
         /// oyun matrixinde ki alana mayın sayısını eklemek adına.
         /// </param>
-        private void DataInput(Matrix matrix, string[,] dataMatrix)
-           => dataMatrix[matrix.row, matrix.col] = CheckPoint(matrix, dataMatrix).ToString();
-
-
+        private void DataInput(Matrix matrix, string[,] dataMatrix,out bool state)
+        {
+            state = dataMatrix[matrix.row, matrix.col] == minelessShadow;
+            dataMatrix[matrix.row, matrix.col] = CheckPoint(matrix, mineMatrix).ToString();
+        }
         /// <summary>
         /// <seealso cref="DataInput(Matrix, string[,])"/> methodunu yardımcı methodu olması için yazılmıştır.
         /// Bu method seçilen satır sütunda odan küçük ve max değerden fazla değer olma durumlarını
@@ -199,94 +200,35 @@ namespace MineSweeperApp
         {
             #region CheckPoint
             int count = 0, _row = matrix.row, _col = matrix.col;
-            bool[] durumlar = { Top(matrix, dataMatrix), Bottom(matrix, dataMatrix), Left(matrix, dataMatrix), Right(matrix, dataMatrix), LeftTop(matrix, dataMatrix), RightTop(matrix, dataMatrix), LeftBottom(matrix, dataMatrix), RightBottom(matrix, dataMatrix) };
-            string[] yonler = { $"Top({_row},{_col})", $"Bottom({_row},{_col})", $"Left({_row},{_col})", $"Right({_row},{_col})", $"LeftTop({_row},{_col})", $"RightTop({_row},{_col})", $"LeftBottom({_row},{_col})", $"RightBottom({_row},{_col})" };
-            for (int i = 0; i < durumlar.Length; i++)
+
+            if (DataComparison(matrix))
             {
-                string yon = yonler[i];
-                bool durum = durumlar[i];
-                if (durumlar[i])
-                    count++;
-                if (_IsDeveloper)
-                    Console.WriteLine($"{yon} : {durum}");
+
             }
+            else
+            {
+
+            }
+
             return count;
             #endregion
         }
-        private bool Top(Matrix matrix, string[,] dataMatrix)
-        {
-            
-            if (true)
-            {
 
-            }
-            return false;
-        }
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="matrix"></param>
-        /// <param name="dataMatrix"></param>
+        /// <param name="mtrx"></param>
         /// <returns></returns>
-        private bool Bottom(Matrix matrix, string[,] dataMatrix)
+        private bool DataComparison(Matrix mtrx)
         {
-            return false;
-        }
-        private bool Left(Matrix matrix, string[,] dataMatrix)
-        {
-            return false;
-        }
-        private bool Right(Matrix matrix, string[,] dataMatrix)
-        {
-            return false;
-        }
-        private bool LeftTop(Matrix matrix, string[,] dataMatrix)
-        {
-            return false;
-        }
-        private bool RightTop(Matrix matrix, string[,] dataMatrix)
-        {
-            return false;
-        }
-        private bool LeftBottom(Matrix matrix, string[,] dataMatrix)
-        {
-            return false;
-        }
-        private bool RightBottom(Matrix matrix, string[,] dataMatrix)
-        {
-            return false;
-        }
-       
+            bool c = mtrx.col < _matrix.col;
+            bool c2 = mtrx.row < _matrix.row;
+            bool c3 = mtrx.row >= 0;
+            bool c4 = mtrx.row >= 0;
 
-        /// <summary>
-        /// bir eksiğinin 0dan küçük olup olmadığını temsil eden methoddur.
-        /// </summary>
-        /// <param name="i"> 
-        /// /// sayıyı alır sayının bir eksiği 0 veya 0'dan küçükse
-        /// geriye 0 döndürür.değilse sayının -1 değerini döndürür.
-        /// </param>
-        /// <returns>
-        /// verilen sayının 0 ve 0'dan büyük olcak şekilde geriye bir eksiğini döndürür.
-        /// </returns>
-        private int SmallControl(int i)
-         => (i - 1 <= 0) ? 0 : i - 1;
+            return c && c2 && c3 && c4;
+        }
 
-        /// <summary>
-        /// bir fazlasının ikinci parametredeki sayıdan büyük olma durumu 
-        /// kontrol eden methoddur.
-        /// </summary>
-        /// <param name="i">
-        /// sayı alır ve ikinci parametreye göre kontrolü yapılır.
-        /// </param>
-        /// <param name="maxValue">
-        /// maximum sayının sınırını temsil eden sayı alır
-        /// </param>
-        /// <returns>
-        /// sayıyı alır sayının bir fazlası maxValue veya maxValue'dan büyükse
-        /// geriye maxValue döndürür.değilse sayının +1 değerini döndürür. 
-        /// </returns>
-        private int BigControl(int i, int maxValue)
-            => (i + 1 >= maxValue) ? maxValue : i + 1;
 
     }
 }

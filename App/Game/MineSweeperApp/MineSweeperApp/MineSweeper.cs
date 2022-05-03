@@ -12,7 +12,8 @@
     {
         #region Region Fields
         private Matrix _matrix;
-        bool _IsDeveloper;
+        bool _IsDeveloper,
+             _state;
         private int elemanSayisi,
                     mineCount,
                     safeZoneCount,
@@ -25,6 +26,7 @@
         private string brace = "===========================";
         private string[,] dataMatrix,
                           mineMatrix;
+        private string mine = "*", minelessShadow = "-";
         #endregion
 
         /// <summary>
