@@ -64,20 +64,7 @@ namespace MineSweeperApp
         /// mayın varsa true, mayın yoksa false döner.
         /// </returns>
         private bool MineControl(Matrix mtrx) => mineMatrix[mtrx.row, mtrx.col] == "*";
-
-        /// <summary>
-        /// bu method kullanıcının seçtiği row,col değerine 1 birim çevresinde ki
-        /// mayınların sayısını seçilen alana yazdırmak için kullanılmaktadır.
-        /// </summary>
-        /// <param name="matrix">
-        /// kullanıcının seçtiği matrix(row,col) değeri
-        /// </param>
-        /// <param name="dataMatrix">
-        /// oyun matrixinde ki alana mayın sayısını eklemek adına.
-        /// </param>
-        private void DataInput(Matrix matrix, string[,] dataMatrix)
-           => dataMatrix[matrix.row, matrix.col] = CheckPoint(matrix, dataMatrix).ToString();
-
+               
         /// <summary>
         /// Bir nevi tek boyutlu sayıyı çift boyutlu sayıya çevirmek için yazılmıştır.
         /// </summary>
@@ -181,6 +168,20 @@ namespace MineSweeperApp
         }
 
         /// <summary>
+        /// bu method kullanıcının seçtiği row,col değerine 1 birim çevresinde ki
+        /// mayınların sayısını seçilen alana yazdırmak için kullanılmaktadır.
+        /// </summary>
+        /// <param name="matrix">
+        /// kullanıcının seçtiği matrix(row,col) değeri
+        /// </param>
+        /// <param name="dataMatrix">
+        /// oyun matrixinde ki alana mayın sayısını eklemek adına.
+        /// </param>
+        private void DataInput(Matrix matrix, string[,] dataMatrix)
+           => dataMatrix[matrix.row, matrix.col] = CheckPoint(matrix, dataMatrix).ToString();
+
+
+        /// <summary>
         /// <seealso cref="DataInput(Matrix, string[,])"/> methodunu yardımcı methodu olması için yazılmıştır.
         /// Bu method seçilen satır sütunda odan küçük ve max değerden fazla değer olma durumlarını
         /// ve de sağ-sol-yukarı-aşağı-çapraz birimlerde mayın kontrolü yapılmaktadır.
@@ -197,16 +198,95 @@ namespace MineSweeperApp
         private int CheckPoint(Matrix matrix, string[,] dataMatrix)
         {
             #region CheckPoint
-
-            int count = 0, x = matrix.row, y = matrix.col;
-
+            int count = 0, _row = matrix.row, _col = matrix.col;
+            bool[] durumlar = { Top(matrix, dataMatrix), Bottom(matrix, dataMatrix), Left(matrix, dataMatrix), Right(matrix, dataMatrix), LeftTop(matrix, dataMatrix), RightTop(matrix, dataMatrix), LeftBottom(matrix, dataMatrix), RightBottom(matrix, dataMatrix) };
+            string[] yonler = { $"Top({_row},{_col})", $"Bottom({_row},{_col})", $"Left({_row},{_col})", $"Right({_row},{_col})", $"LeftTop({_row},{_col})", $"RightTop({_row},{_col})", $"LeftBottom({_row},{_col})", $"RightBottom({_row},{_col})" };
+            for (int i = 0; i < durumlar.Length; i++)
+            {
+                string yon = yonler[i];
+                bool durum = durumlar[i];
+                if (durumlar[i])
+                    count++;
+                if (_IsDeveloper)
+                    Console.WriteLine($"{yon} : {durum}");
+            }
+            return count;
+            #endregion
+        }
+        private bool Top(Matrix matrix, string[,] dataMatrix)
+        {
+            
             if (true)
             {
 
             }
-
-            return count;
-            #endregion
+            return false;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="matrix"></param>
+        /// <param name="dataMatrix"></param>
+        /// <returns></returns>
+        private bool Bottom(Matrix matrix, string[,] dataMatrix)
+        {
+            return false;
+        }
+        private bool Left(Matrix matrix, string[,] dataMatrix)
+        {
+            return false;
+        }
+        private bool Right(Matrix matrix, string[,] dataMatrix)
+        {
+            return false;
+        }
+        private bool LeftTop(Matrix matrix, string[,] dataMatrix)
+        {
+            return false;
+        }
+        private bool RightTop(Matrix matrix, string[,] dataMatrix)
+        {
+            return false;
+        }
+        private bool LeftBottom(Matrix matrix, string[,] dataMatrix)
+        {
+            return false;
+        }
+        private bool RightBottom(Matrix matrix, string[,] dataMatrix)
+        {
+            return false;
+        }
+       
+
+        /// <summary>
+        /// bir eksiğinin 0dan küçük olup olmadığını temsil eden methoddur.
+        /// </summary>
+        /// <param name="i"> 
+        /// /// sayıyı alır sayının bir eksiği 0 veya 0'dan küçükse
+        /// geriye 0 döndürür.değilse sayının -1 değerini döndürür.
+        /// </param>
+        /// <returns>
+        /// verilen sayının 0 ve 0'dan büyük olcak şekilde geriye bir eksiğini döndürür.
+        /// </returns>
+        private int SmallControl(int i)
+         => (i - 1 <= 0) ? 0 : i - 1;
+
+        /// <summary>
+        /// bir fazlasının ikinci parametredeki sayıdan büyük olma durumu 
+        /// kontrol eden methoddur.
+        /// </summary>
+        /// <param name="i">
+        /// sayı alır ve ikinci parametreye göre kontrolü yapılır.
+        /// </param>
+        /// <param name="maxValue">
+        /// maximum sayının sınırını temsil eden sayı alır
+        /// </param>
+        /// <returns>
+        /// sayıyı alır sayının bir fazlası maxValue veya maxValue'dan büyükse
+        /// geriye maxValue döndürür.değilse sayının +1 değerini döndürür. 
+        /// </returns>
+        private int BigControl(int i, int maxValue)
+            => (i + 1 >= maxValue) ? maxValue : i + 1;
+
     }
 }
