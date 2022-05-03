@@ -1,85 +1,52 @@
 ﻿namespace MineSweeperApp
 {
-    /** 
-     * @author ilyas 
-    **/
+    ///<author>
+    ///ilyas bozdemir
+    ///</author>
+
+    ///<summary>
+    ///burası kurucu methodun ve field'ların olduğu olduğu kısmi sınıftır.
+    ///</summary>
+
     public partial class MineSweeper
     {
-        private void RunConsoleApp()
+        #region Region Fields
+        private Matrix _matrix;
+        bool _IsDeveloper;
+        private int elemanSayisi,
+                    mineCount,
+                    safeZoneCount,
+                    rndMaxValue,
+                    inputRow,
+                    inputCol,
+                    score = 0,
+                    counter = 0,
+                    remainingNumber = 0;
+        private string brace = "===========================";
+        private string[,] dataMatrix,
+                          mineMatrix;
+        #endregion
+
+        /// <summary>
+        /// MineSweeper sınıfı bir mayın tarlası oyununu temsil eden sınıftır.
+        /// </summary>
+        /// <param name="matrix">
+        /// matrix değeri row,col adedini belirler oyun alanını büyüklüğünü temsilen
+        /// </param>
+        public MineSweeper(Matrix matrix)//kurucu method ile ön tanımlamalar ayağa kaldırılıyor.
         {
-            #region isDeveloper
-            Console.WriteLine("Geliştirici modunda açmak ister misiniz e - h");
-            string result = Console.ReadLine().ToLower();
-            if (result == "e")
-            {
-                _IsDeveloper = true;
-                Console.WriteLine("---Geliştirici modunda açıldı---");
-            }
-            if (result == "h")
-                _IsDeveloper = false;
+            #region MineSweeper
+            this._matrix = matrix;
+            elemanSayisi = _matrix.row * _matrix.col;
+            mineCount = elemanSayisi / 4;
+            safeZoneCount = elemanSayisi - mineCount;
+            //
+            dataMatrix = new string[_matrix.row, _matrix.col];
+            mineMatrix = new string[_matrix.row, _matrix.col];
+            //
+            rndMaxValue = _matrix.row * _matrix.col;
+            Seed(dataMatrix);
             #endregion
-            #region game started
-            Console.ForegroundColor = ConsoleColor.White;
-            Place_a_Mine();
-            ShowMine();
-            Console.WriteLine("Mayın Tarlası Oyuna Hoşgeldiniz!");
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            PrintField(dataMatrix);
-            Console.ForegroundColor = ConsoleColor.White;
-           
-            while (counter != safeZoneCount)//sayac mayınsız bölge sayısı oluncaya kadar devam et
-            {
-                counter++;
-
-                Console.ForegroundColor = ConsoleColor.Yellow;
-
-                remainingNumber = safeZoneCount - counter;//kalan hakkı temsil eder.
-
-                score = GetScore(counter);
-                //oynandığı başarılı sayıyı alır bir puan temsil eden sayı döndürür.
-
-                Console.WriteLine($"{remainingNumber}/{safeZoneCount}");// kalan hak / max hak
-                Console.WriteLine($"Mayın Adedi : {mineCount} | Puan : {score}");
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine(brace);//brace ayraç atmak adına
-
-                Console.Write("Satır Giriniz : ");
-                inputRow = int.Parse(Console.ReadLine());
-                Console.Write("Sütun Giriniz : ");
-                inputCol = int.Parse(Console.ReadLine());
-
-                Console.WriteLine(brace);
-
-                Matrix mtrx = new Matrix(inputRow, inputCol);
-
-                if (!MineControl(mtrx))
-                {
-                    DataInput(mtrx, dataMatrix);
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    PrintField(dataMatrix);
-                    Console.ForegroundColor = ConsoleColor.White;
-                }
-                else
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Game Over! Puanınız : {score}");
-                    Console.ForegroundColor = ConsoleColor.White;
-                    break;
-                    Console.ReadLine();
-                }
-            }
-            if (counter == safeZoneCount)//burda remainingNumber değişkeni 0 olunca aynı anlama gelir
-            {
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine($"Tebrikler Oyunu Kazandiniz! Puanınız : {score}");
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.ReadLine();
-            }
-            #endregion
-        }
-        private void RunFormApp()
-        {
-            // soon
         }
     }
 }

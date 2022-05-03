@@ -22,3 +22,4 @@ D:\GitHub\my-project\App\Game\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\Min
 D:\GitHub\my-project\App\Game\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\refint\MineSweeperApp.dll
 D:\GitHub\my-project\App\Game\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\MineSweeperApp.pdb
 D:\GitHub\my-project\App\Game\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\ref\MineSweeperApp.dll
+D:\GitHub\my-project\App\Game\MineSweeperApp\MineSweeperApp\obj\Debug\net6.0\MineSweeperApp.csproj.ResolveComReference.cache

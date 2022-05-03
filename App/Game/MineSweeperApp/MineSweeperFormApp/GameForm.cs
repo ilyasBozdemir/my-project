@@ -1,5 +1,6 @@
 using MineSweeperApp;
 
+
 namespace MineSweeperFormApp
 {
     public partial class GameForm : Form
@@ -12,8 +13,7 @@ namespace MineSweeperFormApp
         private void GameForm_Load(object sender, EventArgs e)
         {
             MineSweeper mine = new MineSweeper(new Matrix(4, 4));
-            mine.Run(appType: AppType.ConsoleApp);
-
+            mine.RunFormApp();
         }
     }
 }
