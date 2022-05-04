@@ -230,23 +230,22 @@ namespace MineSweeperApp
         {
             #region CheckPoint
 
-            int mineCount = 0;//bulunan mayın sayısı
-
-            bool top = false, bottom = false, left = false, right = false,
-                 topLeft = false, topRight = false, bottomLeft = false, bottomRight = false;
-
-            Matrix controlMatrix = new Matrix(); 
             ///  * - * -
             ///  - x - -
             ///  - * - *
             ///  - - - -
             ///  
             ///  x = ? (3)
-            ///  
+            /// 
 
-            bool[] states = { top, bottom, left, right, topLeft, topRight, bottomLeft, bottomRight };
+            int mineCount = 0;//bulunan mayın sayısı
+
+
+            Matrix controlMatrix = new Matrix();
+
+            Matrix[] matrices
             string[] directions = { "top", "bottom", "left", "right", "top Left", "top Right", "bottom Left", "bottom Right" };
-
+            bool[] states = new bool[directions.Length];
 
             for (int i = 0; i < states.Length; i++)
             {
@@ -255,11 +254,12 @@ namespace MineSweeperApp
                     if (MineControl(controlMatrix))
                     {
                         mineCount++;
-                        states[i] = true;
+                        if (_IsDeveloper)
+                            Console.WriteLine($"[{directions[i].ToLower()}] = {states[i]}");
                     }
                 }
             }
-         
+
             #region _IsDeveloper 
             if (_IsDeveloper)
                 for (int i = 0; i < states.Length; i++)
