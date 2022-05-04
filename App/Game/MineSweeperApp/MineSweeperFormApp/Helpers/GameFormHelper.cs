@@ -205,7 +205,7 @@ namespace MineSweeperFormApp
         {
             #region
 
-            DialogResult result = MessageBox.Show($"Mayına bastınız.Puanınız : {mineSweeper.Score}.\nYeni oyuna başlamak ister misiniz?", "Game over", MessageBoxButtons.YesNo);
+            DialogResult result = MessageBox.Show($"Oyunu Kazandınız.Yeni oyuna başlamak ister misiniz?", "Game Win", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
                 NewGame();
 
