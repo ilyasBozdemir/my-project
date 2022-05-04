@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.lblTimeElapsed = new System.Windows.Forms.Label();
             this.lblScore = new System.Windows.Forms.Label();
             this.btnRestart = new System.Windows.Forms.Button();
@@ -38,6 +39,7 @@
             // 
             // mainPanel
             // 
+            this.mainPanel.Controls.Add(this.button1);
             this.mainPanel.Controls.Add(this.lblTimeElapsed);
             this.mainPanel.Controls.Add(this.lblScore);
             this.mainPanel.Controls.Add(this.btnRestart);
@@ -46,6 +48,16 @@
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(760, 827);
             this.mainPanel.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(401, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(109, 61);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Mayınları göster";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblTimeElapsed
             // 
@@ -69,7 +81,7 @@
             // 
             // btnRestart
             // 
-            this.btnRestart.Location = new System.Drawing.Point(352, 12);
+            this.btnRestart.Location = new System.Drawing.Point(265, 12);
             this.btnRestart.Name = "btnRestart";
             this.btnRestart.Size = new System.Drawing.Size(109, 61);
             this.btnRestart.TabIndex = 1;
@@ -94,7 +106,6 @@
             this.Text = "MineSweeper";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.GameForm_FormClosed);
             this.Load += new System.EventHandler(this.GameForm_Load);
-            this.Resize += new System.EventHandler(this.GameForm_Resize);
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
             this.ResumeLayout(false);
@@ -108,5 +119,6 @@
         private Panel areaPanel;
         private Label lblTimeElapsed;
         private Label lblScore;
+        private Button button1;
     }
 }

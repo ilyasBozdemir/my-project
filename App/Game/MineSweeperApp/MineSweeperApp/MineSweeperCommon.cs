@@ -178,7 +178,7 @@ namespace MineSweeperApp
         /// <param name="dataMatrix">
         /// oyun matrixinde ki alana mayın sayısını eklemek adına.
         /// </param>
-        public void DataInput(Matrix matrix, string[,] dataMatrix, out bool state)
+        public void DataInput(Matrix matrix, string[,] dataMatrix, ref bool state)
         {
             state = dataMatrix[matrix.row, matrix.col] == minelessShadowChar;
             dataMatrix[matrix.row, matrix.col] = CheckPoint(matrix).ToString();
@@ -227,7 +227,7 @@ namespace MineSweeperApp
         /// 
         /// <param name="point">x,y temsil eden matrix sınıfından nesne alır.</param>
         /// <returns>Geriye mayın adedini döner</returns>
-        int CheckPoint(Matrix selectedMatrix)
+        private int CheckPoint(Matrix selectedMatrix)
         {
             #region CheckPoint
             ///  bu method asagıda ki örneği yapmaktadır.

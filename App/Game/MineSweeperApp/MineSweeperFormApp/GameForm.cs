@@ -34,9 +34,13 @@ namespace MineSweeperFormApp
             form1.ShowDialog();
         }
 
-        private void GameForm_Resize(object sender, EventArgs e)
+        int showHide = 0;
+        private void button1_Click(object sender, EventArgs e)
         {
-           // Text = this.Size.ToString();
+            bool state = showHide % 2 == 0;
+            button1.Text = state ? "Mayınları göster" : "Mayınları gizle";
+            MineShowHide(state);
+            showHide++;
         }
     }
 }

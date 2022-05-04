@@ -12,8 +12,8 @@
     {
         #region Region Fields
         private Matrix _matrixLength;
-        bool _IsDeveloper,
-             _state;
+        bool _IsDeveloper = false,
+             _state = false;
         private int elemanSayisi,
                     mineCount,
                     safeZoneCount,

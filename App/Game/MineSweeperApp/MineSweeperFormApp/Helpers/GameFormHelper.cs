@@ -73,44 +73,139 @@ namespace MineSweeperFormApp
 
             #endregion
         }
+
         private void btns_Click(object sender, EventArgs e)
         {
             #region clicked button
+
             clickedBtn = (Button)sender;
             var data = clickedBtn.Name.Split('_');
             clickedMatrix = new Matrix(int.Parse(data[1]), int.Parse(data[2]));
             if (!btnlist.Contains(clickedBtn.Name))
             {
                 btnlist.Add(clickedBtn.Name);
-                DataInput();
+
+                if (true)
+                {
+
+                }
+
+
+                if (!mineSweeper.MineControl(clickedMatrix))
+                { 
+                    DataInput(clickedMatrix);
+                    clickedBtn.Text = GetText();
+                }
+                else
+                    YouLostTheGame();
             }
-            
+            else
+            {
+                MessageBox.Show("Zaten bu hücreyi daha önce seçtiniz.", "Tekrar seçim yapın.", MessageBoxButtons.OK);
+            }
             #endregion
         }
 
-        private void DataInput()
+        private string GetText()
         {
+            var data = mineSweeper.MinelessMatrix[clickedMatrix.row, clickedMatrix.col];
 
+            for (int i = 0; i < mineInfoColors.Length; i++)
+            {
+                if (data == i + "")
+                    clickedBtn.ForeColor = mineInfoColors[i];
+            }
 
-
-            //if (mineSweeper.MineControl(clickedMatrix))//mayın varsa tıklanılan alanda
-            //{
-            //    MessageBox.Show("Game Over");
-            //}
-            //else
-            //{
-            //    for (int i = 0; i < mineInfoColors.Length; i++)
-            //    {
-            //        if (GetMineInfo(clickedMatrix) == i + "")
-            //            clickedBtn.ForeColor = mineInfoColors[i];
-            //    }
-            //    clickedBtn.Text = GetMineInfo(clickedMatrix);
-            //}
-
-
-
+            return data;
         }
 
+        private void QuitGame()
+        {
+            Application.Exit();
+        }
+
+        private void NewGame()
+        {
+            #region
+
+            Form1 form1 = new Form1();
+            form1.StartPosition = FormStartPosition.CenterScreen;
+            this.Hide();
+            form1.ShowDialog();
+
+            #endregion
+        }
+
+        private void DataInput(Matrix clickedMatrix)
+        {
+
+            #region
+
+            bool state = false;
+
+            mineSweeper.DataInput(clickedMatrix, mineSweeper.MinelessMatrix, ref state);
+
+            mineSweeper.Counter++;
+
+            mineSweeper.Score = mineSweeper.GetScore(mineSweeper.Counter, 10);
+
+            lblScore.Text = "Puan: " + mineSweeper.Score;
+
+            if (mineSweeper.Counter == mineSweeper.SafeZoneCount)
+                YouWinTheGame();
+
+            #endregion
+
+        } 
+        private void YouLostTheGame()
+        {
+            #region
+
+            DialogResult result = MessageBox.Show($"Mayına bastınız.Puanınız : {mineSweeper.Score}.\nYeni oyuna başlamak ister misiniz?", "Game over", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+                NewGame();
+
+            else if (result == DialogResult.No)
+                QuitGame();
+
+            #endregion
+        }
+
+        private void YouWinTheGame()
+        {
+            #region
+
+            DialogResult result = MessageBox.Show($"Mayına bastınız.Puanınız : {mineSweeper.Score}.\nYeni oyuna başlamak ister misiniz?", "Game over", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+                NewGame();
+
+            else if (result == DialogResult.No)
+                QuitGame();
+
+            #endregion
+        }
+
+        private void MineShowHide(bool showHide)
+        {
+            #region 
+            
+            for (int i = 0; i < btns.GetUpperBound(0); i++)
+            {
+                for (int j = 0; j < btns.GetUpperBound(1); j++)
+                {
+                    if (mineSweeper.MineMatrix[i, j] == mineSweeper.MineChar)
+                    {
+                        btns[i, j].Text = showHide ? mineSweeper.MineChar : string.Empty;
+                        btns[i, j].ForeColor = showHide ? Color.Red : Color.Black;
+                        FontFamily family = new FontFamily("Verdana");
+                        Font font = new Font(family, 20, FontStyle.Regular);
+                        btns[i, j].Font = font;
+                    }
+                }
+            }
+
+            #endregion
+        }
         private void GetGameAreaLength()
         {
             #region GetGameAreaLength
@@ -123,6 +218,7 @@ namespace MineSweeperFormApp
                     this.Size = new Size(815, 530);
                     this.MaximumSize = new Size(815, 530);
                     this.MinimumSize = new Size(815, 530);
+
                     break;
                 case GameMode.middle:
                     matrix1 = new Matrix(15, 15);
@@ -131,6 +227,7 @@ namespace MineSweeperFormApp
                     this.MaximumSize = new Size(815, 630);
                     this.MinimumSize = new Size(815, 630);
                     this.areaPanel.Size = new Size(815, 630);
+
                     break;
                 case GameMode.hard:
                     matrix1 = new Matrix(20, 20);
@@ -138,6 +235,7 @@ namespace MineSweeperFormApp
                     this.Size = new Size(815, 815);
                     this.MinimumSize = new Size(815, 815);
                     this.MaximumSize = new Size(815, 815);
+
                     break;
             }
 

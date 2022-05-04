@@ -43,7 +43,7 @@ namespace MineSweeperApp
                 {
                     if (!MineControl(mtrx))///<summary>!MineControl(mtrx) yani mayına basmamıssak</summary>
                     {
-                        DataInput(mtrx, minelessMatrix, out _state);
+                        DataInput(mtrx, minelessMatrix, ref _state);
                         score = GetScore(counter, 5);
                         if (_state)//kullanıcı önceden girdiği sayıyı tekrar girmediği sürece
                             counter++;//sayac arttır.
