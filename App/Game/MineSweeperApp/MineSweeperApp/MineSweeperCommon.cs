@@ -22,7 +22,7 @@ namespace MineSweeperApp
         /// matrix değerinin maksimum row,col değerine kadar varsayılan oyun alanı olarak
         /// '-' karakteri ile besler
         /// </param>
-        private void Seed(string[,] matrix)
+        public void Seed(string[,] matrix)
         {
             #region Region Seed
             for (int i = 0; i < _matrixLength.row; i++)
@@ -42,7 +42,7 @@ namespace MineSweeperApp
         /// <returns>
         /// Tek boyutlu olarak metinsel ifade döndürür.
         /// </returns>
-        private string GetMatrix(string[,] matrix)
+        public string GetMatrix(string[,] matrix)
         {
             #region GetMatrix
             StringBuilder sb = new StringBuilder();
@@ -64,7 +64,7 @@ namespace MineSweeperApp
         /// <returns>
         /// mayın varsa true, mayın yoksa false döner.
         /// </returns>
-        private bool MineControl(Matrix mtrx) => mineMatrix[mtrx.row, mtrx.col] == mineChar;
+        public bool MineControl(Matrix mtrx) => mineMatrix[mtrx.row, mtrx.col] == mineChar;
 
         /// <summary>
         /// Bir nevi tek boyutlu sayıyı çift boyutlu sayıya çevirmek için yazılmıştır.
@@ -75,7 +75,7 @@ namespace MineSweeperApp
         /// <returns>
         /// parametre olarak aldığı sayıyı matrix'in satır ve sütundaki karşılığına çevirir.
         /// </returns>
-        Matrix GetNumberToMatrix(int number)
+        public Matrix GetNumberToMatrix(int number)
         {
             #region Get Number to Matrix
             //örnek 10 sayısını satır sütunu belli olan tabloda ki satır sütun karşılıgını alıyoruz.
@@ -108,7 +108,7 @@ namespace MineSweeperApp
         /// <returns>
         ///Puan olarak counter ve coefficient parametrelerinin sonucu döndürür.
         /// </returns>
-        private int GetScore(int counter, int coefficient = 10) => (counter + 1) * coefficient;
+        public int GetScore(int counter, int coefficient = 10) => (counter + 1) * coefficient;
 
         /// <summary>
         /// bu alan ekranda mayınların konumu göstermek içindir.
@@ -178,7 +178,7 @@ namespace MineSweeperApp
         /// <param name="dataMatrix">
         /// oyun matrixinde ki alana mayın sayısını eklemek adına.
         /// </param>
-        private void DataInput(Matrix matrix, string[,] dataMatrix, out bool state)
+        public void DataInput(Matrix matrix, string[,] dataMatrix, out bool state)
         {
             state = dataMatrix[matrix.row, matrix.col] == minelessShadowChar;
             dataMatrix[matrix.row, matrix.col] = CheckPoint(matrix).ToString();
@@ -318,7 +318,7 @@ namespace MineSweeperApp
         /// </summary>
         /// <param name="mtrx">satır ,sütun temsil eden matrix nesnesi alır.</param>
         /// <returns>Matrix değeri geçerli ise True, değilse False döner.</returns>
-        private bool RestrictData(Matrix matrix)
+        public bool RestrictData(Matrix matrix)
         {
             #region RestrictData
 

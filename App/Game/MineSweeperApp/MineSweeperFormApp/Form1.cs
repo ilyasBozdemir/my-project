@@ -40,5 +40,10 @@ namespace MineSweeperFormApp
             GameForm.mode = Helpers.GameMode.hard;
             gameForm.Show();
         }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
