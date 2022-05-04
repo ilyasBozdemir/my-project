@@ -218,11 +218,11 @@ namespace MineSweeperApp
         ///
         /// 
         ///  * - * -
-        ///  - ? - -
+        ///  - x - -
         ///  - * - *
         ///  - - - -
         ///  
-        ///  ? = 3
+        ///  x = 3
         /// 
         /// <param name="matrix">x,y temsil eden matrix sınıfından nesne alır.</param>
         /// <returns>Geriye mayın adedini döner</returns>
@@ -230,29 +230,45 @@ namespace MineSweeperApp
         {
             #region CheckPoint
 
+            int mineCount = 0;//bulunan mayın sayısı
+
+            bool top = false, bottom = false, left = false, right = false,
+                 topLeft = false, topRight = false, bottomLeft = false, bottomRight = false;
+
+            Matrix controlMatrix = new Matrix(); 
             ///  * - * -
-            ///  - . - -
+            ///  - x - -
             ///  - * - *
             ///  - - - -
             ///  
-            ///  . = ?
+            ///  x = ? (3)
             ///  
-            int mineCount = 0,
-                selectedRow = matrix.row,
-                selectedColumn = matrix.col,
-                rowL = _matrixLength.row,
-                columnL = _matrixLength.col;
 
-            
+            bool[] states = { top, bottom, left, right, topLeft, topRight, bottomLeft, bottomRight };
+            string[] directions = { "top", "bottom", "left", "right", "top Left", "top Right", "bottom Left", "bottom Right" };
 
+
+            for (int i = 0; i < states.Length; i++)
+            {
+                if (RestrictData(controlMatrix))
+                {
+                    if (MineControl(controlMatrix))
+                    {
+                        mineCount++;
+                        states[i] = true;
+                    }
+                }
+            }
+         
+            #region _IsDeveloper 
+            if (_IsDeveloper)
+                for (int i = 0; i < states.Length; i++)
+                    Console.WriteLine($"[{directions[i].ToLower()}] = {states[i]}");
+
+            #endregion
 
             return mineCount;
             #endregion
-
-
-            
-          
-
         }
 
 
@@ -265,13 +281,12 @@ namespace MineSweeperApp
         {
             #region RestrictData
 
-            return mtrx.col < _matrixLength.col 
-                && mtrx.row < _matrixLength.row 
-                && mtrx.row >= 0 
+            return mtrx.col < _matrixLength.col
+                && mtrx.row < _matrixLength.row
+                && mtrx.row >= 0
                 && mtrx.col >= 0;
+
             #endregion
         }
- 
-        
     }
 }
