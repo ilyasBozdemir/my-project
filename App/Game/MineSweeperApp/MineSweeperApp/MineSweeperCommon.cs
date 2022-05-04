@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MineSweeperApp.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -224,67 +225,95 @@ namespace MineSweeperApp
         ///  
         ///  x = 3
         /// 
-        /// <param name="matrix">x,y temsil eden matrix sınıfından nesne alır.</param>
+        /// <param name="point">x,y temsil eden matrix sınıfından nesne alır.</param>
         /// <returns>Geriye mayın adedini döner</returns>
-        int CheckPoint(Matrix matrix)
+        int CheckPoint(Matrix selectedMatrix)
         {
             #region CheckPoint
-
-            ///  * - * -
-            ///  - x - -
-            ///  - * - *
-            ///  - - - -
+            ///  bu method asagıda ki örneği yapmaktadır.
+            ///  ornek 4*4 matrixte olmaktadır.
             ///  
-            ///  x = ? (3)
+            ///   * - * -
+            ///   - x - -
+            ///   - * - *
+            ///   - - - -
+            ///  
+            ///   x = ? (3)
+            ///  
+            ///  --Sonuç--
+            ///    * - * -
+            ///    - 3 - -
+            ///    - * - *
+            ///    - - - -
             /// 
+            int mineCount = 0;
 
-            int mineCount = 0;//bulunan mayın sayısı
-
-
-            Matrix controlMatrix = new Matrix();
-
-            Matrix[] matrices
-            string[] directions = { "top", "bottom", "left", "right", "top Left", "top Right", "bottom Left", "bottom Right" };
-            bool[] states = new bool[directions.Length];
-
-            for (int i = 0; i < states.Length; i++)
+          
+            Matrix[] matrices =
             {
+                MatrixDirections(selectedMatrix,Directions.top),
+                MatrixDirections(selectedMatrix,Directions.bottom),
+                MatrixDirections(selectedMatrix,Directions.left),
+                MatrixDirections(selectedMatrix,Directions.right),
+                MatrixDirections(selectedMatrix,Directions.topLeft),
+                MatrixDirections(selectedMatrix,Directions.topRight),
+                MatrixDirections(selectedMatrix,Directions.bottomLeft),
+                MatrixDirections(selectedMatrix,Directions.bottomRight)
+            };
+
+            for (int i = 0; i < matrices.Length; i++)
+            {
+                Matrix controlMatrix = matrices[i];
                 if (RestrictData(controlMatrix))
-                {
                     if (MineControl(controlMatrix))
                     {
                         mineCount++;
                         if (_IsDeveloper)
-                            Console.WriteLine($"[{directions[i].ToLower()}] = {states[i]}");
+                            Console.WriteLine($"[{(Directions)i}] = {true}");
                     }
-                }
             }
-
-            #region _IsDeveloper 
-            if (_IsDeveloper)
-                for (int i = 0; i < states.Length; i++)
-                    Console.WriteLine($"[{directions[i].ToLower()}] = {states[i]}");
-
-            #endregion
-
             return mineCount;
             #endregion
         }
 
-
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="mtrx"></param>
+        /// <param name="top"></param>
         /// <returns></returns>
-        private bool RestrictData(Matrix mtrx)
+        /// <exception cref="NotImplementedException"></exception>
+        private Matrix MatrixDirections(Matrix selectedMatrix, Directions direction)
+        {   //bu method geliştirilip satranc altyapısında kullanılabilir.
+            int x = selectedMatrix.row, y = selectedMatrix.col;
+            Matrix controlMatrix;
+            switch (direction)
+            {
+                case Directions.top: controlMatrix = new Matrix(x - 1, y); break;
+                case Directions.bottom: controlMatrix = new Matrix(x + 1, y); break;
+                case Directions.left: controlMatrix = new Matrix(x, y - 1); break;
+                case Directions.right: controlMatrix = new Matrix(x, y + 1); break;
+                case Directions.topLeft: controlMatrix = new Matrix(x - 1, y - 1); break;
+                case Directions.topRight: controlMatrix = new Matrix(x - 1, y + 1); break;
+                case Directions.bottomLeft: controlMatrix = new Matrix(x + 1, y - 1); break;
+                case Directions.bottomRight: controlMatrix = new Matrix(x + 1, y + 1); break;
+                default: controlMatrix = new Matrix(); break;
+            }
+            return controlMatrix;
+        }
+
+        /// <summary>
+        /// verilen matrix değerinin matrix sınırları içinde olup olmadığını sorgular
+        /// </summary>
+        /// <param name="mtrx">satır ,sütun temsil eden matrix nesnesi alır.</param>
+        /// <returns>Matrix değeri geçerli ise True, değilse False döner.</returns>
+        private bool RestrictData(Matrix matrix)
         {
             #region RestrictData
 
-            return mtrx.col < _matrixLength.col
-                && mtrx.row < _matrixLength.row
-                && mtrx.row >= 0
-                && mtrx.col >= 0;
+            return matrix.col < _matrixLength.col
+                && matrix.row < _matrixLength.row
+                && matrix.row >= 0
+                && matrix.col >= 0;
 
             #endregion
         }
