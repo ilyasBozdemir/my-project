@@ -11,7 +11,7 @@
     public partial class MineSweeper
     {
         #region Region Fields
-        private Matrix _matrix;
+        private Matrix _matrixLength;
         bool _IsDeveloper,
              _state;
         private int elemanSayisi,
@@ -24,9 +24,9 @@
                     counter = 0,
                     remainingNumber = 0;
         private string brace = "===========================";
-        private string[,] dataMatrix,
+        private string[,] minelessMatrix,
                           mineMatrix;
-        private string mine = "*", minelessShadow = "-";
+        private string mineChar = "*", minelessShadowChar = "-";
         #endregion
 
         /// <summary>
@@ -38,16 +38,16 @@
         public MineSweeper(Matrix matrix)//kurucu method ile ön tanımlamalar ayağa kaldırılıyor.
         {
             #region MineSweeper
-            this._matrix = matrix;
-            elemanSayisi = _matrix.row * _matrix.col;
+            this._matrixLength = matrix;
+            elemanSayisi = _matrixLength.row * _matrixLength.col;
             mineCount = elemanSayisi / 4;
             safeZoneCount = elemanSayisi - mineCount;
             //
-            dataMatrix = new string[_matrix.row, _matrix.col];
-            mineMatrix = new string[_matrix.row, _matrix.col];
+            minelessMatrix = new string[_matrixLength.row, _matrixLength.col];
+            mineMatrix = new string[_matrixLength.row, _matrixLength.col];
             //
-            rndMaxValue = _matrix.row * _matrix.col;
-            Seed(dataMatrix);
+            rndMaxValue = _matrixLength.row * _matrixLength.col;
+            Seed(minelessMatrix);
             #endregion
         }
     }

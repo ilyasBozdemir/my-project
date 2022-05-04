@@ -24,11 +24,11 @@ namespace MineSweeperApp
         private void Seed(string[,] matrix)
         {
             #region Region Seed
-            for (int i = 0; i < _matrix.row; i++)
+            for (int i = 0; i < _matrixLength.row; i++)
             {
-                for (int j = 0; j < _matrix.col; j++)
+                for (int j = 0; j < _matrixLength.col; j++)
                 {
-                    matrix[i, j] = minelessShadow;
+                    matrix[i, j] = minelessShadowChar;
                 }
             }
             #endregion
@@ -63,7 +63,7 @@ namespace MineSweeperApp
         /// <returns>
         /// mayın varsa true, mayın yoksa false döner.
         /// </returns>
-        private bool MineControl(Matrix mtrx) => mineMatrix[mtrx.row, mtrx.col] == mine;
+        private bool MineControl(Matrix mtrx) => mineMatrix[mtrx.row, mtrx.col] == mineChar;
 
         /// <summary>
         /// Bir nevi tek boyutlu sayıyı çift boyutlu sayıya çevirmek için yazılmıştır.
@@ -79,8 +79,8 @@ namespace MineSweeperApp
             #region Get Number to Matrix
             //örnek 10 sayısını satır sütunu belli olan tabloda ki satır sütun karşılıgını alıyoruz.
             int _number = 0, _row = 0, _col = 0;
-            for (int row = 0; row < _matrix.row; row++)
-                for (int col = 0; col < _matrix.col; col++)
+            for (int row = 0; row < _matrixLength.row; row++)
+                for (int col = 0; col < _matrixLength.col; col++)
                 {
                     if (number == _number)
                     {
@@ -159,7 +159,7 @@ namespace MineSweeperApp
             {
                 int number = UniqueNumber[i];
                 Matrix matrix = GetNumberToMatrix(number);
-                mineMatrix[matrix.row, matrix.col] = mine;//mayın olanlara '*' ekleme işi
+                mineMatrix[matrix.row, matrix.col] = mineChar;//mayın olanlara '*' ekleme işi
                 if (_IsDeveloper)
                     Console.WriteLine($"[{matrix.row},{matrix.col}] = {number}");
             }
@@ -179,70 +179,83 @@ namespace MineSweeperApp
         /// </param>
         private void DataInput(Matrix matrix, string[,] dataMatrix, out bool state)
         {
-            state = dataMatrix[matrix.row, matrix.col] == minelessShadow;
+            state = dataMatrix[matrix.row, matrix.col] == minelessShadowChar;
             dataMatrix[matrix.row, matrix.col] = CheckPoint(matrix).ToString();
         }
+
+
         /// <summary>
-        /// <seealso cref="DataInput(Matrix, string[,])"/> methodunu yardımcı methodu olması için yazılmıştır.
-        /// Bu method seçilen satır sütunda odan küçük ve max değerden fazla değer olma durumlarını
-        /// ve de sağ-sol-yukarı-aşağı-çapraz birimlerde mayın kontrolü yapılmaktadır.
+        /// seçilen birimin  komsularında mayın var mı yok mu kontrolunu yapar
+        /// mayın yoksa 0 döner varsa mayın sayısını geri döner.
         /// </summary>
-        /// <param name="matrix">
-        /// ikinci paramtrede ki matrix'te kontrol sağlamak için matrix(row,col) değerini alır. 
-        /// </param>
-        /// <returns>
-        /// Seçilen bölgede mayın yoksa mayın sayısını döndürür.
-        /// </returns>
-        private int CheckPoint(Matrix matrix)
+        /// 
+        /// // example
+        /// int row = 4, col = 4;
+        /// string[,] mineMatrix = new string[row, col];
+        /// string mineChar = "*", minelessChar = "-";
+        /// for (int i = 0; i < row; i++)
+        /// {
+        ///     for (int j = 0; j < col; j++)
+        ///     {
+        ///         mineMatrix[i, j] = minelessChar;
+        ///     }
+        /// }   
+        /// 
+        /// mineMatrix[0, 0] = mineChar;
+        /// mineMatrix[0, 2] = mineChar;
+        /// mineMatrix[2, 1] = mineChar;
+        /// mineMatrix[1, 2] = mineChar;
+        /// mineMatrix[2, 3] = mineChar;
+        /// 
+        /// Console.WriteLine(count);// 3 yazar
+        /// var count = checkPoint(1, 1)
+        /// 
+        /// <seealso cref="CheckPoint"/>
+        ///[0,0][0,1][0,2][0,3]
+        ///[1,0][1,1][1,2][1,3]
+        ///[2,0][2,1][2,2][2,3]
+        ///[3,0][3,1][3,2][3,3]
+        ///
+        /// 
+        ///  * - * -
+        ///  - ? - -
+        ///  - * - *
+        ///  - - - -
+        ///  
+        ///  ? = 3
+        /// 
+        /// <param name="matrix">x,y temsil eden matrix sınıfından nesne alır.</param>
+        /// <returns>Geriye mayın adedini döner</returns>
+        int CheckPoint(Matrix matrix)
         {
             #region CheckPoint
-            int count = 0, _row = matrix.row, _col = matrix.col;
 
-            #region top
-            bool top = MineControl(new Matrix(SmallNumber(_row), _col));
-            #endregion
+            ///  * - * -
+            ///  - . - -
+            ///  - * - *
+            ///  - - - -
+            ///  
+            ///  . = ?
+            ///  
+            int mineCount = 0,
+                selectedRow = matrix.row,
+                selectedColumn = matrix.col,
+                rowL = _matrixLength.row,
+                columnL = _matrixLength.col;
 
-            #region bottom
-            bool bottom = MineControl(new Matrix(BigNumber(_row, _matrix.row), _col));
-            #endregion
-
-            #region left
-            bool left = MineControl(new Matrix(_row, SmallNumber(_col)));
-            #endregion
-
-            #region right
-            bool right = MineControl(new Matrix(_row, BigNumber(_col, _matrix.col)));
-            #endregion
-
-            #region topLeft
-            bool topLeft = MineControl(new Matrix(SmallNumber(_row), SmallNumber(_col)));
-            #endregion
-
-            #region topRight
-            bool topRight = MineControl(new Matrix(SmallNumber(_row), BigNumber(_col, _matrix.col)));
-            #endregion
-
-            #region bottomLeft
-            bool bottomLeft = MineControl(new Matrix(BigNumber(_row, _matrix.row), SmallNumber(_col)));
-            #endregion
-
-            #region bottomRight
-            bool bottomRight = MineControl(new Matrix(BigNumber(_row, _matrix.row), BigNumber(_col, _matrix.col)));
-            #endregion
-
-            bool[] states = { top, bottom, left, right, topLeft, topRight, bottomLeft, bottomRight };
-            string[] directions = { "top", "bottom", "left", "right", "top Left", "top Right", "bottom Left", "bottom Right" };
             
-            for (int i = 0; i < states.Length; i++)
-            {
-                if (states[i])
-                    count++;
-                if (_IsDeveloper)
-                    Console.WriteLine($"{directions[i].ToLower()} => {states[i]}");
-            }
-            return count;
+
+
+            return mineCount;
             #endregion
+
+
+            
+          
+
         }
+
+
         /// <summary>
         /// 
         /// </summary>
@@ -252,17 +265,13 @@ namespace MineSweeperApp
         {
             #region RestrictData
 
-            return mtrx.col < _matrix.col 
-                && mtrx.row < _matrix.row 
+            return mtrx.col < _matrixLength.col 
+                && mtrx.row < _matrixLength.row 
                 && mtrx.row >= 0 
                 && mtrx.col >= 0;
             #endregion
         }
-        private int BigNumber(int Number, int maxValue) =>
-             Number + 1 >= maxValue ? maxValue : Number + 1;
-
-        private int SmallNumber(int Number) =>
-             Number - 1 <= 0 ? 0 : Number - 1;
+ 
         
     }
 }

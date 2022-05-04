@@ -43,7 +43,7 @@ namespace MineSweeperApp
                 {
                     if (!MineControl(mtrx))///<summary>!MineControl(mtrx) yani mayına basmamıssak</summary>
                     {
-                        DataInput(mtrx, dataMatrix, out _state);
+                        DataInput(mtrx, minelessMatrix, out _state);
                         score = GetScore(counter, 5);
                         if (_state)//kullanıcı önceden girdiği sayıyı tekrar girmediği sürece
                             counter++;//sayac arttır.
@@ -51,7 +51,7 @@ namespace MineSweeperApp
                             PrintErrorMessage("Zaten bu hücreyi daha önce seçtiniz\nTekrar seçim yapın.");
 
                         Console.ForegroundColor = ConsoleColor.Yellow;
-                        PrintField(dataMatrix);//değişikliği ekrana yazdır.
+                        PrintField(minelessMatrix);//değişikliği ekrana yazdır.
                         Console.ForegroundColor = ConsoleColor.White;
                     }
                     else
@@ -171,7 +171,7 @@ namespace MineSweeperApp
             ShowMine();
             Console.WriteLine("Mayın Tarlası Oyuna Hoşgeldiniz!");
             Console.ForegroundColor = ConsoleColor.Yellow;
-            PrintField(dataMatrix);
+            PrintField(minelessMatrix);
             Console.ForegroundColor = ConsoleColor.White;
             #endregion
         }

@@ -1,10 +1,1 @@
-﻿using MineSweeperApp;
-
-MineSweeper ms = new MineSweeper(new Matrix(4, 4));
-ms.RunConsoleApp();
-
-
-
-
-
-
+﻿new MineSweeperApp.MineSweeper(new MineSweeperApp.Matrix(_row: 4, _col: 4)).RunConsoleApp();
