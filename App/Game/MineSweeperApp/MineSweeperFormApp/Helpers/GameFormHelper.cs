@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,8 @@ namespace MineSweeperFormApp
 {
     partial class GameForm
     {
-        static public GameMode mode;
+        private Stopwatch stopWatch;
+        public static GameMode mode;
         private Matrix matrix1,clickedMatrix;
         private Size size;
         private Button[,] btns;
@@ -22,22 +24,25 @@ namespace MineSweeperFormApp
         private List<string> btnlist;
         private MineSweeper mineSweeper;
         private Button clickedBtn;
-        private Color[] mineInfoColors =
-            { 
-               Color.Green,
-               Color.Yellow,
-               Color.Orange,
-               Color.Blue,
-               Color.Red 
-           };
+        private string elapsedTime;
+        private Color[] mineInfoColors = { Color.Gray, Color.Green, Color.Turquoise, Color.Blue, Color.Yellow, Color.Orange, Color.DarkRed, Color.Red };
         public void GameRun()
         {
             InitializeGameComponent();
         }
 
+
         private void InitializeGameComponent()
         {
             #region InitializeGameComponent
+            //
+
+            stopWatch = new Stopwatch();
+            timer1.Enabled = true;
+            timer1.Tick += timer1_Tick;
+            stopWatch.Start();
+            timer1.Start();
+           
             //
             GetGameAreaLength();
             //
@@ -54,6 +59,14 @@ namespace MineSweeperFormApp
             #endregion
         }
 
+        private void timer1_Tick(object? sender, EventArgs e)
+        {
+            TimeSpan ts = stopWatch.Elapsed;
+
+            elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
+
+            lblTimeElapsed.Text = elapsedTime;
+        }
         private void AddGameArea()
         {
             #region Btns Adding
@@ -105,12 +118,15 @@ namespace MineSweeperFormApp
 
 
                 if (!mineSweeper.MineControl(clickedMatrix))
-                { 
+                {
                     DataInput(clickedMatrix);
                     clickedBtn.Text = GetText();
                 }
                 else
+                {
                     YouLostTheGame();
+                    stopWatch.Stop();
+                } 
             }
             else
             {
@@ -127,10 +143,6 @@ namespace MineSweeperFormApp
             {
                 if (data == i + "")
                     clickedBtn.ForeColor = mineInfoColors[i];
-                if (true)
-                {
-
-                }
             }
 
             return data;
@@ -164,9 +176,10 @@ namespace MineSweeperFormApp
 
             mineSweeper.Counter++;
 
-            mineSweeper.Score = mineSweeper.GetScore(mineSweeper.Counter, 10);
+            mineSweeper.Score = (mineSweeper.Counter + 1) * 5;
 
-            lblScore.Text = "Puan: " + mineSweeper.Score;
+
+            lblScore.Text = $"Puan: {mineSweeper.Score}";
 
             if (mineSweeper.Counter == mineSweeper.SafeZoneCount)
                 YouWinTheGame();
@@ -178,7 +191,7 @@ namespace MineSweeperFormApp
         {
             #region
 
-            DialogResult result = MessageBox.Show($"Mayına bastınız.Puanınız : {mineSweeper.Score}.\nYeni oyuna başlamak ister misiniz?", "Game over", MessageBoxButtons.YesNo);
+            DialogResult result = MessageBox.Show($"Mayına bastınız.Puanınız : {mineSweeper.Score}.\nSüre : {elapsedTime}\nYeni oyuna başlamak ister misiniz?", "Game over", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
                 NewGame();
 

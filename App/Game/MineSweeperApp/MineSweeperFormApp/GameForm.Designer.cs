@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.lblTimeElapsed = new System.Windows.Forms.Label();
             this.lblScore = new System.Windows.Forms.Label();
             this.btnRestart = new System.Windows.Forms.Button();
             this.areaPanel = new System.Windows.Forms.Panel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.mainPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,7 +65,7 @@
             // 
             this.lblTimeElapsed.AutoSize = true;
             this.lblTimeElapsed.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblTimeElapsed.Location = new System.Drawing.Point(650, 32);
+            this.lblTimeElapsed.Location = new System.Drawing.Point(573, 32);
             this.lblTimeElapsed.Name = "lblTimeElapsed";
             this.lblTimeElapsed.Size = new System.Drawing.Size(93, 19);
             this.lblTimeElapsed.TabIndex = 3;
@@ -120,5 +122,6 @@
         private Label lblTimeElapsed;
         private Label lblScore;
         private Button button1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

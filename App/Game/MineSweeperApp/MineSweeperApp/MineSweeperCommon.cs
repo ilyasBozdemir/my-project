@@ -42,7 +42,7 @@ namespace MineSweeperApp
         /// <returns>
         /// Tek boyutlu olarak metinsel ifade döndürür.
         /// </returns>
-        public string GetMatrix(string[,] matrix)
+        private string GetMatrix(string[,] matrix)
         {
             #region GetMatrix
             StringBuilder sb = new StringBuilder();
@@ -108,8 +108,7 @@ namespace MineSweeperApp
         /// <returns>
         ///Puan olarak counter ve coefficient parametrelerinin sonucu döndürür.
         /// </returns>
-        public int GetScore(int counter, int coefficient = 10) => (counter + 1) * coefficient;
-
+        
         /// <summary>
         /// bu alan ekranda mayınların konumu göstermek içindir.
         /// </summary>

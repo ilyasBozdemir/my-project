@@ -51,7 +51,7 @@ namespace MineSweeperApp
         public int Score
         {
             get { return score; }
-            set { counter = value; }
+            set { score = value; }
         }
         public string[,] MinelessMatrix
         {
@@ -73,7 +73,6 @@ namespace MineSweeperApp
             #region Run Form App
 
             Seed(minelessMatrix);
-            Seed(mineMatrix);
             Place_a_Mine();
             
             #endregion
