@@ -284,6 +284,7 @@ namespace MineSweeperApp
         /// <exception cref="NotImplementedException"></exception>
         private Matrix MatrixDirections(Matrix selectedMatrix, Directions direction)
         {   //bu method geliştirilip satranc altyapısında kullanılabilir.
+            #region MatrixDirections
             int x = selectedMatrix.row, y = selectedMatrix.col;
             Matrix controlMatrix;
             switch (direction)
@@ -299,7 +300,18 @@ namespace MineSweeperApp
                 default: controlMatrix = new Matrix(); break;
             }
             return controlMatrix;
+
+            #endregion
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private void NewGame()
+        {
+            RunConsoleApp();
+        }
+
 
         /// <summary>
         /// verilen matrix değerinin matrix sınırları içinde olup olmadığını sorgular

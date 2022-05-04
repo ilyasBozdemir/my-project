@@ -61,18 +61,33 @@ namespace MineSweeperApp
                     }
                 }
                 else
-                    PrintErrorMessage("Dizi boyutundan büyük sayı veya dizi boyutundan küçük bir sayı girdiniz");
+                    PrintErrorMessage("Dizi boyutundan büyük sayı veya dizi boyutundan küçük bir sayı girdiniz.");
             }
             while (counter != safeZoneCount);
 
             if (counter == safeZoneCount)
-            {
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine($"Tebrikler Oyunu Kazandiniz! Puanınız : {score}");
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.ReadLine();
-            }
+                YouWinTheGame();
+            
             #endregion
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private void IsNewGame()
+        {
+            Console.Clear();
+            Console.Write("Yeni oyuna baslamak ister misiniz. E/H");
+            string response = Console.ReadLine();
+            if (response.ToLower() == "e")
+            {
+                NewGame();
+            }
+            if (response.ToLower() == "h")
+            {
+                Console.Write("Herhangi bir tuşa basıp çıkabilirsiniz");
+                Console.Read();
+            }
         }
 
         /// <summary>
@@ -98,7 +113,7 @@ namespace MineSweeperApp
             #region GameInfoPrint
             Console.ForegroundColor = ConsoleColor.Yellow;
             remainingNumber = safeZoneCount - counter;
-            Console.WriteLine($"      [{counter}/{safeZoneCount}]");
+            Console.WriteLine($"{counter}/{safeZoneCount} | Kalan Hakkınız: {remainingNumber}");
             Console.WriteLine($"Mayın Adedi : {mineCount} | Puan : {score}");
             Console.ForegroundColor = ConsoleColor.White;
             #endregion
@@ -120,13 +135,27 @@ namespace MineSweeperApp
         /// <summary>
         /// 
         /// </summary>
+        private void YouWinTheGame()
+        {
+            #region YouWonTheGame
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine($"Tebrikler Oyunu Kazandiniz! Puanınız : {score}");
+            Console.ForegroundColor = ConsoleColor.White; 
+            Console.Read();
+            IsNewGame();
+            #endregion
+        }
+        /// <summary>
+        /// 
+        /// </summary>
         private void GameOver()
         {
             #region GameOver
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine($"Game Over! Puanınız : {score}");
             Console.ForegroundColor = ConsoleColor.White;
-            Console.ReadLine();
+            Console.Read();
+            IsNewGame();
             #endregion
         }
 
