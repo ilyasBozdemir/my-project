@@ -1,9 +1,0 @@
-C:\Users\BozdemirHome\Desktop\Panel_Odev\Panel_Odev\bin\Debug\Panel_Odev.exe.config
-C:\Users\BozdemirHome\Desktop\Panel_Odev\Panel_Odev\bin\Debug\Panel_Odev.exe
-C:\Users\BozdemirHome\Desktop\Panel_Odev\Panel_Odev\bin\Debug\Panel_Odev.pdb
-C:\Users\BozdemirHome\Desktop\Panel_Odev\Panel_Odev\obj\Debug\Panel_Odev.csprojResolveAssemblyReference.cache
-C:\Users\BozdemirHome\Desktop\Panel_Odev\Panel_Odev\obj\Debug\Panel_Odev.Properties.Resources.resources
-C:\Users\BozdemirHome\Desktop\Panel_Odev\Panel_Odev\obj\Debug\Panel_Odev.csproj.GenerateResource.Cache
-C:\Users\BozdemirHome\Desktop\Panel_Odev\Panel_Odev\obj\Debug\Panel_Odev.exe
-C:\Users\BozdemirHome\Desktop\Panel_Odev\Panel_Odev\obj\Debug\Panel_Odev.pdb
-C:\Users\BozdemirHome\Desktop\Panel_Odev\Panel_Odev\obj\Debug\Panel_Odev.Form1.resources
