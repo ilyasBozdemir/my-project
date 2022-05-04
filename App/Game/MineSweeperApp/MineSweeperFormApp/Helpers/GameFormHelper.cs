@@ -22,7 +22,14 @@ namespace MineSweeperFormApp
         private List<string> btnlist;
         private MineSweeper mineSweeper;
         private Button clickedBtn;
-        private Color[] mineInfoColors = { Color.Green, Color.Yellow, Color.Orange, Color.Blue, Color.Red };
+        private Color[] mineInfoColors =
+            { 
+               Color.Green,
+               Color.Yellow,
+               Color.Orange,
+               Color.Blue,
+               Color.Red 
+           };
         public void GameRun()
         {
             InitializeGameComponent();
@@ -52,6 +59,10 @@ namespace MineSweeperFormApp
             #region Btns Adding
 
             int sayac = 0;
+            FontFamily family = new FontFamily("Corbel");
+            Font font = new Font(family, 15, FontStyle.Regular);
+
+
             for (int i = 0; i < btns.GetUpperBound(0); i++)
             {
                 for (int j = 0; j < btns.GetUpperBound(1); j++)
@@ -61,6 +72,8 @@ namespace MineSweeperFormApp
 
                     btns[i, j].Name = $"cell_{i}_{j}";
                     btns[i, j].Size = rectangle.Size;
+                    btns[i, j].Font = font;
+
                     btns[i,j].Cursor = Cursors.Hand;
                     int x = rectangle.Size.Width * i,
                         y = rectangle.Size.Height * j;
@@ -114,6 +127,10 @@ namespace MineSweeperFormApp
             {
                 if (data == i + "")
                     clickedBtn.ForeColor = mineInfoColors[i];
+                if (true)
+                {
+
+                }
             }
 
             return data;
