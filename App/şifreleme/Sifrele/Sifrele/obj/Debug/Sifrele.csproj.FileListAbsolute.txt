@@ -1,8 +1,0 @@
-C:\Users\İlyas70\Desktop\Sifrele\Sifrele\bin\Debug\Sifrele.exe.config
-C:\Users\İlyas70\Desktop\Sifrele\Sifrele\bin\Debug\Sifrele.exe
-C:\Users\İlyas70\Desktop\Sifrele\Sifrele\bin\Debug\Sifrele.pdb
-C:\Users\İlyas70\Desktop\Sifrele\Sifrele\obj\Debug\Sifrele.Form1.resources
-C:\Users\İlyas70\Desktop\Sifrele\Sifrele\obj\Debug\Sifrele.Properties.Resources.resources
-C:\Users\İlyas70\Desktop\Sifrele\Sifrele\obj\Debug\Sifrele.csproj.GenerateResource.Cache
-C:\Users\İlyas70\Desktop\Sifrele\Sifrele\obj\Debug\Sifrele.exe
-C:\Users\İlyas70\Desktop\Sifrele\Sifrele\obj\Debug\Sifrele.pdb
