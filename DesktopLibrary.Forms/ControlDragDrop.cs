@@ -17,9 +17,9 @@ namespace DesktopLibrary
         {
             if (Isdraggable)
             {
-                control.MouseDown += Control_MouseDown;// olayları bağla
-                control.MouseMove += Control_MouseMove;// olayları bağla
-                control.MouseUp += Control_MouseUp;// olayları bağla
+                control.MouseDown += Control_MouseDown;
+                control.MouseMove += Control_MouseMove;
+                control.MouseUp += Control_MouseUp;
             }
         }
         private void Control_MouseUp(object sender, MouseEventArgs e)//mouse tuşunu bırakınca olay fırlatılır.
@@ -27,8 +27,7 @@ namespace DesktopLibrary
             DragState = false;//farenin butonunu bırakınca "false" olur.
         }
         private void Control_MouseMove(object sender, MouseEventArgs e)
-            //mouse control üzerinde hareket ederse bırakınca olay fırlatılır.
-        {
+        {//mouse control üzerinde hareket ederse bırakınca olay fırlatılır.
             if (DragState)//tuşa tıklanıldı mı ?
             {
                 int newX = (e.Location.X + ((Control)sender).Location.X) - oldX;
