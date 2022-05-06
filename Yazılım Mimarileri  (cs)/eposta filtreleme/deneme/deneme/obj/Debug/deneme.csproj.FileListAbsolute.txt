@@ -1,9 +1,0 @@
-C:\Users\BozdemirHome\Desktop\deneme\deneme\bin\Debug\deneme.exe.config
-C:\Users\BozdemirHome\Desktop\deneme\deneme\bin\Debug\deneme.exe
-C:\Users\BozdemirHome\Desktop\deneme\deneme\bin\Debug\deneme.pdb
-C:\Users\BozdemirHome\Desktop\deneme\deneme\obj\Debug\deneme.csprojResolveAssemblyReference.cache
-C:\Users\BozdemirHome\Desktop\deneme\deneme\obj\Debug\deneme.exe
-C:\Users\BozdemirHome\Desktop\deneme\deneme\obj\Debug\deneme.pdb
-D:\DersNotları\2.Sınıf\2.sınıf Bahar Dönemi\deneme\deneme\bin\Debug\deneme.exe.config
-D:\DersNotları\2.Sınıf\2.sınıf Bahar Dönemi\deneme\deneme\obj\Debug\deneme.exe
-D:\DersNotları\2.Sınıf\2.sınıf Bahar Dönemi\deneme\deneme\obj\Debug\deneme.pdb

@@ -1,9 +1,0 @@
-D:\21.02.18 ders 2.a\21.02.18 ders 2.a\bin\x86\Debug\21.02.18 ders 2.a.exe
-D:\21.02.18 ders 2.a\21.02.18 ders 2.a\bin\x86\Debug\21.02.18 ders 2.a.pdb
-D:\21.02.18 ders 2.a\21.02.18 ders 2.a\bin\x86\Debug\21.02.18 ders 2.a.xml
-D:\21.02.18 ders 2.a\21.02.18 ders 2.a\obj\x86\Debug\_21._02._18_ders_2.a.Form1.resources
-D:\21.02.18 ders 2.a\21.02.18 ders 2.a\obj\x86\Debug\_21._02._18_ders_2.a.Resources.resources
-D:\21.02.18 ders 2.a\21.02.18 ders 2.a\obj\x86\Debug\21.02.18 ders 2.a.vbproj.GenerateResource.Cache
-D:\21.02.18 ders 2.a\21.02.18 ders 2.a\obj\x86\Debug\21.02.18 ders 2.a.exe
-D:\21.02.18 ders 2.a\21.02.18 ders 2.a\obj\x86\Debug\21.02.18 ders 2.a.xml
-D:\21.02.18 ders 2.a\21.02.18 ders 2.a\obj\x86\Debug\21.02.18 ders 2.a.pdb

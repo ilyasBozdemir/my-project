@@ -1,6 +1,0 @@
-C:\Users\İlyas70\Desktop\Reperear _ Odev\Reperear _ Odev\bin\Reperear _ Odev.dll.config
-C:\Users\İlyas70\Desktop\Reperear _ Odev\Reperear _ Odev\bin\Reperear _ Odev.dll
-C:\Users\İlyas70\Desktop\Reperear _ Odev\Reperear _ Odev\bin\Reperear _ Odev.pdb
-C:\Users\İlyas70\Desktop\Reperear _ Odev\Reperear _ Odev\obj\Debug\Reperear _ Odev.csprojResolveAssemblyReference.cache
-C:\Users\İlyas70\Desktop\Reperear _ Odev\Reperear _ Odev\obj\Debug\Reperear _ Odev.dll
-C:\Users\İlyas70\Desktop\Reperear _ Odev\Reperear _ Odev\obj\Debug\Reperear _ Odev.pdb
