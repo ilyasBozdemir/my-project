@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MineSweeperApp;
 
 namespace MineSweeperFormApp
 {
+
     public partial class GameForm : Form
     {
         public GameForm()
@@ -28,7 +31,7 @@ namespace MineSweeperFormApp
 
         private void btnRestart_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            GameModeForm form1 = new GameModeForm();
             form1.StartPosition = FormStartPosition.CenterScreen;
             this.Hide();
             form1.ShowDialog();
@@ -42,5 +45,12 @@ namespace MineSweeperFormApp
             MineShowHide(state);
             showHide++;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            GiveTips();
+        }
+
+        
     }
 }

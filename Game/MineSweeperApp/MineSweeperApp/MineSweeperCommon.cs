@@ -42,7 +42,7 @@ namespace MineSweeperApp
         /// <returns>
         /// Tek boyutlu olarak metinsel ifade döndürür.
         /// </returns>
-        private string GetMatrix(string[,] matrix)
+        public string GetMatrix(string[,] matrix)
         {
             #region GetMatrix
             StringBuilder sb = new StringBuilder();
@@ -132,7 +132,7 @@ namespace MineSweeperApp
         {
             #region Region Place a Mine
             int rndPoint, index = 0;
-            int[] UniqueNumber = new int[mineCount];
+            uniqueNumber = new int[mineCount];
             Random rnd = new Random(DateTime.Now.Millisecond);
             #region Unique number designation
             for (int i = 0; i < rndMaxValue; i++)//maksat aynı sayılar üretilmesinin önüne geçmek
@@ -155,9 +155,9 @@ namespace MineSweeperApp
                 Console.Clear();
                 Console.WriteLine("Mayınların konumu : ");
             }
-            for (int i = 0; i < UniqueNumber.Length; i++)
+            for (int i = 0; i < uniqueNumber.Length; i++)
             {
-                int number = UniqueNumber[i];
+                int number = uniqueNumber[i];
                 Matrix matrix = GetNumberToMatrix(number);
                 mineMatrix[matrix.row, matrix.col] = mineChar;//mayın olanlara '*' ekleme işi
                 if (_IsDeveloper)

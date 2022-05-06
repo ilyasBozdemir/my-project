@@ -11,6 +11,7 @@
     public partial class MineSweeper
     {
         #region Region Fields
+        private int[] uniqueNumber;
         private Matrix _matrixLength;
         bool _IsDeveloper = false,
              _state = false;

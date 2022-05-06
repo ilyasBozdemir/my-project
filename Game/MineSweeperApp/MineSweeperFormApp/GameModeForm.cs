@@ -10,18 +10,24 @@ using System.Windows.Forms;
 
 namespace MineSweeperFormApp
 {
-    public partial class Form1 : Form
+    public partial class GameModeForm : Form
     {
-        public Form1()
+      
+        public GameModeForm()
         {
             InitializeComponent();
+        }
+       
+        private void GameModeForm_Load(object sender, EventArgs e)
+        {
+
         }
         GameForm gameForm = new GameForm();
         private void button1_Click(object sender, EventArgs e)
         {
             //kolay
             this.Hide();
-            GameForm.mode = Helpers.GameMode.basic;
+            GameForm.mode = GameMode.basic;
             gameForm.Show();
         }
 
@@ -29,7 +35,7 @@ namespace MineSweeperFormApp
         {
             //orta
             this.Hide();
-            GameForm.mode = Helpers.GameMode.middle;
+            GameForm.mode = GameMode.middle;
             gameForm.Show();
         }
 
@@ -37,18 +43,13 @@ namespace MineSweeperFormApp
         {
             //zor
             this.Hide();
-            GameForm.mode = Helpers.GameMode.hard;
+            GameForm.mode = GameMode.hard;
             gameForm.Show();
         }
 
-        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        private void GameModeForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

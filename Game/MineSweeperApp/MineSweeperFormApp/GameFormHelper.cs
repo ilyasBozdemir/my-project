@@ -1,15 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
-using MineSweeperApp;
-using MineSweeperFormApp.Helpers;
 
 namespace MineSweeperFormApp
 {
@@ -26,7 +19,7 @@ namespace MineSweeperFormApp
         private MineSweeper mineSweeper;
         private Button clickedBtn;
         private string elapsedTime;
-        private Color[] mineInfoColors = { 
+        private Color[] mineInfoColors = {
             Color.Gray,
             Color.Green,
             Color.Turquoise,
@@ -35,13 +28,14 @@ namespace MineSweeperFormApp
             Color.Orange,
             Color.DarkRed,
             Color.Red };
+        private int numberOfTips = 3;
         public void GameRun()
         {
             InitializeGameComponent();
         }
 
 
-        private void InitializeGameComponent()
+        public void InitializeGameComponent()
         {
             #region InitializeGameComponent
             //
@@ -69,7 +63,7 @@ namespace MineSweeperFormApp
             #endregion
         }
 
-        private void timer1_Tick(object? sender, EventArgs e)
+        public void timer1_Tick(object? sender, EventArgs e)
         {
             ts = stopWatch.Elapsed;
 
@@ -78,25 +72,25 @@ namespace MineSweeperFormApp
             lblTimeElapsed.Text = elapsedTime;
         }
 
-        private string GetDuration(int milliseconds = 0, int seconds = 0, int minutes = 0, int hours = 0)
+        public string GetDuration(int milliseconds = 0, int seconds = 0, int minutes = 0, int hours = 0)
         {
             string durationData = "";
             if (hours != 0)
                 durationData += $"{string.Format("{0:00}", hours)}:";
             durationData += $"{string.Format("{0:00}", minutes)}:{string.Format("{0:00}", seconds)}";
 
-           /* 
-            if (milliseconds != 0)
-            {
-                durationData += $".{string.Format("{0:000}", milliseconds)}";
-            }
-           */
+            /* 
+             if (milliseconds != 0)
+             {
+                 durationData += $".{string.Format("{0:000}", milliseconds)}";
+             }
+            */
 
 
             return durationData;
         }
 
-        private void AddGameArea()
+        public void AddGameArea()
         {
             #region Btns Adding
 
@@ -129,7 +123,7 @@ namespace MineSweeperFormApp
             #endregion
         }
 
-        private void btns_Click(object sender, EventArgs e)
+        public void btns_Click(object sender, EventArgs e)
         {
             #region clicked button
 
@@ -164,7 +158,7 @@ namespace MineSweeperFormApp
             #endregion
         }
 
-        private string GetText()
+        public string GetText()
         {
             #region
             var data = mineSweeper.MinelessMatrix[clickedMatrix.row, clickedMatrix.col];
@@ -179,16 +173,16 @@ namespace MineSweeperFormApp
             #endregion
         }
 
-        private void QuitGame()
+        public void QuitGame()
         {
             Application.Exit();
         }
 
-        private void NewGame()
+        public void NewGame()
         {
             #region
 
-            Form1 form1 = new Form1();
+            GameModeForm form1 = new GameModeForm();
             form1.StartPosition = FormStartPosition.CenterScreen;
             this.Hide();
             form1.ShowDialog();
@@ -196,7 +190,7 @@ namespace MineSweeperFormApp
             #endregion
         }
 
-        private void DataInput(Matrix clickedMatrix)
+        public void DataInput(Matrix clickedMatrix)
         {
 
             #region
@@ -218,7 +212,7 @@ namespace MineSweeperFormApp
             #endregion
 
         }
-        private void YouLostTheGame()
+        public void YouLostTheGame()
         {
             #region
 
@@ -232,15 +226,13 @@ namespace MineSweeperFormApp
             #endregion
         }
 
-        private void YouWinTheGame()
+        public void YouWinTheGame()
         {
             #region
 
-<<<<<<< HEAD
-            DialogResult result = MessageBox.Show($"Oyunu Kazandınız.Puanınız : {mineSweeper.Score}.\nSüre : {elapsedTime}\nYeni oyuna başlamak ister misiniz?", "Game over", MessageBoxButtons.YesNo);
-=======
-            DialogResult result = MessageBox.Show($"Oyunu Kazandınız.Yeni oyuna başlamak ister misiniz?", "Game Win", MessageBoxButtons.YesNo);
->>>>>>> f8edd4fb678d29a9876ac7de795c4e3f3882a941
+            DialogResult result =
+                MessageBox.Show($"Oyunu Kazandınız.Puanınız : {mineSweeper.Score}.\nSüre : {elapsedTime}\nYeni oyuna başlamak ister misiniz?", "Game Win", MessageBoxButtons.YesNo);
+
             if (result == DialogResult.Yes)
                 NewGame();
 
@@ -250,7 +242,7 @@ namespace MineSweeperFormApp
             #endregion
         }
 
-        private void MineShowHide(bool showHide)
+        public void MineShowHide(bool showHide)
         {
             #region 
 
@@ -271,7 +263,7 @@ namespace MineSweeperFormApp
 
             #endregion
         }
-        private void GetGameAreaLength()
+        public void GetGameAreaLength()
         {
             #region GetGameAreaLength
 
@@ -303,6 +295,23 @@ namespace MineSweeperFormApp
 
                     break;
             }
+
+            #endregion
+        }
+        int counter = 0;
+        public void GiveTips()
+        {
+            #region GiveTips
+
+
+            counter++;
+            if (counter < numberOfTips)
+            {
+
+
+            }
+
+
 
             #endregion
         }

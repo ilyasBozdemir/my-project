@@ -1,6 +1,12 @@
-﻿namespace MineSweeperFormApp
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MineSweeperFormApp
 {
-    partial class Form1
+   public partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -26,6 +32,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
+        /// 
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();

@@ -13,7 +13,12 @@ namespace MineSweeperApp
     ///  
     public partial class MineSweeper
     {
-        #region Encapsulation
+        #region Encapsulation 
+        public int[] UniqueNumber
+        {
+            get { return uniqueNumber; }
+            set { uniqueNumber = value; }
+        }
         public bool _State
         {
             get { return _state; }
@@ -41,7 +46,7 @@ namespace MineSweeperApp
         public int SafeZoneCount
         {
             get { return safeZoneCount; }
-            set { counter = value; }
+            set { safeZoneCount = value; }
         }
         public int Counter
         {
