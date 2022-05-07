@@ -53,9 +53,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(291, 12);
+            this.button1.Location = new System.Drawing.Point(205, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 61);
+            this.button1.Size = new System.Drawing.Size(100, 61);
             this.button1.TabIndex = 4;
             this.button1.Text = "Mayınları göster";
             this.button1.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@
             // 
             this.lblTimeElapsed.AutoSize = true;
             this.lblTimeElapsed.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblTimeElapsed.Location = new System.Drawing.Point(573, 32);
+            this.lblTimeElapsed.Location = new System.Drawing.Point(365, 32);
             this.lblTimeElapsed.Name = "lblTimeElapsed";
             this.lblTimeElapsed.Size = new System.Drawing.Size(93, 19);
             this.lblTimeElapsed.TabIndex = 3;
@@ -75,7 +75,7 @@
             // 
             this.lblScore.AutoSize = true;
             this.lblScore.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblScore.Location = new System.Drawing.Point(31, 32);
+            this.lblScore.Location = new System.Drawing.Point(4, 32);
             this.lblScore.Name = "lblScore";
             this.lblScore.Size = new System.Drawing.Size(52, 19);
             this.lblScore.TabIndex = 2;
@@ -83,9 +83,9 @@
             // 
             // btnRestart
             // 
-            this.btnRestart.Location = new System.Drawing.Point(176, 12);
+            this.btnRestart.Location = new System.Drawing.Point(87, 12);
             this.btnRestart.Name = "btnRestart";
-            this.btnRestart.Size = new System.Drawing.Size(109, 61);
+            this.btnRestart.Size = new System.Drawing.Size(100, 61);
             this.btnRestart.TabIndex = 1;
             this.btnRestart.Text = "Restart";
             this.btnRestart.UseVisualStyleBackColor = true;
@@ -104,10 +104,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 859);
             this.Controls.Add(this.mainPanel);
+            this.MaximizeBox = false;
             this.Name = "GameForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MineSweeper";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.GameForm_FormClosed);
             this.Load += new System.EventHandler(this.GameForm_Load);
+            this.Resize += new System.EventHandler(this.GameForm_Resize);
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
             this.ResumeLayout(false);

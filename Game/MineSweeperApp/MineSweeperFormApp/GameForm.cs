@@ -50,5 +50,10 @@ namespace MineSweeperFormApp
 
             lblTimeElapsed.Text = elapsedTime;
         }
+
+        private void GameForm_Resize(object sender, EventArgs e)
+        {
+            //Text = "W: " +this.Width + " H: " + this.Height;
+        }
     }
 }

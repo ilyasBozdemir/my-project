@@ -1,6 +1,7 @@
 ﻿using MineSweeperApp;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace MineSweeperFormApp
 {
     public partial class GameForm
     {
+        public Size maxMinSize;
         public static GameMode mode;
         private Stopwatch stopWatch;
         private TimeSpan ts;
@@ -21,7 +23,7 @@ namespace MineSweeperFormApp
         private MineSweeper mineSweeper;
         private Button clickedBtn;
         private string elapsedTime;
-        private Color[] mineInfoColors = {  Color.Gray,  Color.Green,  Color.Turquoise, Color.Blue,Color.Yellow, Color.Orange, Color.DarkRed,Color.Red };
+        private Color[] mineInfoColors = { Color.Gray, Color.Green, Color.Turquoise, Color.Blue, Color.Yellow, Color.Orange, Color.DarkRed, Color.Red };
 
         public void GameRun()
         {
@@ -30,6 +32,7 @@ namespace MineSweeperFormApp
         private void InitializeGameComponent()
         {
             #region InitializeGameComponent
+
             //
 
             stopWatch = new Stopwatch();
@@ -55,7 +58,7 @@ namespace MineSweeperFormApp
             #endregion
         }
 
-      
+
         private string GetDuration(int milliseconds = 0, int seconds = 0, int minutes = 0, int hours = 0)
         {
             string durationData = "";
@@ -86,41 +89,81 @@ namespace MineSweeperFormApp
                 for (int j = 0; j < btns.GetUpperBound(1); j++)
                 {
                     btns[i, j] = new Button();
-                    btns[i, j].Click += btns_Click;
+                   // btns[i, j].Click += btns_Click;
+                    btns[i, j].MouseUp += btns_MouseUp;
 
+                    btns[i, j].TabIndex = sayac;
                     btns[i, j].Name = $"cell_{i}_{j}";
+
                     btns[i, j].Size = rectangle.Size;
                     btns[i, j].Font = font;
 
                     btns[i, j].Cursor = Cursors.Hand;
+                    btns[i, j].ImageAlign = ContentAlignment.MiddleCenter;
+
                     int x = rectangle.Size.Width * i,
                         y = rectangle.Size.Height * j;
 
-                    btns[i, j].Location = new Point(x, y);
-
+                     //btns[i, j].Location = new Point(x, y);// satır satır doldur demek.
+                     btns[i, j].Location = new Point(y, x);// sütun sütun doldur demek.
+                    //
                     this.areaPanel.Controls.Add(btns[i, j]);
+                    sayac++;
                 }
             }
 
             #endregion
         }
 
+        private void btns_MouseUp(object? sender, MouseEventArgs e)
+        {
+            #region btns_MouseUp
+
+            string isClickedText = "Clicked",
+                   isNotClickedText = "Not clicked";
+
+            clickedBtn = (Button)sender;
+            if (e.Button == MouseButtons.Left)
+            {
+                if (clickedBtn.Tag != isClickedText)
+                    ClickedButtons();
+                else
+                    MessageBox.Show("Tıklamak için bayrağı kaldırın.");
+            }
+            if (e.Button == MouseButtons.Right)
+            {
+                //
+
+                clickedBtn.Tag = clickedBtn.Tag == isClickedText
+                    ? isNotClickedText 
+                    : isClickedText;
+                clickedBtn.BackgroundImage = clickedBtn.Tag == isClickedText 
+                    ? Properties.Resources.flag 
+                    : null;
+                //
+            }
+
+            #endregion
+        }
         private void btns_Click(object sender, EventArgs e)
         {
             #region clicked button
 
             clickedBtn = (Button)sender;
+            ClickedButtons();
+
+            #endregion
+        }
+
+        private void ClickedButtons()
+        {
+            #region 
+
             var data = clickedBtn.Name.Split('_');
             clickedMatrix = new Matrix(int.Parse(data[1]), int.Parse(data[2]));
             if (!btnlist.Contains(clickedBtn.Name))
             {
                 btnlist.Add(clickedBtn.Name);
-
-                if (true)
-                {
-
-                }
-
 
                 if (!mineSweeper.MineControl(clickedMatrix))
                 {
@@ -137,7 +180,9 @@ namespace MineSweeperFormApp
             {
                 MessageBox.Show("Zaten bu hücreyi daha önce seçtiniz.", "Tekrar seçim yapın.", MessageBoxButtons.OK);
             }
+
             #endregion
+
         }
 
         private string GetText()
@@ -163,10 +208,10 @@ namespace MineSweeperFormApp
         {
             #region
 
-            GameModeForm form1 = new GameModeForm();
-            form1.StartPosition = FormStartPosition.CenterScreen;
+            GameModeForm form = new GameModeForm();
+            form.StartPosition = FormStartPosition.CenterScreen;
             this.Hide();
-            form1.ShowDialog();
+            form.ShowDialog();
 
             #endregion
         }
@@ -251,31 +296,31 @@ namespace MineSweeperFormApp
             switch (mode)
             {
                 case GameMode.Basic:
-                    matrix1 = new Matrix(10, 10);
-                    size = new Size(40, 40);
-                    this.Size = new Size(815, 530);
-                    this.MaximumSize = new Size(815, 530);
-                    this.MinimumSize = new Size(815, 530);
-
+                    matrix1 = new Matrix(10, 10);//
+                    size = new Size(40, 40);//
+                    maxMinSize = new Size(450, 530);//
                     break;
                 case GameMode.Middle:
                     matrix1 = new Matrix(15, 15);
                     size = new Size(30, 30);
-                    this.Size = new Size(815, 630);
-                    this.MaximumSize = new Size(815, 630);
-                    this.MinimumSize = new Size(815, 630);
-                    this.areaPanel.Size = new Size(815, 630);
+                    maxMinSize = new Size(470, 630);
 
                     break;
                 case GameMode.Hard:
                     matrix1 = new Matrix(20, 20);
                     size = new Size(30, 30);
-                    this.Size = new Size(815, 815);
-                    this.MinimumSize = new Size(815, 815);
-                    this.MaximumSize = new Size(815, 815);
-
+                    maxMinSize = new Size(620, 720);
                     break;
             }
+
+            this.Size = maxMinSize;
+            this.MinimumSize = maxMinSize;
+            this.MaximumSize = maxMinSize;
+            this.maxMinSize = maxMinSize;
+
+           
+            this.Location = new Point((Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2,
+                            (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2);
 
             #endregion
         }
@@ -285,7 +330,7 @@ namespace MineSweeperFormApp
             #region GiveTips
 
 
-           
+
 
             #endregion
         }
