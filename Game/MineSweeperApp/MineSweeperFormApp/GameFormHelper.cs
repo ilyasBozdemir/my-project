@@ -10,9 +10,9 @@ namespace MineSweeperFormApp
 {
     public partial class GameForm
     {
+        public static GameMode mode;
         private Stopwatch stopWatch;
         private TimeSpan ts;
-        public GameMode mode;
         private Matrix matrix1, clickedMatrix;
         private Size size;
         private Button[,] btns;
