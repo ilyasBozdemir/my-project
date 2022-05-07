@@ -8,16 +8,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Form1Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Form1Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\MineSweeperApp\MineSweeperApp.csproj" />
-  </ItemGroup>
-
 </Project>

@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MineSweeperApp", "MineSweep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MineSweeperConsoleApp", "MineSweeperConsoleApp\MineSweeperConsoleApp.csproj", "{49724C49-9DF9-4C38-9244-089F79363C3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineSweeperFormApp", "MineSweeperFormApp\MineSweeperFormApp.csproj", "{B2B39F6C-B193-4AD8-B033-E693A52EB7B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineSweeperFormApp", "MineSweeperFormApp\MineSweeperFormApp.csproj", "{E4DD8894-D7BE-4319-A4A5-EE5D0C38DEB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{49724C49-9DF9-4C38-9244-089F79363C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49724C49-9DF9-4C38-9244-089F79363C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49724C49-9DF9-4C38-9244-089F79363C3F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B2B39F6C-B193-4AD8-B033-E693A52EB7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2B39F6C-B193-4AD8-B033-E693A52EB7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2B39F6C-B193-4AD8-B033-E693A52EB7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2B39F6C-B193-4AD8-B033-E693A52EB7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DD8894-D7BE-4319-A4A5-EE5D0C38DEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DD8894-D7BE-4319-A4A5-EE5D0C38DEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DD8894-D7BE-4319-A4A5-EE5D0C38DEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DD8894-D7BE-4319-A4A5-EE5D0C38DEB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

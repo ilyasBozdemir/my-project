@@ -8,8 +8,8 @@ namespace MineSweeperFormApp
 {
     public enum GameMode
     {
-        basic,
-        middle,
-        hard
+        Basic,
+        Middle,
+        Hard
     }
 }
