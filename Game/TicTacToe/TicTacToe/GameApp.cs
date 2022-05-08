@@ -1,25 +1,22 @@
 ﻿namespace TicTacToe
 {
-    internal class GameApp
+    public class GameApp
     {
         private Matrix _matrixLength;
         private Player _player1, _player2, currentPlayer;
         private string _gameAreaChar = "-";
         private string[,] _gameAreaMatrix;
-        private int inputRow,
-                    inputCol,
-                    counter = 0;
-        private string brace = ">>>>>>>>>>>>>>>>>>>>>>>>>>>";
+        private int inputRow, inputCol, counter = 0;
+        private string brace = "---------------------------";
+
         public GameApp(Player player1, Player player2)
         {
             this._player1 = player1;
             this._player2 = player2;
+            currentPlayer = _player1;
             Console.ForegroundColor = ConsoleColor.White;
             _matrixLength = new Matrix(3, 3);
         }
-
-
-
         public void Start()
         {
             #region Start
@@ -27,7 +24,8 @@
             SetGameArea();
             //
             GetGameArea();
-
+            //
+            counter = 0;//yeni oyunda sayacı sıfırlamak için.
             do
             {
                 currentPlayer = (counter % 2 == 0) ? _player1 : _player2;
@@ -66,104 +64,101 @@
             } while (_matrixLength.row * _matrixLength.col != counter);
 
             #endregion
-
         }
 
         private bool IsWinPlayer(Player currentPlayer)
         {
-            int count = 0;
-
-            /*
-             * 0,0 0,1 0,2
-             * 1,0 1,1 1,2
-             * 2,0 2,1 2,2
-             * 
+            //döngü ve karar yapıları ile de yapılabilir. 9 hücre olduğu için böyle yazdım.
+            #region IsWinPlayer
+            /* 
+             * 0,0 0,1 0,2 ** 0 1 2
+             * 1,0 1,1 1,2 ** 3 4 5
+             * 2,0 2,1 2,2 ** 6 7 8
              */
-            int RowIndex = 0,
-                ColumnIndex = 0;
+            #region cozum 1
 
-            #region satır kontrolü
+            #region satır kontrol
 
-            for (int i = 0; i <= _gameAreaMatrix.GetUpperBound(0); i++)
+            Matrix[] Row1 = { GetNumberToMatrix(0), GetNumberToMatrix(1), GetNumberToMatrix(2) };
+            Matrix[] Row2 = { GetNumberToMatrix(3), GetNumberToMatrix(4), GetNumberToMatrix(5) };
+            Matrix[] Row3 = { GetNumberToMatrix(6), GetNumberToMatrix(7), GetNumberToMatrix(8) };
+
+            bool durum = CheckControl(Row1[0]) && CheckControl(Row1[1]) && CheckControl(Row1[2]);
+            bool durum2 = CheckControl(Row2[0]) && CheckControl(Row2[1]) && CheckControl(Row2[2]);
+            bool durum3 = CheckControl(Row3[0]) && CheckControl(Row3[1]) && CheckControl(Row3[2]);
+            if (durum || durum2 || durum3)
             {
-                for (int j = 0; j <= _gameAreaMatrix.GetUpperBound(1); j++)
-                {
-                    if (_gameAreaMatrix[RowIndex, j] == currentPlayer.Sign + "")
-                    {
-                        count++;
-                        if (count == 3)
-                            return true;
-                    }
-
-
-                }
-                RowIndex += 1;
+                return true;
             }
-            count = 0;
+       
             #endregion
 
-            #region sütun kontrolü
+            #region sütun kontrol
 
-            for (int i = 0; i <= _gameAreaMatrix.GetUpperBound(1); i++)
+            Matrix[] Column1 = { GetNumberToMatrix(0), GetNumberToMatrix(3), GetNumberToMatrix(6) };
+            Matrix[] Column2 = { GetNumberToMatrix(1), GetNumberToMatrix(4), GetNumberToMatrix(7) };
+            Matrix[] Column3 = { GetNumberToMatrix(2), GetNumberToMatrix(5), GetNumberToMatrix(8) };
+            
+            bool durum4 = CheckControl(Column1[0]) && CheckControl(Column1[1]) && CheckControl(Column1[2]);
+            bool durum5 = CheckControl(Column2[0]) && CheckControl(Column2[1]) && CheckControl(Column2[2]);
+            bool durum6 = CheckControl(Column3[0]) && CheckControl(Column3[1]) && CheckControl(Column3[2]);
+          
+            if (durum4 || durum5 || durum6)
             {
-                for (int j = 0; j <= _gameAreaMatrix.GetUpperBound(0); j++)
-                {
-                    if (_gameAreaMatrix[ColumnIndex, j] == currentPlayer.Sign + "")
-                    {
-                        count++;
-                        if (count == 3)
-                            return true;
-                    }
-                }
-                ColumnIndex += 1;
+                return true;
             }
-            count = 0;
+           
             #endregion
 
-            #region capraz kontrolü
+            #region caprazlama kontrol
 
-
-            Matrix[] data = { new Matrix(0, 0), new Matrix(1, 1), new Matrix(2, 2) };
-            //data sol üsten sağ alt için
-            Matrix[] data2 = { new Matrix(0, 2), new Matrix(1, 1), new Matrix(2, 0) };
-            //data sağ üsten sol alt için
-
-
-            for (int i = 0; i <= _gameAreaMatrix.GetUpperBound(1); i++)
-                for (int j = 0; j <= _gameAreaMatrix.GetUpperBound(0); j++)
-                    if (i == 1 && j == 1)
-                        if (CheckControl(i, j))
-                            count++;
-            if (count == 3)
+            Matrix[] Cross1 = { GetNumberToMatrix(0), GetNumberToMatrix(4), GetNumberToMatrix(8) };
+            Matrix[] Cross2 = { GetNumberToMatrix(2), GetNumberToMatrix(4), GetNumberToMatrix(6) };
+            bool durum7 = CheckControl(Cross1[0]) && CheckControl(Cross1[1]) && CheckControl(Cross1[2]);
+            bool durum8 = CheckControl(Cross2[0]) && CheckControl(Cross2[1]) && CheckControl(Cross2[2]);
+            if (durum7 || durum8)
+            {
                 return true;
-            //
+            }
+            #endregion 
 
-            count = 0;
-
-            const int row = 1, col = 1;
-
-            RowIndex = row - 1;
-            ColumnIndex = col + 1;
-            count = CheckControl(RowIndex, ColumnIndex) ? count + 1 : count;
-            RowIndex = row;
-            ColumnIndex = col;
-            count = CheckControl(RowIndex, ColumnIndex) ? count + 1 : count;
-            RowIndex = row - 1;
-            ColumnIndex = col - 1;
-            count = CheckControl(RowIndex, ColumnIndex) ? count + 1 : count;
-
-            if (count == 3)
-                return true;
             #endregion
+
+            #region cozum 2
+           
+            #endregion
+       
+
 
             return false;
+            #endregion
         }
-
-        private bool CheckControl(int rowIndex, int columnIndex)
+        public Matrix GetNumberToMatrix(int number)
         {
-            return (_gameAreaMatrix[rowIndex, columnIndex] == currentPlayer.Sign + "");
+            #region Get Number to Matrix
+            int _number = 0, _row = 0, _col = 0;
+            for (int row = 0; row < _matrixLength.row; row++)
+                for (int col = 0; col < _matrixLength.col; col++)
+                {
+                    if (number == _number)
+                    {
+                        _row = row;
+                        _col = col;
+                    }
+                    _number++;
+                }
+            return new Matrix(_row, _col);
+            #endregion
         }
+        private bool CheckControl(Matrix matrix)
+        {
+            #region CheckControl
 
+            int rowIndex = matrix.row, columnIndex = matrix.col;
+            return (_gameAreaMatrix[rowIndex, columnIndex] == currentPlayer.Sign + "");
+
+            #endregion
+        }
         private bool CheckInput(Matrix matrix, string[,] gameAreaMatrix)
         {
             #region CheckInput
@@ -172,7 +167,6 @@
 
             #endregion
         }
-
         public void DataInput(Matrix matrix, Sign sign, string[,] gameAreaMatrix)
         {
             #region DataInput
@@ -181,7 +175,6 @@
 
             #endregion
         }
-
         private bool RestrictData(Matrix matrix)
         {
             #region RestrictData
@@ -193,7 +186,6 @@
 
             #endregion
         }
-
         private void GameOver(Player WinnerPlayer)
         {
             #region GameOver
@@ -203,11 +195,10 @@
                 + $"Durum  {_player1.Score} - {_player2.Score}");
 
             Console.ForegroundColor = ConsoleColor.White;
-            Console.Read();
             IsNewGame();
+            Console.Read();
             #endregion
         }
-
         private void IsNewGame()
         {
             #region IsNewGame
@@ -221,7 +212,6 @@
 
             #endregion
         }
-
         private void PrintErrorMessage(string message)
         {
             #region PrintErrorMessage
@@ -230,7 +220,6 @@
             Console.ForegroundColor = ConsoleColor.White;
             #endregion
         }
-
         private Matrix GetRowCol()
         {
             #region GetRowCol
@@ -241,7 +230,6 @@
             return new Matrix(inputRow, inputCol);
             #endregion
         }
-
         private int ConsoleRead(string text)
         {
             #region Console Read
@@ -251,7 +239,6 @@
 
             #endregion
         }
-
         private void GetGameArea()
         {
             #region get game area 
@@ -270,7 +257,6 @@
 
             #endregion
         }
-
         private void SetGameArea()
         {
             #region set game area 
