@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lLUQY5M8hAzYgJNfp5y0vfbsjO78aa5Nte/joli8uk3JZu1MTHzAoHob356a9jZBqjQjg5M+OsUzEBD4lomGlQ==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\my-project\\Game\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BozdemirHome\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\BozdemirHome\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
