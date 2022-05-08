@@ -37,6 +37,11 @@ namespace TicTacToe
             this._id = id;
             this._name = name;
         }
+
+        public void AddScore()
+        {
+            this.Score +=1;
+        }
     }
     public enum Sign
     {
