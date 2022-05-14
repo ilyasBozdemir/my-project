@@ -1,0 +1,12 @@
+D:\GitHub\my-project\Game\SudokuApp\bin\Debug\testMatrix.exe.config
+D:\GitHub\my-project\Game\SudokuApp\bin\Debug\testMatrix.exe
+D:\GitHub\my-project\Game\SudokuApp\bin\Debug\testMatrix.pdb
+D:\GitHub\my-project\Game\SudokuApp\obj\Debug\SudokuFormApp.csproj.AssemblyReference.cache
+D:\GitHub\my-project\Game\SudokuApp\obj\Debug\SudokuFormApp.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\my-project\Game\SudokuApp\obj\Debug\testMatrix.Properties.Resources.resources
+D:\GitHub\my-project\Game\SudokuApp\obj\Debug\SudokuFormApp.csproj.GenerateResource.cache
+D:\GitHub\my-project\Game\SudokuApp\obj\Debug\SudokuFormApp.csproj.CoreCompileInputs.cache
+D:\GitHub\my-project\Game\SudokuApp\obj\Debug\testMatrix.exe
+D:\GitHub\my-project\Game\SudokuApp\obj\Debug\testMatrix.pdb
+D:\GitHub\my-project\Game\SudokuApp\obj\Debug\SudokuFormApp.GameForm.resources
+D:\GitHub\my-project\Game\SudokuApp\obj\Debug\SudokuFormApp.GameStartForm.resources
