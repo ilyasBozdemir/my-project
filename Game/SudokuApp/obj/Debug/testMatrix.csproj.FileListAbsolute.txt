@@ -1,0 +1,11 @@
+C:\Users\BozdemirHome\source\repos\testMatrix\bin\Debug\testMatrix.exe.config
+C:\Users\BozdemirHome\source\repos\testMatrix\bin\Debug\testMatrix.exe
+C:\Users\BozdemirHome\source\repos\testMatrix\bin\Debug\testMatrix.pdb
+C:\Users\BozdemirHome\source\repos\testMatrix\obj\Debug\testMatrix.csprojAssemblyReference.cache
+C:\Users\BozdemirHome\source\repos\testMatrix\obj\Debug\testMatrix.Form1.resources
+C:\Users\BozdemirHome\source\repos\testMatrix\obj\Debug\testMatrix.Properties.Resources.resources
+C:\Users\BozdemirHome\source\repos\testMatrix\obj\Debug\testMatrix.csproj.GenerateResource.cache
+C:\Users\BozdemirHome\source\repos\testMatrix\obj\Debug\testMatrix.csproj.CoreCompileInputs.cache
+C:\Users\BozdemirHome\source\repos\testMatrix\obj\Debug\testMatrix.exe
+C:\Users\BozdemirHome\source\repos\testMatrix\obj\Debug\testMatrix.pdb
+C:\Users\BozdemirHome\source\repos\testMatrix\obj\Debug\testMatrix.Form2.resources
