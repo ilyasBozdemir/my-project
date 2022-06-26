@@ -28,6 +28,8 @@ namespace MineSweeperFormApp
         public void GameRun()
         {
             InitializeGameComponent();
+
+            lblScore.Text = null;
         }
         private void InitializeGameComponent()
         {
@@ -137,10 +139,12 @@ namespace MineSweeperFormApp
                 clickedBtn.Tag = clickedBtn.Tag == isClickedText
                     ? isNotClickedText 
                     : isClickedText;
-                clickedBtn.BackgroundImage = clickedBtn.Tag == isClickedText 
-                    ? Properties.Resources.flag 
+
+                clickedBtn.BackgroundImage = clickedBtn.Tag == isClickedText
+                    ? new Bitmap("flag.png")
                     : null;
-                //
+                clickedBtn.BackgroundImageLayout = ImageLayout.Stretch;
+                
             }
 
             #endregion
@@ -270,7 +274,7 @@ namespace MineSweeperFormApp
 
         private void MineShowHide(bool showHide)
         {
-            #region 
+            #region  MineShowHide
 
             for (int i = 0; i < btns.GetUpperBound(0); i++)
             {
@@ -324,16 +328,6 @@ namespace MineSweeperFormApp
 
             #endregion
         }
-        int counter = 0;
-        private void GiveTips()
-        {
-            #region GiveTips
-
-
-
-
-            #endregion
-        }
-
+       
     }
 }

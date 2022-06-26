@@ -21,6 +21,7 @@ namespace MineSweeperFormApp
         private void GameForm_Load(object sender, EventArgs e)
         {
             GameRun();
+
         }
         private void GameForm_FormClosed(object sender, FormClosedEventArgs e)
         {
